@@ -23,11 +23,12 @@ def clean_filename(filename):
 
 
 class TxtWriterPipeline:
-    """TXT格式输出Pipeline - 按论坛结构组织"""
+    """TXT格式输出Pipeline - 按论坛结构组织，帖子和回复合并到一个文件"""
     
     def __init__(self):
         self.forum_name = "HomeAssistant综合讨论区"
         self.base_output_dir = None
+        self.processed_posts = set()  # 跟踪已处理的帖子
 
     def open_spider(self, spider):
         # 创建基础输出目录结构
@@ -38,7 +39,19 @@ class TxtWriterPipeline:
         if not os.path.exists(self.base_output_dir):
             os.makedirs(self.base_output_dir)
             
+        # 获取已存在的帖子目录，用于跳过
+        existing_dirs = [d for d in os.listdir(self.base_output_dir) 
+                        if os.path.isdir(os.path.join(self.base_output_dir, d))]
+        
+        spider.existing_post_ids = set()
+        for dir_name in existing_dirs:
+            if '_' in dir_name:
+                post_id = dir_name.split('_')[0]
+                spider.existing_post_ids.add(post_id)
+                logger.info(f"Found existing post directory: {dir_name} (ID: {post_id})")
+        
         logger.info(f"TXT output directory initialized: {self.base_output_dir}")
+        logger.info(f"Found {len(spider.existing_post_ids)} existing posts to skip")
 
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
@@ -46,15 +59,19 @@ class TxtWriterPipeline:
         if item.__class__.__name__ == 'PostItem':
             self._save_post_as_txt(adapter)
         elif item.__class__.__name__ == 'ReplyItem':
-            self._save_reply_as_txt(adapter)
+            self._append_reply_to_txt(adapter)
             
         return item
 
     def _save_post_as_txt(self, adapter):
-        """保存帖子为TXT文件"""
+        """保存帖子为TXT文件（初始化文件）"""
         try:
             post_id = adapter.get('post_id', [''])[0] if isinstance(adapter.get('post_id'), list) else adapter.get('post_id', '')
             title = adapter.get('title', '未知标题')
+            
+            # 检查是否已处理过
+            if post_id in self.processed_posts:
+                return
             
             # 创建帖子目录
             clean_title = clean_filename(title)
@@ -64,9 +81,11 @@ class TxtWriterPipeline:
             if not os.path.exists(post_dir):
                 os.makedirs(post_dir)
             
-            # 写入帖子内容
-            post_file = os.path.join(post_dir, "帖子内容.txt")
-            with open(post_file, 'w', encoding='utf-8') as f:
+            # 创建合并的内容文件
+            content_file = os.path.join(post_dir, "完整内容.txt")
+            with open(content_file, 'w', encoding='utf-8') as f:
+                # 写入帖子头部信息
+                f.write("=" * 60 + "\n")
                 f.write(f"帖子标题: {title}\n")
                 f.write(f"帖子ID: {post_id}\n")
                 f.write(f"作者: {adapter.get('author', '未知')}\n")
@@ -75,17 +94,28 @@ class TxtWriterPipeline:
                 f.write(f"浏览数: {adapter.get('view_count', 0)}\n")
                 f.write(f"回复数: {adapter.get('reply_count', 0)}\n")
                 f.write(f"爬取时间: {adapter.get('crawl_time', '')}\n")
-                f.write("=" * 50 + "\n")
-                f.write("帖子内容:\n")
-                f.write(adapter.get('content', '暂无内容'))
+                f.write("=" * 60 + "\n\n")
                 
-            logger.info(f"Post saved: {post_file}")
+                # 写入帖子内容
+                f.write("【楼主帖子内容】\n")
+                f.write("-" * 30 + "\n")
+                content = adapter.get('content', '暂无内容')
+                if content and content.strip():
+                    f.write(f"{content}\n")
+                else:
+                    f.write("暂无内容\n")
+                f.write("\n" + "=" * 60 + "\n")
+                f.write("【回复内容】\n")
+                f.write("=" * 60 + "\n")
+                
+            self.processed_posts.add(post_id)
+            logger.info(f"Post initialized: {content_file}")
             
         except Exception as e:
             logger.error(f"Error saving post as TXT: {e}")
 
-    def _save_reply_as_txt(self, adapter):
-        """保存回复为TXT文件"""
+    def _append_reply_to_txt(self, adapter):
+        """追加回复到TXT文件"""
         try:
             post_id = adapter.get('post_id', [''])[0] if isinstance(adapter.get('post_id'), list) else adapter.get('post_id', '')
             
@@ -98,25 +128,24 @@ class TxtWriterPipeline:
                 return
                 
             post_dir = os.path.join(self.base_output_dir, post_dirs[0])
-            reply_file = os.path.join(post_dir, "回复内容.txt")
+            content_file = os.path.join(post_dir, "完整内容.txt")
             
             # 追加回复内容
-            with open(reply_file, 'a', encoding='utf-8') as f:
-                f.write(f"\n{'='*20} {adapter.get('floor_num', 0)}楼 {'='*20}\n")
-                f.write(f"回复者: {adapter.get('author', '未知')}\n")
+            with open(content_file, 'a', encoding='utf-8') as f:
+                f.write(f"\n【{adapter.get('floor_num', 0)}楼】 - {adapter.get('author', '未知用户')}\n")
                 f.write(f"回复时间: {adapter.get('reply_time', '未知')}\n")
-                f.write(f"楼层号: {adapter.get('floor_num', 0)}\n")
-                f.write(f"回复ID: {adapter.get('reply_id', [''])[0] if isinstance(adapter.get('reply_id'), list) else adapter.get('reply_id', '')}\n")
-                f.write("-" * 30 + "\n")
+                f.write("-" * 40 + "\n")
                 f.write(f"{adapter.get('content', '暂无内容')}\n")
+                f.write("-" * 40 + "\n")
                 
-            logger.info(f"Reply saved to: {reply_file}")
+            logger.info(f"Reply appended to: {content_file} (Floor: {adapter.get('floor_num')})")
             
         except Exception as e:
-            logger.error(f"Error saving reply as TXT: {e}")
+            logger.error(f"Error appending reply to TXT: {e}")
 
     def close_spider(self, spider):
         logger.info(f"TXT files saved in forum structure under: {self.base_output_dir}")
+        logger.info(f"Total posts processed in this session: {len(self.processed_posts)}")
 
 
 class ValidationPipeline:

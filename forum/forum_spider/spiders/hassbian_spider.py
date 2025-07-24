@@ -25,6 +25,10 @@ class HassbianSpider(scrapy.Spider):
         self.base_url = 'https://bbs.hassbian.com'
         self.list_url_template = 'https://bbs.hassbian.com/forum-38-{}.html'
         
+        # 初始化已存在帖子ID集合（将在Pipeline中设置）
+        self.existing_post_ids = set()
+        self.found_posts_count = 0  # 跟踪找到的新帖子数量
+        
         logger.info(f"Spider initialized with single_url: {self.single_url}")
 
     @classmethod
@@ -57,31 +61,37 @@ class HassbianSpider(scrapy.Spider):
                 dont_filter=False
             )
         else:
-            # 默认模式：爬取论坛列表页
-            for page in range(1, self.max_pages + 1):
-                url = self.list_url_template.format(page)
-                yield scrapy.Request(
-                    url=url,
-                    callback=self.parse_forum_list,
-                    meta={'page_num': page},
-                    dont_filter=False
-                )
+            # 默认模式：从第1页开始爬取论坛列表页
+            url = self.list_url_template.format(1)
+            yield scrapy.Request(
+                url=url,
+                callback=self.parse_forum_list,
+                meta={'page_num': 1},
+                dont_filter=False
+            )
 
     def parse_forum_list(self, response):
         """解析论坛列表页"""
         page_num = response.meta['page_num']
         logger.info(f"Parsing forum list page {page_num}: {response.url}")
+        logger.info(f"Current found posts: {self.found_posts_count}, target: {self.max_posts_per_page}")
+        
+        # 如果已经找到足够的帖子，停止处理
+        if self.found_posts_count >= self.max_posts_per_page:
+            logger.info(f"Already found {self.found_posts_count} posts, stopping")
+            return
         
         # 提取帖子链接，使用更精确的选择器
         post_links = []
         
-        # 尝试多种选择器来获取帖子链接
+        # 尝试多种选择器来获取帖子链接，优先获取主题帖链接
         selectors = [
-            'tbody[id^="normalthread_"] th.new a[href*="thread-"]::attr(href)',
-            'tbody[id^="normalthread_"] th.common a[href*="thread-"]::attr(href)',
-            'th.new a[href*="thread-"]::attr(href)',
-            'th.common a[href*="thread-"]::attr(href)',
-            'a[href*="thread-"][href*=".html"]::attr(href)'
+            'tbody[id^="normalthread_"] th.new a[href*="thread-"][href$="-1-1.html"]::attr(href)',
+            'tbody[id^="normalthread_"] th.common a[href*="thread-"][href$="-1-1.html"]::attr(href)',
+            'th.new a[href*="thread-"][href$="-1-1.html"]::attr(href)',
+            'th.common a[href*="thread-"][href$="-1-1.html"]::attr(href)',
+            'tbody[id^="normalthread_"] a[href*="thread-"][href$="-1-1.html"]::attr(href)',
+            'a[href*="thread-"][href$="-1-1.html"]::attr(href)'
         ]
         
         for selector in selectors:
@@ -90,28 +100,65 @@ class HassbianSpider(scrapy.Spider):
                 logger.info(f"Using selector: {selector}")
                 break
         
-        # 去重并过滤
-        unique_links = []
-        seen_links = set()
+        # 提取帖子ID并过滤
+        new_posts = []
+        seen_posts = set()
+        
         for link in post_links:
-            if link and 'thread-' in link and link not in seen_links:
-                seen_links.add(link)
-                unique_links.append(link)
+            if not link or 'thread-' not in link:
+                continue
+                
+            # 提取帖子ID
+            post_id = self.extract_post_id(urljoin(self.base_url, link))
+            if not post_id:
+                continue
+                
+            # 跳过已存在的帖子和重复的帖子
+            if post_id in self.existing_post_ids:
+                logger.info(f"Skipping existing post: {post_id}")
+                continue
+                
+            if post_id in seen_posts:
+                continue
+                
+            seen_posts.add(post_id)
+            new_posts.append((post_id, link))
+            
+            # 如果找到足够的新帖子，停止
+            if len(new_posts) >= (self.max_posts_per_page - self.found_posts_count):
+                break
         
-        # 限制帖子数量
-        limited_links = unique_links[:self.max_posts_per_page]
+        logger.info(f"Found {len(new_posts)} new posts on page {page_num} (skipped {len(self.existing_post_ids)} existing)")
         
-        logger.info(f"Found {len(post_links)} total post links, using {len(limited_links)} unique links on page {page_num}")
-        
-        for i, link in enumerate(limited_links, 1):
+        # 处理新帖子
+        for i, (post_id, link) in enumerate(new_posts, 1):
             full_url = urljoin(self.base_url, link)
-            logger.info(f"Processing post {i}/{len(limited_links)}: {full_url}")
+            logger.info(f"Processing new post {self.found_posts_count + i}/{self.max_posts_per_page}: {post_id} - {full_url}")
+            
             yield scrapy.Request(
                 url=full_url,
                 callback=self.parse_post_detail,
-                meta={'page_num': page_num, 'post_index': i},
+                meta={'page_num': page_num, 'post_index': self.found_posts_count + i, 'post_id': post_id},
                 dont_filter=False
             )
+        
+        # 更新计数
+        self.found_posts_count += len(new_posts)
+        
+        # 如果还需要更多帖子并且当前页有帖子，继续下一页
+        if self.found_posts_count < self.max_posts_per_page and len(post_links) > 0 and page_num < 10:
+            next_page = page_num + 1
+            next_url = self.list_url_template.format(next_page)
+            logger.info(f"Need more posts ({self.found_posts_count}/{self.max_posts_per_page}), going to page {next_page}")
+            
+            yield scrapy.Request(
+                url=next_url,
+                callback=self.parse_forum_list,
+                meta={'page_num': next_page},
+                dont_filter=False
+            )
+        else:
+            logger.info(f"Finished collecting posts: {self.found_posts_count}/{self.max_posts_per_page}")
 
     def parse_post_detail(self, response):
         """解析帖子详情页"""

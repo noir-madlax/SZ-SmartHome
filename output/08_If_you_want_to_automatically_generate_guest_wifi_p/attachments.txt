@@ -1,7 +1,0 @@
-📎 附件信息
-==================================================
-
-共有 1 个附件:
-
-1. 📄 附件数据: {'thumbnail': 'https://external.fkhi11-2.fna.fbcdn.net/emg1/v/t13/10022625585238972757?url=https%3A%2F%2Fcommunity-assets.home-assistant.io%2Foriginal%2F4X%2F5%2F9%2Fb%2F59b1a89929f38ad50e6c65c79150e41b12cee63d.jpeg&fb_obo=1&utld=home-assistant.io&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=pnCeJCZ_5DtJ_C_GzUerMg&_nc_oc=AdnaTPBkp_c-7qR-Sk2e1tSbSxcbI8K35BvvEYj9W6ojtZx476ksbDFLWKXg-dXKaVE&ccb=13-1&oh=06_Q3-1AZmt3Uk5J-3OnEk1TcbtKIdEFMKKptj7ytL6AHstltXS&oe=6884018A&_nc_sid=085657', '__typename': 'GenericAttachmentMedia', '__isMedia': 'GenericAttachmentMedia', 'flexible_height_share_image': None, 'large_share_image': {'height': 261, 'uri': 'https://external.fkhi11-2.fna.fbcdn.net/emg1/v/t13/10022625585238972757?url=https%3A%2F%2Fcommunity-assets.home-assistant.io%2Foriginal%2F4X%2F5%2F9%2Fb%2F59b1a89929f38ad50e6c65c79150e41b12cee63d.jpeg&fb_obo=1&utld=home-assistant.io&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=pnCeJCZ_5DtJ_C_GzUerMg&_nc_oc=AdnaTPBkp_c-7qR-Sk2e1tSbSxcbI8K35BvvEYj9W6ojtZx476ksbDFLWKXg-dXKaVE&ccb=13-1&oh=06_Q3-1AZmt3Uk5J-3OnEk1TcbtKIdEFMKKptj7ytL6AHstltXS&oe=6884018A&_nc_sid=085657', 'width': 500}, 'id': '24035857876025236'}
-

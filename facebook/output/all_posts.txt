@@ -1,0 +1,582 @@
+📚 Smart Home Facebook 群组 - 所有帖子汇总
+==========================================================================================
+
+📅 生成时间: 2025-07-24 20:19:00
+📊 总帖子数: 20
+🔗 群组链接: https://www.facebook.com/groups/2091834914421201/
+
+==========================================================================================
+
+📖 阅读说明:
+- 每个帖子用分隔线分开
+- 帖子按编号顺序排列
+- 包含完整的帖子内容、作者信息、互动数据
+- 附件信息（如有）会显示在帖子内容后
+
+==========================================================================================
+
+
+================================================================================
+📝 帖子 #01 - 0 条评论
+================================================================================
+
+👤 作者: Veetek Witk
+🕐 发布时间: 2025-07-24T11:23:58.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130669620537710/
+📊 互动数据: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+📎 附件数量: 3
+
+💬 帖子内容:
+--------------------------------------------------
+Morning , maybe someone could help me with the issue that I have with logging in via homeassistant companion app.
+
+I have Zoraxy reverse proxy setup and everything works when Im trying to login to HA from the outside from browser. but not the companion app - heres the error that Im getting.
+
+Also attaching settings for an upstream - 
+
+any possible solutions that I could try ?
+
+Thanks
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDA4MTY0NTQ1ODcxNzpWSzo0MTMwNjY5NjIwNTM3NzEw
+🏷️ Legacy ID: 4130669620537710
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/media/set/?set=pcb.4130669620537710&type=1
+  2. 📷 图片: https://scontent.fbpm3-1.fna.fbcdn.net/v/t39.30808-6/514407421_740245915373584_6096082615948281268_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UtdjIEbbgykQ7kNvwHgTSaG&_nc_oc=AdmzEehjuIEfQqyny25bOGwZROo_yb8lMawRQWIvmNV8_TV2vOO0HI4FPIO-0rCHI0o&_nc_zt=23&_nc_ht=scontent.fbpm3-1.fna&_nc_gid=QuRMK005Qw7lJI8twItoXA&oh=00_AfRpiLaKyxNYIFesFbsL26oEPO4s7E08UXsSwsmkgGxkmQ&oe=6887F47D
+     📐 尺寸: 594x480
+     🔤 OCR文字: May be an image of text that says "More details Description The operation couldn't be completed. (St...
+  3. 📷 图片: https://scontent.fbpm3-1.fna.fbcdn.net/v/t39.30808-6/515490368_740246195373556_8961860182352911780_n.jpg?stp=dst-jpg_p235x350_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=oevJTIbKbeIQ7kNvwGvLton&_nc_oc=AdmPL97PcVQ04q3qfcxihIF0WOC5mGItK9_P4OR9SGrcGFAxn089n2WDfvie1H1pW1E&_nc_zt=23&_nc_ht=scontent.fbpm3-1.fna&_nc_gid=QuRMK005Qw7lJI8twItoXA&oh=00_AfTumV9fQPNHIemxkKcJdZ6oNnOoOZc5m36iG05Vl8mTJw&oe=6887EF65
+     📐 尺寸: 593x350
+     🔤 OCR文字: May be an image of text that says "Host < Destinations Virtual VirtualDirectory Dir ectory Upstreams...
+
+
+
+================================================================================
+📝 帖子 #02 - 0 条评论
+================================================================================
+
+👤 作者: Anonymous participant
+🕐 发布时间: 2025-07-24T11:13:22.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130415883896417/
+📊 互动数据: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+Aqara U200 - Get Lock Status via Bluetooth Only (No Matter/Thread)?
+
+Hi everyone,
+I have an Aqara U200 smart lock and I'm trying to integrate it with my Home Assistant setup.
+My HA machine has a standard built-in Bluetooth adapter, but I do not have a Matter-over-Thread dongle (like a SkyConnect or other Thread border router).
+I know the U200 can communicate directly with a phone via Bluetooth for initial setup and local control. My question is: can I leverage my HA's existing Bluetooth capabilities to get the lock's status?
+My only goal is to have a sensor entity in Home Assistant that shows whether the lock is locked or unlocked. I do not need the ability to lock or unlock it remotely from HA. Getting the battery status as well would be a fantastic bonus.
+Has anyone had success with a similar setup, using just Bluetooth for read-only status from the U200?
+Thanks for your help!
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEyNzA0NTc2NjE0MDY0NDA6Vks6NDEzMDQxNTg4Mzg5NjQxNw==
+🏷️ Legacy ID: 4130415883896417
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/1270457661406440/photos/gm.4130415883896417/1245348873492955/?type=3
+
+
+
+================================================================================
+📝 帖子 #03 - 0 条评论
+================================================================================
+
+👤 作者: Basil Aldwin
+🕐 发布时间: 2025-07-24T11:13:04.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130572830547389/
+📊 互动数据: 👍 1 赞 · 💬 0 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+Anyone else have the issue where voice assist will gaslight you saying it can't create timers or scheduled events even though it literally just did from simple prompt like
+
+"Turn off office lamp in 2 mins"
+
+?
+
+This is driving me crazy.
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTYwNTMxNjY1OTMyNTQ1MDpWSzo0MTMwNTcyODMwNTQ3Mzg5
+🏷️ Legacy ID: 4130572830547389
+
+
+
+================================================================================
+📝 帖子 #04 - 0 条评论
+================================================================================
+
+👤 作者: Manuel Ortiz
+🕐 发布时间: 2025-07-24T11:05:49.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130655033872502/
+📊 互动数据: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+Hi all!
+I have several shelly window blu sensors installed in my home and configured also in home assistant. One of them shows a peculiar behaviour:
+In the shelly app, the sensor status updates correctly when door is open/closed, but in home assistant it stays open all the time.
+If I reboot device, remove and readd in home assistant, it will work fine once, will detect open close, but then when it's opened again, for some reason will stay open and not refresh even if in the shelly app it does so properly. None of the other sensors are showing this behaviour.
+
+Any clues why this might be happening and how to fix it?
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTU4NzA5Njc1NDpWSzo0MTMwNjU1MDMzODcyNTAy
+🏷️ Legacy ID: 4130655033872502
+
+
+
+================================================================================
+📝 帖子 #05 - 3 条评论
+================================================================================
+
+👤 作者: James Corbin
+🕐 发布时间: 2025-07-24T10:04:16.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130602067211132/
+📊 互动数据: 👍 0 赞 · 💬 3 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+Has anyone got an XTU Doorbell working with Home Assistant?
+
+I'm talking about this model: [https://www.amazon.co.uk/dp/B09B9PVF86?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1](https://www.amazon.co.uk/dp/B09B9PVF86?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
+
+I'm struggling to integrate it into my Home Assistant setup. Here's what I've tried:
+* **Alexa Integration**: I linked the doorbell to Alexa and set up the Home Assistant Alexa integration. It only shows my Echo Dot, not the doorbell.
+* **GitHub Project**: I checked out [giuseppecastaldo/ha_cloudedge_pir](https://github.com/giuseppecastaldo/ha_cloudedge_pir), but it’s archived and doesn’t seem to work anymore.
+* **ONVIF/RTSP**: neither is supported by this model.
+
+I’d prefer not to crack open the doorbell for any hardware mods; I want to keep it stock.
+
+Has anyone managed to get this thing working with Home Assistant? Any tips or workarounds? Thanks in advance!
+
+*(Pic added for attention)*
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDA1MTc2Mjc1ODQ5MDpWSzo0MTMwNjAyMDY3MjExMTMy
+🏷️ Legacy ID: 4130602067211132
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/photo.php?fbid=1313993423669404&set=gm.4130602067211132&type=3
+
+
+
+================================================================================
+📝 帖子 #06 - 20 条评论
+================================================================================
+
+👤 作者: Kunal Khosla
+🕐 发布时间: 2025-07-24T09:30:15.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130578547213484/
+📊 互动数据: 👍 2 赞 · 💬 20 评论 · 🔄 0 分享
+📎 附件数量: 4
+
+💬 帖子内容:
+--------------------------------------------------
+What are some recommendations for building automation to safely scare away these puppies from my property? I have HA OS, Reolink cameras, and Gemini AI installed.
+
+It seems to be a full family affair somewhere around my house, 2 adult bears, and 3 child bears. The sightings have become more common in the past few weeks
+
+Ps : the trash can is empty. We do not keep our trash on the driveway
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTUzNTUyNDM2MjpWSzo0MTMwNTc4NTQ3MjEzNDg0
+🏷️ Legacy ID: 4130578547213484
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/media/set/?set=pcb.4130578547213484&type=1
+  2. 📷 图片: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/515219576_10164168554724363_4216306166317499309_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=aR2g3w0qcJYQ7kNvwEPJMGV&_nc_oc=AdkqnIE7GXGAEASLQ6ktRKFhO54bhVpH-610orI5U2d1IRTlFGRW2CTKbpk8GUBVZroTFDD4g2CfE-4Ia2IU5MkR&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=9dyTAEMv6jepIQNIQWZkZg&oh=00_AfREBtzN00a4x_IrlKu4gLvWV7HQ0xEVfprg0JfkAxvzig&oe=6887D64D
+     📐 尺寸: 600x270
+     🔤 OCR文字: No photo description available....
+  3. 📷 图片: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/520841783_10164168554794363_3566367311865669920_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tBl9_VFgAQkQ7kNvwFIy5mS&_nc_oc=AdkHKhDAF985j-aryvs02UnHQ_6Vva7bWdKQpXt5y7nZ7ebfWAu9Kp570KKLyMPwYKERTpzmv6z7Dm_4bZ68cKDG&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=9dyTAEMv6jepIQNIQWZkZg&oh=00_AfRIxsHL_BHNuxvYML9foUvC2rWRelSAerdnL2tDFarEDA&oe=6887FC68
+     📐 尺寸: 600x270
+     🔤 OCR文字: No photo description available....
+  4. 📷 图片: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/515281136_10164168554879363_6993870417909140426_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DUobnIFP8h8Q7kNvwHZDRVo&_nc_oc=AdmmkUeX3E6tsj7xbWIA8WAGE95oLytWBmsxPPLBXD5vp7pE3xQKJEWavC3rwsZxmsu0bdJjJXNawiPLShqmXDMY&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=9dyTAEMv6jepIQNIQWZkZg&oh=00_AfQp-5IoKX9xmLL5usNZUIEo3H19e1GP-ReQSpfo2Bw_Ow&oe=6887F6D1
+     📐 尺寸: 435x600
+     🔤 OCR文字: May be an image of text...
+
+
+
+================================================================================
+📝 帖子 #07 - 2 条评论
+================================================================================
+
+👤 作者: Fritz Klein
+🕐 发布时间: 2025-07-24T09:26:52.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130576250547047/
+📊 互动数据: 👍 1 赞 · 💬 2 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+Brauche mal euer Wissen!
+Ich habe zwei verschiedene Rollläden einmal Becker dect Standard und einmal Rollläden  shelly angeschlossen.
+Bei Den Shelly zeigen mir die Bildchen den Status offen und zu an.
+Bei den Dect nicht, obwohl beim schieberegler offen steht an.
+Siehe auch das Foto.
+Wie kann ich das lösen bin Anfänger Schritt für Schritt wäre gut.
+Danke
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDAwNzM2NTYzNzQ1NTpWSzo0MTMwNTc2MjUwNTQ3MDQ3
+🏷️ Legacy ID: 4130576250547047
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/photo.php?fbid=4112488169006664&set=gm.4130576250547047&type=3
+
+
+
+================================================================================
+📝 帖子 #08 - 0 条评论
+================================================================================
+
+👤 作者: Attila Rózsa
+🕐 发布时间: 2025-07-24T09:02:38.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130559670548705/
+📊 互动数据: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+If you want to automatically generate guest wifi password, but your router doesn't support this via API calls:
+
+
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDAwMDgzMDc2ODk2NjpWSzo0MTMwNTU5NjcwNTQ4NzA1
+🏷️ Legacy ID: 4130559670548705
+
+📎 附件信息:
+
+
+
+================================================================================
+📝 帖子 #09 - 17 条评论
+================================================================================
+
+👤 作者: David Scatino
+🕐 发布时间: 2025-07-24T08:25:49.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130530777218261/
+📊 互动数据: 👍 1 赞 · 💬 17 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+For anyone with a failing WAF (wife acceptance factor) ;)
+Link in comments 👇
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDA3ODMxNjAzMDY3ODpWSzo0MTMwNTMwNzc3MjE4MjYx
+🏷️ Legacy ID: 4130530777218261
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/photo.php?fbid=732614202692441&set=gm.4130530777218261&type=3
+
+
+
+================================================================================
+📝 帖子 #10 - 4 条评论
+================================================================================
+
+👤 作者: Jarkko Seppelin
+🕐 发布时间: 2025-07-24T07:55:30.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130509703887035/
+📊 互动数据: 👍 0 赞 · 💬 4 评论 · 🔄 0 分享
+📎 附件数量: 3
+
+💬 帖子内容:
+--------------------------------------------------
+Anyone else ran into this issue that the middle sections background is always dark?
+I've got two different HA systems and both has the same issue.
+This one has a Apexchart graph but the other one has only normal entities and with default HA theme but in both the middle one is different
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwODU5NjE5OTE6Vks6NDEzMDUwOTcwMzg4NzAzNQ==
+🏷️ Legacy ID: 4130509703887035
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/media/set/?set=pcb.4130509703887035&type=1
+  2. 📷 图片: https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-6/523852849_10237182891366970_6462684649723120841_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=uTQpV4pOvM0Q7kNvwG623YU&_nc_oc=Adkp5TIUSDzmQYTHL507hiC-jr_YVKitp-3XNozE8kRpOsMtZuejsp51FZXVYV2Tf0R7g-0Rgwt4CWu8LqBaY4MK&_nc_zt=23&_nc_ht=scontent.fnag6-3.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfQ-WTUzRAIxhvimfQ77LCh0B6u9_KmrJE5JzD8H_CgEGA&oe=6887E01F
+     📐 尺寸: 600x143
+     🔤 OCR文字: May be an image of text that says "Todays price c/kWh Current cWh Aueroge 10.0 Tomorro OWS price c/k...
+  3. 📷 图片: https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/523955902_10237182902367245_7855014005836217857_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kobN-ad8BW8Q7kNvwHZmnQD&_nc_oc=AdlorZAx9WJ-Iv9p3ohmSzKoNr6lfGfHqSZuySSQTdOG2OIJ3epOkNi-MfPwgFEd7bUS8MjsmiO7WvOvzLBurHrw&_nc_zt=23&_nc_ht=scontent.fnag6-2.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfTSakk7fMNTA6JaYgzY9bPJATWX3wQ14_NfZxXfSwLStA&oe=68880129
+     📐 尺寸: 600x191
+     🔤 OCR文字: May be a graphic of text...
+
+
+
+================================================================================
+📝 帖子 #11 - 11 条评论
+================================================================================
+
+👤 作者: Philippe Delbove
+🕐 发布时间: 2025-07-24T07:46:03.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130503323887673/
+📊 互动数据: 👍 1 赞 · 💬 11 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+Hello everyone, little by little I am starting to learn how to use Home Assistant under VMware, and I found out that to be able to try Zigbee plugs, I need a Zigbee dongle !! How do I setup the VMware machine to access the dongle? Thank you for your help
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTYxNTcyODg5MDQ1NzA3OlZLOjQxMzA1MDMzMjM4ODc2NzM=
+🏷️ Legacy ID: 4130503323887673
+
+
+
+================================================================================
+📝 帖子 #12 - 5 条评论
+================================================================================
+
+👤 作者: Steve Hextall
+🕐 发布时间: 2025-07-24T03:30:50.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130305623907443/
+📊 互动数据: 👍 1 赞 · 💬 5 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+Hi I have smart switch, smart bulb and motion sensor in our ensuite bathroom. I want the lamp to switch on red colour between 12am and 6am so I don't wake my wife. Motion sensor works fine but lamp is white. Seems to need a second movement to change colour to red. I have tried scene setting with red lamp setting to activate but lamp is still white when it comes on via smart switch.Any ideas / templates....?Thanks.
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTExMzc2NzQzOTY6Vks6NDEzMDMwNTYyMzkwNzQ0Mw==
+🏷️ Legacy ID: 4130305623907443
+
+
+
+================================================================================
+📝 帖子 #13 - 14 条评论
+================================================================================
+
+👤 作者: Brandon Hill
+🕐 发布时间: 2025-07-24T02:35:21.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130263360578336/
+📊 互动数据: 👍 1 赞 · 💬 14 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+Anyway to fix this with ring cameras?
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDE4MjY2ODI6Vks6NDEzMDI2MzM2MDU3ODMzNg==
+🏷️ Legacy ID: 4130263360578336
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/photo.php?fbid=10234208196678658&set=gm.4130263360578336&type=3
+
+
+
+================================================================================
+📝 帖子 #14 - 6 条评论
+================================================================================
+
+👤 作者: Traci S Aaron
+🕐 发布时间: 2025-07-24T02:19:42.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130251487246190/
+📊 互动数据: 👍 0 赞 · 💬 6 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+Which esp32 version allows full  processing with HA voice Assist and stereo media player with lights and buttons controls 
+A bonus would be to add temp and humidity
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDAxMzQ1NDk1MjE2OTpWSzo0MTMwMjUxNDg3MjQ2MTkw
+🏷️ Legacy ID: 4130251487246190
+
+
+
+================================================================================
+📝 帖子 #15 - 16 条评论
+================================================================================
+
+👤 作者: Zachary Gibson
+🕐 发布时间: 2025-07-23T23:28:44.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130152290589443/
+📊 互动数据: 👍 1 赞 · 💬 16 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+I have it up running three switchbot blind tilts, a few govee items (I think) I went step by step on this guide on youtube. Now the thing is, I have removed the switchbot hub, and the blinds still work. So I know the BT proxy is working. I just don’t know why it’s not passive scanning for NEW or “available” BT devices.  I have numerous devices that it should be detecting. 
+
+In fact I have a TTlock integration that runs BT on the “cloud” through a gateway.  I would love to connect those locks directly to the BT proxy I set up. 
+
+I’ve spent HOURS on YouTube, forums, here, and with a few people. I’m not understanding.   
+
+Thanks if you read that far. I do know HA, I have zwave, zigbee, WiFi, hundreds of devices and automations. This BT stuff is confusing me…any one willing to help me out???
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDA1MTU4OTU0MjIxNzpWSzo0MTMwMTUyMjkwNTg5NDQz
+🏷️ Legacy ID: 4130152290589443
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/photo.php?fbid=1286721526390820&set=gm.4130152290589443&type=3
+
+
+
+================================================================================
+📝 帖子 #16 - 0 条评论
+================================================================================
+
+👤 作者: David Oliphant
+🕐 发布时间: 2025-07-23T23:22:41.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130149157256423/
+📊 互动数据: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+Has anyone got the UBox camera setup in home assistant? If so how did you do it?
+
+Thx
+
+D
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTYxNTY1NzY4MTE1MDE3OlZLOjQxMzAxNDkxNTcyNTY0MjM=
+🏷️ Legacy ID: 4130149157256423
+
+
+
+================================================================================
+📝 帖子 #17 - 14 条评论
+================================================================================
+
+👤 作者: Ryan Harrell
+🕐 发布时间: 2025-07-23T23:16:49.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130146150590057/
+📊 互动数据: 👍 3 赞 · 💬 14 评论 · 🔄 2 分享
+📎 附件数量: 3
+
+💬 帖子内容:
+--------------------------------------------------
+Latest dashboards for my Bambu printers! Both on the latest firmware in LAN/Developer mode. Works fantastic.
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTczMDQ5MzM4NDpWSzo0MTMwMTQ2MTUwNTkwMDU3
+🏷️ Legacy ID: 4130146150590057
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/media/set/?set=pcb.4130146150590057&type=1
+  2. 📷 图片: https://scontent.fsjp7-1.fna.fbcdn.net/v/t39.30808-6/521915330_10163839027398385_6959332584356435328_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=bfcXVhIQRdMQ7kNvwGMkzv_&_nc_oc=AdkZODYYhbRMjDz-l663O7gFunvdeDURJka1qvh2woxsKra0zOcGArRs6uFIbO5oVD0&_nc_zt=23&_nc_ht=scontent.fsjp7-1.fna&_nc_gid=VHubGAz24KG5ucVDVffdgA&oh=00_AfSEQvyyimz2p8eCXNMUkqAnUHL5YbeFj5sCaHlsRc2wAQ&oe=6887FE4E
+     📐 尺寸: 600x338
+     🔤 OCR文字: May be an image of text...
+  3. 📷 图片: https://scontent.fsjp7-1.fna.fbcdn.net/v/t39.30808-6/520620494_10163839031543385_6216467140430966740_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=YxxXDSGK2Y4Q7kNvwHatL2g&_nc_oc=AdmXv36gSUUnR0nj1w3r35Aoxvqah8NyxLjwAWSy-GPoEn2NI5OnudL6VWp10uLjSlI&_nc_zt=23&_nc_ht=scontent.fsjp7-1.fna&_nc_gid=VHubGAz24KG5ucVDVffdgA&oh=00_AfRUrCfLXug0d_nSLG1xdna94LqAYlkojY2lBdKHI5SRqw&oe=6887FA56
+     📐 尺寸: 600x338
+     🔤 OCR文字: May be an image of text...
+
+
+
+================================================================================
+📝 帖子 #18 - 29 条评论
+================================================================================
+
+👤 作者: Anchal Nigam
+🕐 发布时间: 2025-07-23T22:26:07.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130119580592714/
+📊 互动数据: 👍 1 赞 · 💬 29 评论 · 🔄 0 分享
+📎 附件数量: 1
+
+💬 帖子内容:
+--------------------------------------------------
+Some folks were commenting on my naming convention but I don't understand. I'm still learning HA so I'm hoping for some advise.
+
+I have two open/close sensors on my fridge. One for the left door, and one for the right door. I've named the devices like so:
+
+* sensor open fridge left door
+* sensor open fridge right door
+
+The naming convention that makes sense to me is `[type of device] [where it is]`.
+
+Is there a problem with this? 
+
+And then what do I do about the entities? Should I rename them? What should I rename them to? Like the binary sensor for open/close, should I name it `binary_sensor.open_fridge_door` or something like that? Shouldn't the entity name have the device name in it so we know what entity the device is for?
+
+I don't understand the implications of these names and where/how/why they matter. Hoping for any perspective/advise.
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTMxODAxMzgyOlZLOjQxMzAxMTk1ODA1OTI3MTQ=
+🏷️ Legacy ID: 4130119580592714
+
+📎 附件信息:
+  1. 🔗 链接: https://www.facebook.com/photo.php?fbid=10103211698742089&set=gm.4130119580592714&type=3
+
+
+
+================================================================================
+📝 帖子 #19 - 13 条评论
+================================================================================
+
+👤 作者: Glen Johnson
+🕐 发布时间: 2025-07-23T22:05:30.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130108673927138/
+📊 互动数据: 👍 0 赞 · 💬 13 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+I'm ready to expand my HA system and seeking advice for HA controllable plug in outlets for the US market.
+Energy monitoring would be nice to have, but last state recovery after a power outage is a must.  Either wifi or zigbee, although I don't yet have a zigbee connection to HA, so recommendations for a good zigbee interface.  Does the esp32-c6 qualify as good?  Don't want a USB one as my HA is virtualized on proxmox and the server is in the basement shop, so would prefer wifi or ethernet.  I checked the hadevices.com site but not enough info there, or is there a better site for HA compatible kit?
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEyMjMxNjkxODQ6Vks6NDEzMDEwODY3MzkyNzEzOA==
+🏷️ Legacy ID: 4130108673927138
+
+
+
+================================================================================
+📝 帖子 #20 - 22 条评论
+================================================================================
+
+👤 作者: Jason Farrish
+🕐 发布时间: 2025-07-23T21:23:39.000Z
+🔗 帖子链接: https://www.facebook.com/groups/HomeAssistant/permalink/4130085243929481/
+📊 互动数据: 👍 1 赞 · 💬 22 评论 · 🔄 0 分享
+📎 附件数量: 0
+
+💬 帖子内容:
+--------------------------------------------------
+I recently bought the HA Green. One of the reasons I wanted it was to try to integrate it with MyQ so I could set it up to open/close the garage door when I arrive/leave the house, without having to push a button. It's kind of annoying to know that my car will do it (it has the MyQ app installed), but the MyQ app on my phone won't do it. So here I am trying to figure out how to do it. 
+
+I've just recently realized that Chamberlain has put up a pay-wall which is effectively blocking HA. Is there any other way this could be achieved without buying a different brand of garage door? I've seen some posts mention RATGDO, but not too sure if that would do what I am wanting. 
+
+Any suggestions? Walkthroughs?
+--------------------------------------------------
+
+🆔 帖子ID: UzpfSTEwMDAwMDA4NjU1ODI0MzpWSzo0MTMwMDg1MjQzOTI5NDgx
+🏷️ Legacy ID: 4130085243929481
+
+
+==========================================================================================
+📊 群组统计汇总
+==========================================================================================
+
+📝 总帖子数: 20
+👥 参与用户: 20 人
+👍 总点赞数: 14
+💬 总评论数: 176
+🔄 总分享数: 2
+
+🏆 互动最高的帖子:
+  1. 帖子#18 - Anchal Nigam (29条评论)
+     Some folks were commenting on my naming convention...
+  2. 帖子#20 - Jason Farrish (22条评论)
+     I recently bought the HA Green. One of the reasons...
+  3. 帖子#06 - Kunal Khosla (20条评论)
+     What are some recommendations for building automat...
+
+📅 数据生成时间: 2025年07月24日 20:19:00

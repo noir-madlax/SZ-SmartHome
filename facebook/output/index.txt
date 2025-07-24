@@ -1,0 +1,158 @@
+📚 Smart Home Facebook 群组讨论索引
+============================================================
+
+📅 生成时间: 2025-07-24 20:19:00
+📊 总帖子数: 20
+🔗 群组链接: https://www.facebook.com/groups/2091834914421201/
+
+============================================================
+
+📂 帖子目录:
+
+01. 📁 [0评论]01_Morning_,_maybe_someone_could_help_me_with_the_iss/
+    👤 作者: Veetek Witk
+    🕐 时间: 2025-07-24T11:23:58.000Z
+    📊 互动: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+    📝 预览: Morning , maybe someone could help me with the iss...
+    
+02. 📁 [0评论]02_Aqara_U200_-_Get_Lock_Status_via_Bluetooth_Only_(N/
+    👤 作者: Anonymous participant
+    🕐 时间: 2025-07-24T11:13:22.000Z
+    📊 互动: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+    📝 预览: Aqara U200 - Get Lock Status via Bluetooth Only (N...
+    
+03. 📁 [0评论]03_Anyone_else_have_the_issue_where_voice_assist_will/
+    👤 作者: Basil Aldwin
+    🕐 时间: 2025-07-24T11:13:04.000Z
+    📊 互动: 👍 1 赞 · 💬 0 评论 · 🔄 0 分享
+    📝 预览: Anyone else have the issue where voice assist will...
+    
+04. 📁 [0评论]04_Hi_all/
+    👤 作者: Manuel Ortiz
+    🕐 时间: 2025-07-24T11:05:49.000Z
+    📊 互动: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+    📝 预览: Hi all!
+I have several shelly window blu sensors i...
+    
+05. 📁 [3评论]05_Has_anyone_got_an_XTU_Doorbell_working_with_Home_A/
+    👤 作者: James Corbin
+    🕐 时间: 2025-07-24T10:04:16.000Z
+    📊 互动: 👍 0 赞 · 💬 3 评论 · 🔄 0 分享
+    📝 预览: Has anyone got an XTU Doorbell working with Home A...
+    
+06. 📁 [20评论]06_What_are_some_recommendations_for_building_automat/
+    👤 作者: Kunal Khosla
+    🕐 时间: 2025-07-24T09:30:15.000Z
+    📊 互动: 👍 2 赞 · 💬 20 评论 · 🔄 0 分享
+    📝 预览: What are some recommendations for building automat...
+    
+07. 📁 [2评论]07_Brauche_mal_euer_Wissen/
+    👤 作者: Fritz Klein
+    🕐 时间: 2025-07-24T09:26:52.000Z
+    📊 互动: 👍 1 赞 · 💬 2 评论 · 🔄 0 分享
+    📝 预览: Brauche mal euer Wissen!
+Ich habe zwei verschieden...
+    
+08. 📁 [0评论]08_If_you_want_to_automatically_generate_guest_wifi_p/
+    👤 作者: Attila Rózsa
+    🕐 时间: 2025-07-24T09:02:38.000Z
+    📊 互动: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+    📝 预览: If you want to automatically generate guest wifi p...
+    
+09. 📁 [17评论]09_For_anyone_with_a_failing_WAF_(wife_acceptance_fac/
+    👤 作者: David Scatino
+    🕐 时间: 2025-07-24T08:25:49.000Z
+    📊 互动: 👍 1 赞 · 💬 17 评论 · 🔄 0 分享
+    📝 预览: For anyone with a failing WAF (wife acceptance fac...
+    
+10. 📁 [4评论]10_Anyone_else_ran_into_this_issue_that_the_middle_se/
+    👤 作者: Jarkko Seppelin
+    🕐 时间: 2025-07-24T07:55:30.000Z
+    📊 互动: 👍 0 赞 · 💬 4 评论 · 🔄 0 分享
+    📝 预览: Anyone else ran into this issue that the middle se...
+    
+11. 📁 [11评论]11_Hello_everyone,_little_by_little_I_am_starting_to/
+    👤 作者: Philippe Delbove
+    🕐 时间: 2025-07-24T07:46:03.000Z
+    📊 互动: 👍 1 赞 · 💬 11 评论 · 🔄 0 分享
+    📝 预览: Hello everyone, little by little I am starting to ...
+    
+12. 📁 [5评论]12_Hi_I_have_smart_switch,_smart_bulb_and_motion_sens/
+    👤 作者: Steve Hextall
+    🕐 时间: 2025-07-24T03:30:50.000Z
+    📊 互动: 👍 1 赞 · 💬 5 评论 · 🔄 0 分享
+    📝 预览: Hi I have smart switch, smart bulb and motion sens...
+    
+13. 📁 [14评论]13_Anyway_to_fix_this_with_ring_cameras/
+    👤 作者: Brandon Hill
+    🕐 时间: 2025-07-24T02:35:21.000Z
+    📊 互动: 👍 1 赞 · 💬 14 评论 · 🔄 0 分享
+    📝 预览: Anyway to fix this with ring cameras?
+    
+14. 📁 [6评论]14_Which_esp32_version_allows_full_processing_with_HA/
+    👤 作者: Traci S Aaron
+    🕐 时间: 2025-07-24T02:19:42.000Z
+    📊 互动: 👍 0 赞 · 💬 6 评论 · 🔄 0 分享
+    📝 预览: Which esp32 version allows full  processing with H...
+    
+15. 📁 [16评论]15_I_have_it_up_running_three_switchbot_blind_tilts,/
+    👤 作者: Zachary Gibson
+    🕐 时间: 2025-07-23T23:28:44.000Z
+    📊 互动: 👍 1 赞 · 💬 16 评论 · 🔄 0 分享
+    📝 预览: I have it up running three switchbot blind tilts, ...
+    
+16. 📁 [0评论]16_Has_anyone_got_the_UBox_camera_setup_in_home_assis/
+    👤 作者: David Oliphant
+    🕐 时间: 2025-07-23T23:22:41.000Z
+    📊 互动: 👍 0 赞 · 💬 0 评论 · 🔄 0 分享
+    📝 预览: Has anyone got the UBox camera setup in home assis...
+    
+17. 📁 [14评论]17_Latest_dashboards_for_my_Bambu_printers/
+    👤 作者: Ryan Harrell
+    🕐 时间: 2025-07-23T23:16:49.000Z
+    📊 互动: 👍 3 赞 · 💬 14 评论 · 🔄 2 分享
+    📝 预览: Latest dashboards for my Bambu printers! Both on t...
+    
+18. 📁 [29评论]18_Some_folks_were_commenting_on_my_naming_convention/
+    👤 作者: Anchal Nigam
+    🕐 时间: 2025-07-23T22:26:07.000Z
+    📊 互动: 👍 1 赞 · 💬 29 评论 · 🔄 0 分享
+    📝 预览: Some folks were commenting on my naming convention...
+    
+19. 📁 [13评论]19_I'm_ready_to_expand_my_HA_system_and_seeking_advic/
+    👤 作者: Glen Johnson
+    🕐 时间: 2025-07-23T22:05:30.000Z
+    📊 互动: 👍 0 赞 · 💬 13 评论 · 🔄 0 分享
+    📝 预览: I'm ready to expand my HA system and seeking advic...
+    
+20. 📁 [22评论]20_I_recently_bought_the_HA_Green/
+    👤 作者: Jason Farrish
+    🕐 时间: 2025-07-23T21:23:39.000Z
+    📊 互动: 👍 1 赞 · 💬 22 评论 · 🔄 0 分享
+    📝 预览: I recently bought the HA Green. One of the reasons...
+    
+
+============================================================
+
+📖 文件说明:
+1. all_posts.txt - 📄 所有帖子内容的完整汇总文件
+2. 每个数字开头的文件夹代表一个帖子，包含原始数据
+3. 文件夹名前的 [X评论] 表示该帖子的评论数量
+4. 文件夹按帖子顺序编号，方便浏览
+
+💡 推荐阅读方式：
+   - 快速浏览：查看此 index.txt 文件
+   - 完整阅读：打开 all_posts.txt 文件
+   - 详细分析：进入具体帖子文件夹查看 raw_data.json
+
+🌟 最受欢迎的帖子（按评论数排序）:
+   1. [29评论]18_Some_folks_were_commenting_on_my_naming_convention/ - Anchal Nigam
+      📝 Some folks were commenting on my naming ...
+   2. [22评论]20_I_recently_bought_the_HA_Green/ - Jason Farrish
+      📝 I recently bought the HA Green. One of t...
+   3. [20评论]06_What_are_some_recommendations_for_building_automat/ - Kunal Khosla
+      📝 What are some recommendations for buildi...
+   4. [17评论]09_For_anyone_with_a_failing_WAF_(wife_acceptance_fac/ - David Scatino
+      📝 For anyone with a failing WAF (wife acce...
+   5. [16评论]15_I_have_it_up_running_three_switchbot_blind_tilts,/ - Zachary Gibson
+      📝 I have it up running three switchbot bli...

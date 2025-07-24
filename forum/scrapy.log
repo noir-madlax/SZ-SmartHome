@@ -1,0 +1,1456 @@
+2025-07-24 19:51:54 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: forum_spider)
+2025-07-24 19:51:54 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.3.1',
+ 'libxml2': '2.12.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 '
+           '(clang-1300.0.29.30)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'macOS-15.5-arm64-arm-64bit'}
+2025-07-24 19:51:54 [twisted] CRITICAL: Unhandled error in Deferred:
+2025-07-24 19:51:54 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/twisted/internet/defer.py", line 1857, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/scrapy/crawler.py", line 153, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/scrapy/crawler.py", line 166, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/scrapy/spiders/__init__.py", line 74, in from_crawler
+    spider = cls(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rigel/project/leviton/SZ-SmartHome/forum/forum_spider/spiders/hassbian_spider.py", line 21, in __init__
+    self.max_pages = getattr(self.settings, 'CUSTOM_SETTINGS', {}).get('MAX_PAGES', 5)
+                             ^^^^^^^^^^^^^
+AttributeError: 'HassbianSpider' object has no attribute 'settings'
+2025-07-24 19:52:18 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: forum_spider)
+2025-07-24 19:52:18 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.3.1',
+ 'libxml2': '2.12.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 '
+           '(clang-1300.0.29.30)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'macOS-15.5-arm64-arm-64bit'}
+2025-07-24 19:52:18 [forum_spider.spiders.hassbian_spider] INFO: Spider initialized with single_url: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:52:18 [forum_spider.spiders.hassbian_spider] INFO: Spider configured: max_pages=5, max_replies=10
+2025-07-24 19:52:18 [forum_spider.spiders.hassbian_spider] INFO: Single URL mode: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:52:18 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-07-24 19:52:18 [asyncio] DEBUG: Using selector: KqueueSelector
+2025-07-24 19:52:18 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-24 19:52:18 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2025-07-24 19:52:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats']
+2025-07-24 19:52:18 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_DEBUG': True,
+ 'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 1,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'BOT_NAME': 'forum_spider',
+ 'CONCURRENT_REQUESTS': 8,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 2,
+ 'CONCURRENT_REQUESTS_PER_IP': 1,
+ 'DOWNLOAD_DELAY': 2.0,
+ 'DOWNLOAD_TIMEOUT': 30,
+ 'HTTPCACHE_ENABLED': True,
+ 'HTTPCACHE_EXPIRATION_SECS': 3600,
+ 'LOG_FILE': 'scrapy.log',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_WARNING_MB': 1024,
+ 'NEWSPIDER_MODULE': 'forum_spider.spiders',
+ 'RANDOMIZE_DOWNLOAD_DELAY': 0.5,
+ 'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],
+ 'RETRY_TIMES': 3,
+ 'SPIDER_MODULES': ['forum_spider.spiders'],
+ 'TELNETCONSOLE_ENABLED': False,
+ 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 '
+               'Safari/537.36'}
+2025-07-24 19:52:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'forum_spider.middlewares.RotateUserAgentMiddleware',
+ 'forum_spider.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2025-07-24 19:52:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'forum_spider.middlewares.ForumSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-24 19:52:18 [scrapy.core.spidermw] WARNING: Middleware forum_spider.middlewares.ForumSpiderMiddleware doesn't support asynchronous spider output, this is deprecated and will stop working in a future version of Scrapy. The middleware should be updated to support it. Please see https://docs.scrapy.org/en/latest/topics/coroutines.html#for-middleware-users for more information.
+2025-07-24 19:52:18 [scrapy.middleware] INFO: Enabled item pipelines:
+['forum_spider.pipelines.ValidationPipeline',
+ 'forum_spider.pipelines.JsonWriterPipeline',
+ 'forum_spider.pipelines.CsvWriterPipeline']
+2025-07-24 19:52:18 [scrapy.core.engine] INFO: Spider opened
+2025-07-24 19:52:18 [py.warnings] WARNING: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: forum_spider.spiders.hassbian_spider.HassbianSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-07-24 19:52:18 [forum_spider.pipelines] INFO: JSON files initialized
+2025-07-24 19:52:18 [forum_spider.pipelines] INFO: CSV files initialized
+2025-07-24 19:52:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-24 19:52:18 [scrapy.extensions.httpcache] DEBUG: Using filesystem cache storage in /Users/rigel/project/leviton/SZ-SmartHome/forum/.scrapy/httpcache
+2025-07-24 19:52:18 [hassbian] INFO: Spider opened: hassbian
+2025-07-24 19:52:18 [scrapy.extensions.memusage] INFO: Peak memory usage is 71MiB
+2025-07-24 19:52:19 [scrapy.extensions.throttle] INFO: slot: bbs.hassbian.com | conc: 1 | delay: 2000 ms (+0) | latency:  230 ms | size:  2632 bytes
+2025-07-24 19:52:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29624-1-1.html> (referer: None)
+2025-07-24 19:52:19 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:52:19 [forum_spider.spiders.hassbian_spider] WARNING: Could not extract post ID from URL: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:52:19 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-07-24 19:52:19 [forum_spider.pipelines] INFO: CSV files closed
+2025-07-24 19:52:19 [forum_spider.pipelines] INFO: Saved 0 posts and 0 replies to JSON files
+2025-07-24 19:52:19 [scrapy.extensions.feedexport] INFO: Stored json feed (0 items) in: output/posts.json
+2025-07-24 19:52:19 [scrapy.extensions.feedexport] INFO: Stored json feed (0 items) in: output/replies.json
+2025-07-24 19:52:19 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: output/forum_data.csv
+2025-07-24 19:52:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 359,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 2916,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.347135,
+ 'feedexport/success_count/FileFeedStorage': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 24, 11, 52, 19, 344340, tzinfo=datetime.timezone.utc),
+ 'httpcache/firsthand': 1,
+ 'httpcache/miss': 1,
+ 'httpcache/store': 1,
+ 'httpcompression/response_bytes': 5844,
+ 'httpcompression/response_count': 1,
+ 'items_per_minute': None,
+ 'log_count/DEBUG': 5,
+ 'log_count/INFO': 19,
+ 'log_count/WARNING': 3,
+ 'memusage/max': 74989568,
+ 'memusage/startup': 74989568,
+ 'response_received_count': 1,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 7, 24, 11, 52, 18, 997205, tzinfo=datetime.timezone.utc)}
+2025-07-24 19:52:19 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-07-24 19:53:11 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: forum_spider)
+2025-07-24 19:53:11 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.3.1',
+ 'libxml2': '2.12.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 '
+           '(clang-1300.0.29.30)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'macOS-15.5-arm64-arm-64bit'}
+2025-07-24 19:53:11 [forum_spider.spiders.hassbian_spider] INFO: Spider initialized with single_url: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:53:11 [forum_spider.spiders.hassbian_spider] INFO: Spider configured: max_pages=5, max_replies=10
+2025-07-24 19:53:11 [forum_spider.spiders.hassbian_spider] INFO: Single URL mode: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:53:11 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-07-24 19:53:11 [asyncio] DEBUG: Using selector: KqueueSelector
+2025-07-24 19:53:11 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-24 19:53:11 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2025-07-24 19:53:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats']
+2025-07-24 19:53:11 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_DEBUG': True,
+ 'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 1,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'BOT_NAME': 'forum_spider',
+ 'CONCURRENT_REQUESTS': 8,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 2,
+ 'CONCURRENT_REQUESTS_PER_IP': 1,
+ 'DOWNLOAD_DELAY': 2.0,
+ 'DOWNLOAD_TIMEOUT': 30,
+ 'HTTPCACHE_EXPIRATION_SECS': 3600,
+ 'LOG_FILE': 'scrapy.log',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_WARNING_MB': 1024,
+ 'NEWSPIDER_MODULE': 'forum_spider.spiders',
+ 'RANDOMIZE_DOWNLOAD_DELAY': 0.5,
+ 'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],
+ 'RETRY_TIMES': 3,
+ 'SPIDER_MODULES': ['forum_spider.spiders'],
+ 'TELNETCONSOLE_ENABLED': False,
+ 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 '
+               'Safari/537.36'}
+2025-07-24 19:53:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'forum_spider.middlewares.RotateUserAgentMiddleware',
+ 'forum_spider.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-24 19:53:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'forum_spider.middlewares.ForumSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-24 19:53:11 [scrapy.core.spidermw] WARNING: Middleware forum_spider.middlewares.ForumSpiderMiddleware doesn't support asynchronous spider output, this is deprecated and will stop working in a future version of Scrapy. The middleware should be updated to support it. Please see https://docs.scrapy.org/en/latest/topics/coroutines.html#for-middleware-users for more information.
+2025-07-24 19:53:11 [scrapy.middleware] INFO: Enabled item pipelines:
+['forum_spider.pipelines.ValidationPipeline',
+ 'forum_spider.pipelines.JsonWriterPipeline',
+ 'forum_spider.pipelines.CsvWriterPipeline']
+2025-07-24 19:53:11 [scrapy.core.engine] INFO: Spider opened
+2025-07-24 19:53:11 [py.warnings] WARNING: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: forum_spider.spiders.hassbian_spider.HassbianSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-07-24 19:53:11 [forum_spider.pipelines] INFO: JSON files initialized
+2025-07-24 19:53:11 [forum_spider.pipelines] INFO: CSV files initialized
+2025-07-24 19:53:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-24 19:53:11 [hassbian] INFO: Spider opened: hassbian
+2025-07-24 19:53:11 [scrapy.extensions.memusage] INFO: Peak memory usage is 69MiB
+2025-07-24 19:53:12 [scrapy.extensions.throttle] INFO: slot: bbs.hassbian.com | conc: 1 | delay: 2000 ms (+0) | latency:  466 ms | size: 18256 bytes
+2025-07-24 19:53:12 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): publicsuffix.org:443
+2025-07-24 19:53:12 [urllib3.connectionpool] DEBUG: https://publicsuffix.org:443 "GET /list/public_suffix_list.dat HTTP/1.1" 200 87917
+2025-07-24 19:53:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29624-1-1.html> (referer: None)
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] ERROR: Error extracting reply 2: Error with input processor MapCompose: field='floor_num' value=[2] error='ValueError: Error in MapCompose with <function extract_numbers at 0x1104d4360> value=[2] error='TypeError: expected string or bytes-like object, got 'int'''
+2025-07-24 19:53:13 [forum_spider.spiders.hassbian_spider] INFO: Extracted 0 replies for post 29624
+2025-07-24 19:53:13 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 19:53:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'lhdbx',
+ 'crawl_time': '2025-07-24T19:53:13.378097',
+ 'page_num': 1,
+ 'post_id': ['29624'],
+ 'post_time': '发表于 2025-6-22 16:54:40',
+ 'post_url': 'https://bbs.hassbian.com/thread-29624-1-1.html',
+ 'title': '求好用的zigbee平价设备接入Z2M'}
+2025-07-24 19:53:13 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-07-24 19:53:13 [forum_spider.pipelines] INFO: CSV files closed
+2025-07-24 19:53:13 [forum_spider.pipelines] INFO: Saved 1 posts and 0 replies to JSON files
+2025-07-24 19:53:13 [scrapy.extensions.feedexport] INFO: Stored json feed (1 items) in: output/posts.json
+2025-07-24 19:53:13 [scrapy.extensions.feedexport] INFO: Stored json feed (0 items) in: output/replies.json
+2025-07-24 19:53:13 [scrapy.extensions.feedexport] INFO: Stored csv feed (1 items) in: output/forum_data.csv
+2025-07-24 19:53:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 373,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 19046,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.562718,
+ 'feedexport/success_count/FileFeedStorage': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 24, 11, 53, 13, 379783, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 88475,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'items_per_minute': None,
+ 'log_count/DEBUG': 7,
+ 'log_count/ERROR': 20,
+ 'log_count/INFO': 21,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 73072640,
+ 'memusage/startup': 73072640,
+ 'response_received_count': 1,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 7, 24, 11, 53, 11, 817065, tzinfo=datetime.timezone.utc)}
+2025-07-24 19:53:13 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-07-24 19:53:46 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: forum_spider)
+2025-07-24 19:53:46 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.3.1',
+ 'libxml2': '2.12.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 '
+           '(clang-1300.0.29.30)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'macOS-15.5-arm64-arm-64bit'}
+2025-07-24 19:53:46 [forum_spider.spiders.hassbian_spider] INFO: Spider initialized with single_url: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:53:46 [forum_spider.spiders.hassbian_spider] INFO: Spider configured: max_pages=5, max_replies=10
+2025-07-24 19:53:46 [forum_spider.spiders.hassbian_spider] INFO: Single URL mode: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:53:46 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-07-24 19:53:46 [asyncio] DEBUG: Using selector: KqueueSelector
+2025-07-24 19:53:46 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-24 19:53:46 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2025-07-24 19:53:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats']
+2025-07-24 19:53:46 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_DEBUG': True,
+ 'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 1,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'BOT_NAME': 'forum_spider',
+ 'CONCURRENT_REQUESTS': 8,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 2,
+ 'CONCURRENT_REQUESTS_PER_IP': 1,
+ 'DOWNLOAD_DELAY': 2.0,
+ 'DOWNLOAD_TIMEOUT': 30,
+ 'HTTPCACHE_EXPIRATION_SECS': 3600,
+ 'LOG_FILE': 'scrapy.log',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_WARNING_MB': 1024,
+ 'NEWSPIDER_MODULE': 'forum_spider.spiders',
+ 'RANDOMIZE_DOWNLOAD_DELAY': 0.5,
+ 'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],
+ 'RETRY_TIMES': 3,
+ 'SPIDER_MODULES': ['forum_spider.spiders'],
+ 'TELNETCONSOLE_ENABLED': False,
+ 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 '
+               'Safari/537.36'}
+2025-07-24 19:53:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'forum_spider.middlewares.RotateUserAgentMiddleware',
+ 'forum_spider.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-24 19:53:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'forum_spider.middlewares.ForumSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-24 19:53:47 [scrapy.core.spidermw] WARNING: Middleware forum_spider.middlewares.ForumSpiderMiddleware doesn't support asynchronous spider output, this is deprecated and will stop working in a future version of Scrapy. The middleware should be updated to support it. Please see https://docs.scrapy.org/en/latest/topics/coroutines.html#for-middleware-users for more information.
+2025-07-24 19:53:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['forum_spider.pipelines.ValidationPipeline',
+ 'forum_spider.pipelines.JsonWriterPipeline',
+ 'forum_spider.pipelines.CsvWriterPipeline']
+2025-07-24 19:53:47 [scrapy.core.engine] INFO: Spider opened
+2025-07-24 19:53:47 [py.warnings] WARNING: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: forum_spider.spiders.hassbian_spider.HassbianSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: JSON files initialized
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: CSV files initialized
+2025-07-24 19:53:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-24 19:53:47 [hassbian] INFO: Spider opened: hassbian
+2025-07-24 19:53:47 [scrapy.extensions.memusage] INFO: Peak memory usage is 70MiB
+2025-07-24 19:53:47 [scrapy.extensions.throttle] INFO: slot: bbs.hassbian.com | conc: 1 | delay: 2000 ms (+0) | latency:   74 ms | size: 18256 bytes
+2025-07-24 19:53:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29624-1-1.html> (referer: None)
+2025-07-24 19:53:47 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 19:53:47 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 29624
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'lhdbx',
+ 'crawl_time': '2025-07-24T19:53:47.314305',
+ 'page_num': 1,
+ 'post_id': ['29624'],
+ 'post_time': '发表于 2025-6-22 16:54:40',
+ 'post_url': 'https://bbs.hassbian.com/thread-29624-1-1.html',
+ 'title': '求好用的zigbee平价设备接入Z2M'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'wdmywm3',
+ 'content': '哎……zigbee现在就是这样，东西少，要么就是贵…… 我仅有的几个zigbee开关也都是aqara的 '
+            '除此以外还是用小米蓝牙mesh的开关多，主要还是有些新的实在漂亮，忍不住……',
+ 'crawl_time': '2025-07-24T19:53:47.315732',
+ 'floor_num': 3,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681522'],
+ 'reply_time': '发表于 2025-6-22 17:15:17'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'lhdbx',
+ 'content': 'wdmywm3 发表于 2025-6-22 17:15 哎……zigbee现在就是这样，东西少，要么就是贵…… '
+            '我仅有的几个zigbee开关也都是aqara的 除此以外还是用 ... '
+            '对呀，我本来想着zigbee开关覆盖到位，然后就可以配传感器。都说zigbee省电，而且稳定。 可是我部署好了基础覆盖，突然发现 '
+            '没啥推荐的传感器。烦死了 '
+            '我限制是2个多模2，覆盖全家，gw3接入灯和窗帘。感觉还不如开关也米家算了，也能蓝牙全本地覆盖，为了zigbee买了绿米，搞得家里2套系统。 '
+            '我都觉得傻了 浪费钱 现在骑虎难下',
+ 'crawl_time': '2025-07-24T19:53:47.316191',
+ 'floor_num': 5,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681525'],
+ 'reply_time': '发表于 2025-6-22 17:22:15'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'qjrxsoft',
+ 'content': 'lhdbx 发表于 2025-6-22 17:22 '
+            '对呀，我本来想着zigbee开关覆盖到位，然后就可以配传感器。都说zigbee省电，而且稳定。 可是我部署好了 ... '
+            '哥们及时止损吧，我也是zigbee过度到米家蓝牙mesh的，我之前比任何人都推崇zigbee，入坑zigbee之后才明白各种苦，后面果断换米家蓝牙mesh，我的开关全是绿米的D1,一咬牙我全丢小黄鱼，亏死我了，智能家居对于我来说是实用品而不是玩具，追求的是稳定、可靠、性价比、少折腾。',
+ 'crawl_time': '2025-07-24T19:53:47.316442',
+ 'floor_num': 7,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681554'],
+ 'reply_time': '发表于 2025-6-22 21:21:50'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'lichao622',
+ 'content': '相信我，要用zigbee就用绿米的，涂鸦的，或者杂七杂八的不要用。。。。',
+ 'crawl_time': '2025-07-24T19:53:47.316648',
+ 'floor_num': 9,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681562'],
+ 'reply_time': '发表于 2025-6-22 22:10:22'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'gx19970920',
+ 'content': '你如果想入坑zigbee，就一定要买aqara的，长供电的中继器可以选择其他品牌的，比如水阀，墙面插座之类的，但是用电池的传感器一定要选aqara '
+            '登录/注册后可看大图 image.png (236.3 KB, 下载次数: 0) 下载附件 2025-6-23 08:38 上传',
+ 'crawl_time': '2025-07-24T19:53:47.316826',
+ 'floor_num': 11,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681603'],
+ 'reply_time': '发表于 2025-6-23 08:38:42'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'lhdbx',
+ 'content': 'gx19970920 发表于 2025-6-23 08:38 '
+            '你如果想入坑zigbee，就一定要买aqara的，长供电的中继器可以选择其他品牌的，比如水阀，墙面插座之类的， ... 已经入坑了 '
+            '我就想着有退路，所以开关都买了零火得绿米D1，这样就算不用z2M了，小米多模2也能用，再不济跟你一样咸鱼卖了，卖是真卖得快。 '
+            '之前一直刷论坛，觉得Z2M好厉害，又有拓扑图，又全能接入，好好。然后执着Z2M 突然装完才发现，并没有什么好产品推荐接入 '
+            '还得买米家得蓝牙mash传感器，我的zigbee网络覆盖不是废了嘛 电池的传感器一定要选aqara 确定好用嘛？省电又准确？ '
+            '推荐几个呗 现在已经下不了车了',
+ 'crawl_time': '2025-07-24T19:53:47.317011',
+ 'floor_num': 13,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681606'],
+ 'reply_time': '发表于 2025-6-23 08:47:53'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'gx19970920',
+ 'content': 'lhdbx 发表于 2025-6-23 08:47 已经入坑了 '
+            '我就想着有退路，所以开关都买了零火得绿米D1，这样就算不用z2M了，小米多模2也能用，再不济 ... '
+            '其实aqara的传感器就那么几个类型：温湿度，水浸，光照，门窗，我就用了这些传感器，都是直接搜aqara买就行，',
+ 'crawl_time': '2025-07-24T19:53:47.317215',
+ 'floor_num': 15,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681608'],
+ 'reply_time': '发表于 2025-6-23 08:50:06'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'lhdbx',
+ 'content': 'lichao622 发表于 2025-6-22 22:10 '
+            '相信我，要用zigbee就用绿米的，涂鸦的，或者杂七杂八的不要用。。。。 是的 我之前看欧瑞博质感好，也买来Z2M接入 '
+            '发现第一个没问题 好像是HA1.2协议 '
+            '然后后面买的都不好用，要么只能识别状态，不能远程控制，要么自己每隔半小时自己开关一下，有毒。 涂鸦我不知道买哪个型号呀，求推荐呀 '
+            '好多接入之后，有按钮，但是都是没用功能的 返回都是错误 求推荐 或则带转换器的',
+ 'crawl_time': '2025-07-24T19:53:47.317412',
+ 'floor_num': 17,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681609'],
+ 'reply_time': '发表于 2025-6-23 08:50:45'}
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 19:53:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-1-1.html>
+{'author': 'lhdbx',
+ 'content': 'qjrxsoft 发表于 2025-6-22 21:21 '
+            '哥们及时止损吧，我也是zigbee过度到米家蓝牙mesh的，我之前比任何人都推崇zigbee，入坑zigbee之后才明白 ... '
+            '哎 别说了 已经入坑了 还不想放弃 。 我折腾装完都花了一个月 好不容易全屋覆盖了zigbee网络 '
+            '还有就是奇怪，传感器不能漫游，比如绿米无线开关，我拿到任何地方它都无法就今中继，99方的房子显示都质量特别弱 '
+            'zigbee不是应该优势就是信号传递吗',
+ 'crawl_time': '2025-07-24T19:53:47.317601',
+ 'floor_num': 19,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681610'],
+ 'reply_time': '发表于 2025-6-23 08:52:52'}
+2025-07-24 19:53:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: CSV files closed
+2025-07-24 19:53:47 [forum_spider.pipelines] INFO: Saved 1 posts and 9 replies to JSON files
+2025-07-24 19:53:47 [scrapy.extensions.feedexport] INFO: Stored json feed (1 items) in: output/posts.json
+2025-07-24 19:53:47 [scrapy.extensions.feedexport] INFO: Stored json feed (9 items) in: output/replies.json
+2025-07-24 19:53:47 [scrapy.extensions.feedexport] INFO: Stored csv feed (10 items) in: output/forum_data.csv
+2025-07-24 19:53:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 369,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 18542,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.223797,
+ 'feedexport/success_count/FileFeedStorage': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 24, 11, 53, 47, 318792, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 88475,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 10,
+ 'items_per_minute': None,
+ 'log_count/DEBUG': 14,
+ 'log_count/INFO': 30,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 73809920,
+ 'memusage/startup': 73809920,
+ 'response_received_count': 1,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 7, 24, 11, 53, 47, 94995, tzinfo=datetime.timezone.utc)}
+2025-07-24 19:53:47 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-07-24 20:03:05 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: forum_spider)
+2025-07-24 20:03:05 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.3.1',
+ 'libxml2': '2.12.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 '
+           '(clang-1300.0.29.30)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'macOS-15.5-arm64-arm-64bit'}
+2025-07-24 20:03:05 [forum_spider.spiders.hassbian_spider] INFO: Spider initialized with single_url: None
+2025-07-24 20:03:05 [forum_spider.spiders.hassbian_spider] INFO: Spider configured: max_pages=1, max_posts_per_page=10, max_replies=20
+2025-07-24 20:03:05 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-07-24 20:03:05 [asyncio] DEBUG: Using selector: KqueueSelector
+2025-07-24 20:03:05 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-24 20:03:05 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2025-07-24 20:03:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats']
+2025-07-24 20:03:05 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_DEBUG': True,
+ 'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 1,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'BOT_NAME': 'forum_spider',
+ 'CONCURRENT_REQUESTS': 8,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 2,
+ 'CONCURRENT_REQUESTS_PER_IP': 1,
+ 'DOWNLOAD_DELAY': 2.0,
+ 'DOWNLOAD_TIMEOUT': 30,
+ 'HTTPCACHE_EXPIRATION_SECS': 3600,
+ 'LOG_FILE': 'scrapy.log',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_WARNING_MB': 1024,
+ 'NEWSPIDER_MODULE': 'forum_spider.spiders',
+ 'RANDOMIZE_DOWNLOAD_DELAY': 0.5,
+ 'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],
+ 'RETRY_TIMES': 3,
+ 'SPIDER_MODULES': ['forum_spider.spiders'],
+ 'TELNETCONSOLE_ENABLED': False,
+ 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 '
+               'Safari/537.36'}
+2025-07-24 20:03:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'forum_spider.middlewares.RotateUserAgentMiddleware',
+ 'forum_spider.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-24 20:03:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'forum_spider.middlewares.ForumSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-24 20:03:06 [scrapy.core.spidermw] WARNING: Middleware forum_spider.middlewares.ForumSpiderMiddleware doesn't support asynchronous spider output, this is deprecated and will stop working in a future version of Scrapy. The middleware should be updated to support it. Please see https://docs.scrapy.org/en/latest/topics/coroutines.html#for-middleware-users for more information.
+2025-07-24 20:03:06 [scrapy.middleware] INFO: Enabled item pipelines:
+['forum_spider.pipelines.ValidationPipeline',
+ 'forum_spider.pipelines.DuplicatesPipeline',
+ 'forum_spider.pipelines.TxtWriterPipeline',
+ 'forum_spider.pipelines.JsonWriterPipeline']
+2025-07-24 20:03:06 [scrapy.core.engine] INFO: Spider opened
+2025-07-24 20:03:06 [py.warnings] WARNING: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: forum_spider.spiders.hassbian_spider.HassbianSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: TXT output directory initialized: output/HomeAssistant综合讨论区
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: JSON files initialized
+2025-07-24 20:03:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-24 20:03:06 [hassbian] INFO: Spider opened: hassbian
+2025-07-24 20:03:06 [scrapy.extensions.memusage] INFO: Peak memory usage is 71MiB
+2025-07-24 20:03:06 [scrapy.extensions.throttle] INFO: slot: bbs.hassbian.com | conc: 1 | delay: 2000 ms (+0) | latency:  102 ms | size: 18401 bytes
+2025-07-24 20:03:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/forum-38-1.html> (referer: None)
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Parsing forum list page 1: https://bbs.hassbian.com/forum-38-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Using selector: tbody[id^="normalthread_"] th.new a[href*="thread-"]::attr(href)
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Found 150 total post links, using 10 unique links on page 1
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 1/10: https://bbs.hassbian.com/thread-29901-1-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 2/10: https://bbs.hassbian.com/thread-25894-1-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 3/10: https://bbs.hassbian.com/thread-25894-2-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 4/10: https://bbs.hassbian.com/thread-25894-3-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 5/10: https://bbs.hassbian.com/thread-25894-4-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 6/10: https://bbs.hassbian.com/thread-25894-5-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 7/10: https://bbs.hassbian.com/thread-25894-6-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 8/10: https://bbs.hassbian.com/thread-25894-38-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 9/10: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Processing post 10/10: https://bbs.hassbian.com/thread-29624-2-1.html
+2025-07-24 20:03:06 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  299 ms | size: 15347 bytes
+2025-07-24 20:03:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29624-2-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29624-2-1.html
+2025-07-24 20:03:06 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 29624
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Post saved: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/帖子内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'lhdbx',
+ 'crawl_time': '2025-07-24T20:03:06.759726',
+ 'page_num': 1,
+ 'post_id': ['29624'],
+ 'post_time': '发表于 2025-6-23 08:57:01',
+ 'post_url': 'https://bbs.hassbian.com/thread-29624-2-1.html',
+ 'title': '求好用的zigbee平价设备接入Z2M'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'kmart',
+ 'content': 'lhdbx 发表于 2025-6-23 08:57 我看你的图 还行确实都是绿米，不过我感觉绿米是不是传感器中继有问题 不太好， '
+            '你多少方？几个zigbee ... '
+            '玩了几年的zigbee经验，要稳定而且信号好，全部都使用aqara的产品，网关也使用aqara的网关！ '
+            '再回答一下中继的问题，只有接入了零火线的设备才能中继，单火以及电池的设备没有中继功能！',
+ 'crawl_time': '2025-07-24T20:03:06.761513',
+ 'floor_num': 3,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681615'],
+ 'reply_time': '发表于 2025-6-23 09:26:59'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'lhdbx',
+ 'content': 'kmart 发表于 2025-6-23 09:26 '
+            '玩了几年的zigbee经验，要稳定而且信号好，全部都使用aqara的产品，网关也使用aqara的网关！ 再回答一下 ... '
+            '绿米零活D1 你看我拓扑图 用aqara网关了，那我心心念念的Z2M就没用了 那不是直接绿米了 都没其他了',
+ 'crawl_time': '2025-07-24T20:03:06.762452',
+ 'floor_num': 5,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681616'],
+ 'reply_time': '发表于 2025-6-23 09:36:23'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'gx19970920',
+ 'content': 'lhdbx 发表于 2025-6-23 09:36 绿米零活D1 你看我拓扑图 用aqara网关了，那我心心念念的Z2M就没用了 '
+            '网关你可以买冬瓜的z2m网关，比较好',
+ 'crawl_time': '2025-07-24T20:03:06.763067',
+ 'floor_num': 7,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681623'],
+ 'reply_time': '发表于 2025-6-23 10:10:21'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'lhdbx',
+ 'content': 'gx19970920 发表于 2025-6-23 10:10 网关你可以买冬瓜的z2m网关，比较好 已经搭建好啦 就差比较性价比 '
+            '非常兼容z2M的传感器了',
+ 'crawl_time': '2025-07-24T20:03:06.763430',
+ 'floor_num': 9,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681627'],
+ 'reply_time': '发表于 2025-6-23 10:21:18'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'lichao622',
+ 'content': 'lhdbx 发表于 2025-6-23 08:50 是的 我之前看欧瑞博质感好，也买来Z2M接入 发现第一个没问题 '
+            '好像是HA1.2协议 然后后面买的都不好用 ... 我的意思是只能是用绿米的，涂鸦的别用。真的，我就踩坑了涂鸦的。。。。哈哈',
+ 'crawl_time': '2025-07-24T20:03:06.763804',
+ 'floor_num': 11,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681638'],
+ 'reply_time': '发表于 2025-6-23 10:50:07'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'lichao622',
+ 'content': 'lichao622 发表于 2025-6-23 10:50 '
+            '我的意思是只能是用绿米的，涂鸦的别用。真的，我就踩坑了涂鸦的。。。。哈哈 ... '
+            '我是逐步把所有zigbee设备换成绿米的后就稳定了',
+ 'crawl_time': '2025-07-24T20:03:06.764179',
+ 'floor_num': 13,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681639'],
+ 'reply_time': '发表于 2025-6-23 10:51:16'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'gasment',
+ 'content': '是不是有点过于执着信号覆盖了。。。',
+ 'crawl_time': '2025-07-24T20:03:06.764472',
+ 'floor_num': 15,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681643'],
+ 'reply_time': '发表于 2025-6-23 11:03:17'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'lhdbx',
+ 'content': 'lichao622 发表于 2025-6-23 10:50 '
+            '我的意思是只能是用绿米的，涂鸦的别用。真的，我就踩坑了涂鸦的。。。。哈哈 ... 你这意思 就是不要Z2M了，都全是绿米了 '
+            '还不知直接aqara',
+ 'crawl_time': '2025-07-24T20:03:06.764738',
+ 'floor_num': 17,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681653'],
+ 'reply_time': '发表于 2025-6-23 11:26:24'}
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:06 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29624_求好用的zigbee平价设备接入Z2M/回复内容.txt
+2025-07-24 20:03:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29624-2-1.html>
+{'author': 'lhdbx',
+ 'content': 'gasment 发表于 2025-6-23 11:03 是不是有点过于执着信号覆盖了。。。 那也是论坛忽悠的 说什么信号稳定 '
+            '什么本地直连 什么耗电少 一套一套的 吹Z2M 真坑 都没有一套完整的方案',
+ 'crawl_time': '2025-07-24T20:03:06.765000',
+ 'floor_num': 19,
+ 'post_id': ['29624'],
+ 'reply_id': ['post_681654'],
+ 'reply_time': '发表于 2025-6-23 11:27:38'}
+2025-07-24 20:03:08 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:   28 ms | size:  2632 bytes
+2025-07-24 20:03:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29624-1-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:08 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29624-1-1.html
+2025-07-24 20:03:08 [forum_spider.spiders.hassbian_spider] WARNING: No reply elements found for post 29624
+2025-07-24 20:03:08 [scrapy.core.scraper] WARNING: Dropped: Missing required field: title in {'page_num': 1,
+ 'post_id': ['29624'],
+ 'post_url': 'https://bbs.hassbian.com/thread-29624-1-1.html'}
+{'page_num': 1,
+ 'post_id': ['29624'],
+ 'post_url': 'https://bbs.hassbian.com/thread-29624-1-1.html'}
+2025-07-24 20:03:10 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  356 ms | size: 10918 bytes
+2025-07-24 20:03:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-25894-38-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:10 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-25894-38-1.html
+2025-07-24 20:03:10 [forum_spider.spiders.hassbian_spider] INFO: Extracted 2 replies for post 25894
+2025-07-24 20:03:10 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:10 [forum_spider.pipelines] INFO: Post saved: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/帖子内容.txt
+2025-07-24 20:03:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-38-1.html>
+{'author': 'liyong763435720',
+ 'crawl_time': '2025-07-24T20:03:10.794112',
+ 'page_num': 1,
+ 'post_id': ['25894'],
+ 'post_time': '发表于',
+ 'post_url': 'https://bbs.hassbian.com/thread-25894-38-1.html',
+ 'title': '消逝-手机端（更新2025-07-05）'}
+2025-07-24 20:03:10 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:10 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-38-1.html>
+{'author': 'peng_jia',
+ 'content': '谢谢分享，正在学习',
+ 'crawl_time': '2025-07-24T20:03:10.795315',
+ 'floor_num': 3,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_687215'],
+ 'reply_time': '发表于'}
+2025-07-24 20:03:10 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:10 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-38-1.html>
+{'author': 'a5824420',
+ 'content': '收藏一下，正好需要',
+ 'crawl_time': '2025-07-24T20:03:10.796703',
+ 'floor_num': 5,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_687243'],
+ 'reply_time': '发表于'}
+2025-07-24 20:03:12 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:   58 ms | size: 14492 bytes
+2025-07-24 20:03:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-25894-6-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:12 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-25894-6-1.html
+2025-07-24 20:03:12 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 25894
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:12 [scrapy.core.scraper] WARNING: Dropped: Duplicate post found: 25894
+{'author': 'grd10657',
+ 'crawl_time': '2025-07-24T20:03:12.521212',
+ 'page_num': 1,
+ 'post_id': ['25894'],
+ 'post_time': '发表于 2024-6-27 17:19:37',
+ 'post_url': 'https://bbs.hassbian.com/thread-25894-6-1.html',
+ 'title': '消逝-手机端（更新2025-07-05）'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_3
+{'author': 'aiy1925',
+ 'content': '没有半年搞不好',
+ 'crawl_time': '2025-07-24T20:03:12.522560',
+ 'floor_num': 3,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613160'],
+ 'reply_time': '发表于 2024-6-27 21:16:33'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_5
+{'author': 'areslk',
+ 'content': '先收藏了，过四五年水平提升了在看~~~~',
+ 'crawl_time': '2025-07-24T20:03:12.522921',
+ 'floor_num': 5,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613210'],
+ 'reply_time': '发表于 2024-6-28 09:26:05'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-6-1.html>
+{'author': 'zjksjf',
+ 'content': '感觉是个大工程',
+ 'crawl_time': '2025-07-24T20:03:12.523117',
+ 'floor_num': 7,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613214'],
+ 'reply_time': '发表于 2024-6-28 09:33:31'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-6-1.html>
+{'author': '明明洋洋',
+ 'content': '大佬牛逼',
+ 'crawl_time': '2025-07-24T20:03:12.523639',
+ 'floor_num': 9,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613220'],
+ 'reply_time': '发表于 2024-6-28 09:45:58'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-6-1.html>
+{'author': 'w954095886',
+ 'content': '谢谢分享参考下',
+ 'crawl_time': '2025-07-24T20:03:12.524011',
+ 'floor_num': 11,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613222'],
+ 'reply_time': '发表于 2024-6-28 09:53:06'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-6-1.html>
+{'author': 'xiangboshi',
+ 'content': '完成度这么高，真大佬了',
+ 'crawl_time': '2025-07-24T20:03:12.524369',
+ 'floor_num': 13,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613306'],
+ 'reply_time': '发表于 2024-6-28 15:27:36'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-6-1.html>
+{'author': 'liyw168',
+ 'content': '谢谢分享',
+ 'crawl_time': '2025-07-24T20:03:12.524719',
+ 'floor_num': 15,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613317'],
+ 'reply_time': '发表于 2024-6-28 16:20:20'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-6-1.html>
+{'author': 'LinkStart_Pai',
+ 'content': '太好了，学习一下',
+ 'crawl_time': '2025-07-24T20:03:12.525063',
+ 'floor_num': 17,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613323'],
+ 'reply_time': '发表于 2024-6-28 16:44:03'}
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:12 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/25894_消逝-手机端（更新2025-07-05）/回复内容.txt
+2025-07-24 20:03:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-25894-6-1.html>
+{'author': 'wlhl1001',
+ 'content': '大神求教，這個怎麽設置，怎麽弄',
+ 'crawl_time': '2025-07-24T20:03:12.525426',
+ 'floor_num': 19,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613329'],
+ 'reply_time': '发表于 2024-6-28 17:15:10'}
+2025-07-24 20:03:14 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  323 ms | size: 14417 bytes
+2025-07-24 20:03:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-25894-5-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:14 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-25894-5-1.html
+2025-07-24 20:03:14 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 25894
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate post found: 25894
+{'author': 'jankcy',
+ 'crawl_time': '2025-07-24T20:03:14.785884',
+ 'page_num': 1,
+ 'post_id': ['25894'],
+ 'post_time': '发表于 2024-6-27 08:38:01',
+ 'post_url': 'https://bbs.hassbian.com/thread-25894-5-1.html',
+ 'title': '消逝-手机端（更新2025-07-05）'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_3
+{'author': '月下独茗',
+ 'content': '厉害厉害',
+ 'crawl_time': '2025-07-24T20:03:14.789627',
+ 'floor_num': 3,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613016'],
+ 'reply_time': '发表于 2024-6-27 08:42:49'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_5
+{'author': 'invincible',
+ 'content': '大佬牛逼',
+ 'crawl_time': '2025-07-24T20:03:14.790013',
+ 'floor_num': 5,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613017'],
+ 'reply_time': '发表于 2024-6-27 08:42:52'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_7
+{'author': 'sisucon',
+ 'content': '膜拜大神！学习一下',
+ 'crawl_time': '2025-07-24T20:03:14.790215',
+ 'floor_num': 7,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613022'],
+ 'reply_time': '发表于 2024-6-27 08:53:06'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_9
+{'author': 'yjl',
+ 'content': '先收藏，慢慢学，感谢大佬的分享',
+ 'crawl_time': '2025-07-24T20:03:14.790391',
+ 'floor_num': 9,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613028'],
+ 'reply_time': '发表于 2024-6-27 09:18:00'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_11
+{'author': 'chun950yi',
+ 'content': '厲害！ 感謝分享',
+ 'crawl_time': '2025-07-24T20:03:14.790551',
+ 'floor_num': 11,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613072'],
+ 'reply_time': '发表于 2024-6-27 11:43:39'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_13
+{'author': 'lai95588',
+ 'content': '来凑个热闹',
+ 'crawl_time': '2025-07-24T20:03:14.790710',
+ 'floor_num': 13,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613082'],
+ 'reply_time': '发表于 2024-6-27 12:18:13'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_15
+{'author': 'beilingdi',
+ 'content': '哇啊哇，很不错欸',
+ 'crawl_time': '2025-07-24T20:03:14.790884',
+ 'floor_num': 15,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613087'],
+ 'reply_time': '发表于 2024-6-27 12:30:08'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_17
+{'author': 'lovlin999',
+ 'content': '大神，感谢分享',
+ 'crawl_time': '2025-07-24T20:03:14.791039',
+ 'floor_num': 17,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613107'],
+ 'reply_time': '发表于 2024-6-27 15:21:10'}
+2025-07-24 20:03:14 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:14 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_19
+{'author': 'wuchilai',
+ 'content': '不错。。准备抄个作业',
+ 'crawl_time': '2025-07-24T20:03:14.791177',
+ 'floor_num': 19,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_613124'],
+ 'reply_time': '发表于 2024-6-27 17:02:00'}
+2025-07-24 20:03:17 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  991 ms | size: 14308 bytes
+2025-07-24 20:03:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-25894-4-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:17 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-25894-4-1.html
+2025-07-24 20:03:17 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 25894
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate post found: 25894
+{'author': 'Mqiang115',
+ 'crawl_time': '2025-07-24T20:03:17.453193',
+ 'page_num': 1,
+ 'post_id': ['25894'],
+ 'post_time': '发表于 2024-6-26 13:46:26',
+ 'post_url': 'https://bbs.hassbian.com/thread-25894-4-1.html',
+ 'title': '消逝-手机端（更新2025-07-05）'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_3
+{'author': 'sbswu',
+ 'content': '膜拜大佬。',
+ 'crawl_time': '2025-07-24T20:03:17.454492',
+ 'floor_num': 3,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612857'],
+ 'reply_time': '发表于 2024-6-26 13:54:51'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_5
+{'author': '知道了',
+ 'content': '膜拜大神',
+ 'crawl_time': '2025-07-24T20:03:17.454819',
+ 'floor_num': 5,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612859'],
+ 'reply_time': '发表于 2024-6-26 13:57:53'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_7
+{'author': '峰言疯语',
+ 'content': '2个字，牛逼。3个字，真牛逼。',
+ 'crawl_time': '2025-07-24T20:03:17.454994',
+ 'floor_num': 7,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612920'],
+ 'reply_time': '发表于 2024-6-26 18:38:21'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_9
+{'author': 'kingkang1973',
+ 'content': '牛掰.......................',
+ 'crawl_time': '2025-07-24T20:03:17.455149',
+ 'floor_num': 9,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612965'],
+ 'reply_time': '发表于 2024-6-26 22:19:28'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_11
+{'author': '君六弃',
+ 'content': '膜拜大佬',
+ 'crawl_time': '2025-07-24T20:03:17.455296',
+ 'floor_num': 11,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612976'],
+ 'reply_time': '发表于 2024-6-26 22:49:57'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_13
+{'author': 'Jospo',
+ 'content': '好漂亮啊',
+ 'crawl_time': '2025-07-24T20:03:17.455442',
+ 'floor_num': 13,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612977'],
+ 'reply_time': '发表于 2024-6-26 22:50:52'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_15
+{'author': '甲鸟',
+ 'content': '这界面弄完花了多长时间？',
+ 'crawl_time': '2025-07-24T20:03:17.455583',
+ 'floor_num': 15,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612983'],
+ 'reply_time': '发表于 2024-6-26 23:12:24'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_17
+{'author': 'Aureliano-',
+ 'content': '给跪了，感谢大佬的分享！',
+ 'crawl_time': '2025-07-24T20:03:17.455725',
+ 'floor_num': 17,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612984'],
+ 'reply_time': '发表于 2024-6-26 23:13:57'}
+2025-07-24 20:03:17 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:17 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_19
+{'author': 'louiexu',
+ 'content': '感谢分享，初入HA',
+ 'crawl_time': '2025-07-24T20:03:17.455861',
+ 'floor_num': 19,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612997'],
+ 'reply_time': '发表于 2024-6-27 00:06:30'}
+2025-07-24 20:03:19 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency: 1191 ms | size: 14305 bytes
+2025-07-24 20:03:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-25894-3-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:19 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-25894-3-1.html
+2025-07-24 20:03:19 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 25894
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate post found: 25894
+{'author': 'shenmirenQUQ',
+ 'crawl_time': '2025-07-24T20:03:19.659247',
+ 'page_num': 1,
+ 'post_id': ['25894'],
+ 'post_time': '发表于 2024-6-25 19:26:30',
+ 'post_url': 'https://bbs.hassbian.com/thread-25894-3-1.html',
+ 'title': '消逝-手机端（更新2025-07-05）'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_3
+{'author': 'jhbl',
+ 'content': '感谢分享！！！',
+ 'crawl_time': '2025-07-24T20:03:19.660586',
+ 'floor_num': 3,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612735'],
+ 'reply_time': '发表于 2024-6-25 20:39:02'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_5
+{'author': 'cj09',
+ 'content': '大神！6666',
+ 'crawl_time': '2025-07-24T20:03:19.660970',
+ 'floor_num': 5,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612746'],
+ 'reply_time': '发表于 2024-6-25 21:51:00'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_7
+{'author': 'yly',
+ 'content': '感谢分享，，，，',
+ 'crawl_time': '2025-07-24T20:03:19.661243',
+ 'floor_num': 7,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612751'],
+ 'reply_time': '发表于 2024-6-25 22:13:55'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_9
+{'author': 'theatrics',
+ 'content': '很棒啊，抄作业咯',
+ 'crawl_time': '2025-07-24T20:03:19.661442',
+ 'floor_num': 9,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612770'],
+ 'reply_time': '发表于 2024-6-26 02:23:09'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_11
+{'author': 'PerryLayne',
+ 'content': '膜拜膜拜，我一直想弄那个户型图那个，结果最后卡在了灯光效果那一步无法往下进行了',
+ 'crawl_time': '2025-07-24T20:03:19.661633',
+ 'floor_num': 11,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612774'],
+ 'reply_time': '发表于 2024-6-26 06:54:32'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_13
+{'author': 'qtip0909',
+ 'content': '膜拜大佬',
+ 'crawl_time': '2025-07-24T20:03:19.661789',
+ 'floor_num': 13,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612819'],
+ 'reply_time': '发表于 2024-6-26 10:25:12'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_15
+{'author': 'walun',
+ 'content': '简单好用，学习学习',
+ 'crawl_time': '2025-07-24T20:03:19.661951',
+ 'floor_num': 15,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612825'],
+ 'reply_time': '发表于 2024-6-26 10:45:49'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_17
+{'author': 'init_0',
+ 'content': '真的牛逼，ha玩了几年了，UI界面没弄好一个。',
+ 'crawl_time': '2025-07-24T20:03:19.662095',
+ 'floor_num': 17,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612829'],
+ 'reply_time': '发表于 2024-6-26 10:57:59'}
+2025-07-24 20:03:19 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:19 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_19
+{'author': 'Domisy',
+ 'content': '学习一下',
+ 'crawl_time': '2025-07-24T20:03:19.662238',
+ 'floor_num': 19,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612832'],
+ 'reply_time': '发表于 2024-6-26 11:13:44'}
+2025-07-24 20:03:20 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  231 ms | size: 14204 bytes
+2025-07-24 20:03:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-25894-2-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:20 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-25894-2-1.html
+2025-07-24 20:03:20 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 25894
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate post found: 25894
+{'author': 'wjh1025',
+ 'crawl_time': '2025-07-24T20:03:20.697174',
+ 'page_num': 1,
+ 'post_id': ['25894'],
+ 'post_time': '发表于 2024-6-25 14:19:11',
+ 'post_url': 'https://bbs.hassbian.com/thread-25894-2-1.html',
+ 'title': '消逝-手机端（更新2025-07-05）'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_3
+{'author': 'www4524206',
+ 'content': '本帖最后由 www4524206 于 2024-6-25 14:53 编辑 很漂亮！！不过刚接触HA，大佬能出个视频详细讲解下吗 '
+            '谢谢',
+ 'crawl_time': '2025-07-24T20:03:20.698596',
+ 'floor_num': 3,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612650'],
+ 'reply_time': '发表于 2024-6-25 14:34:35'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_5
+{'author': '嘉诺的智能生活',
+ 'content': '大佬，牛逼，学习了',
+ 'crawl_time': '2025-07-24T20:03:20.699001',
+ 'floor_num': 5,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612659'],
+ 'reply_time': '发表于 2024-6-25 15:13:04'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_7
+{'author': '龙柒爸爸',
+ 'content': '感谢楼主分享！',
+ 'crawl_time': '2025-07-24T20:03:20.699208',
+ 'floor_num': 7,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612684'],
+ 'reply_time': '发表于 2024-6-25 16:27:07'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_9
+{'author': 'Capricornus',
+ 'content': '感谢楼主分享',
+ 'crawl_time': '2025-07-24T20:03:20.699387',
+ 'floor_num': 9,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612692'],
+ 'reply_time': '发表于 2024-6-25 16:57:03'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_11
+{'author': 'cyp0737',
+ 'content': '好好学习 感谢大佬',
+ 'crawl_time': '2025-07-24T20:03:20.699555',
+ 'floor_num': 11,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612697'],
+ 'reply_time': '发表于 2024-6-25 17:04:17'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_13
+{'author': 'taioner',
+ 'content': '学习了啊',
+ 'crawl_time': '2025-07-24T20:03:20.699720',
+ 'floor_num': 13,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612707'],
+ 'reply_time': '发表于 2024-6-25 17:37:57'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_15
+{'author': 'labi',
+ 'content': '感谢楼主分享！',
+ 'crawl_time': '2025-07-24T20:03:20.699886',
+ 'floor_num': 15,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612715'],
+ 'reply_time': '发表于 2024-6-25 18:24:16'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_17
+{'author': 'shusheng',
+ 'content': '学习一下',
+ 'crawl_time': '2025-07-24T20:03:20.700045',
+ 'floor_num': 17,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612718'],
+ 'reply_time': '发表于 2024-6-25 18:43:12'}
+2025-07-24 20:03:20 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:20 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_19
+{'author': '发如雪',
+ 'content': '膜拜大佬，努力成长',
+ 'crawl_time': '2025-07-24T20:03:20.700200',
+ 'floor_num': 19,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612725'],
+ 'reply_time': '发表于 2024-6-25 19:12:55'}
+2025-07-24 20:03:22 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  228 ms | size: 17808 bytes
+2025-07-24 20:03:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-25894-1-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:22 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-25894-1-1.html
+2025-07-24 20:03:22 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 25894
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate post found: 25894
+{'author': '消逝',
+ 'crawl_time': '2025-07-24T20:03:22.695382',
+ 'page_num': 1,
+ 'post_id': ['25894'],
+ 'post_time': '发表于 2024-6-24 23:31:39',
+ 'post_url': 'https://bbs.hassbian.com/thread-25894-1-1.html',
+ 'title': '消逝-手机端（更新2025-07-05）'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_3
+{'author': 'bugensui',
+ 'content': '没有半年搞不好',
+ 'crawl_time': '2025-07-24T20:03:22.696885',
+ 'floor_num': 3,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612541'],
+ 'reply_time': '发表于 2024-6-25 00:24:54'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_5
+{'author': 'qiaofei828',
+ 'content': '这种的户型图怎么画？',
+ 'crawl_time': '2025-07-24T20:03:22.697453',
+ 'floor_num': 5,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612548'],
+ 'reply_time': '发表于 2024-6-25 07:37:24'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_7
+{'author': 'a_dongde',
+ 'content': '我拿着代码不问大佬的话，，，根本无从下手',
+ 'crawl_time': '2025-07-24T20:03:22.697693',
+ 'floor_num': 7,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612549'],
+ 'reply_time': '发表于 2024-6-25 08:11:41'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_9
+{'author': 'hamtalk',
+ 'content': '不错，这是我见过的最不花哨而且直接好看的UI了。不知道手机界面显示如何。',
+ 'crawl_time': '2025-07-24T20:03:22.697870',
+ 'floor_num': 9,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612568'],
+ 'reply_time': '发表于 2024-6-25 09:57:59'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_11
+{'author': '消逝',
+ 'content': 'hamtalk 发表于 2024-6-25 09:57 不错，这是我见过的最不花哨而且直接好看的UI了。不知道手机界面显示如何。 '
+            '... 手机端显示不行，手机端先是要单独做，可以参照论坛里的蘑菇卡片得那个，那个手机端很好看',
+ 'crawl_time': '2025-07-24T20:03:22.698037',
+ 'floor_num': 11,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612572'],
+ 'reply_time': '发表于 2024-6-25 10:07:16'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_13
+{'author': '消逝',
+ 'content': 'qiaofei828 发表于 2024-6-25 07:37 这种的户型图怎么画？ '
+            '户型图是AI+PS+阴影插件shadowify做的，可以搜索【奶油风彩平图】，一般B站、抖音、小红书、知乎都有教程，等我有时间也可以做个教程',
+ 'crawl_time': '2025-07-24T20:03:22.698234',
+ 'floor_num': 13,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612573'],
+ 'reply_time': '发表于 2024-6-25 10:09:42'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_15
+{'author': '4eszxcvgy7',
+ 'content': '我看了也是白看，看不懂。。。刚来半个月',
+ 'crawl_time': '2025-07-24T20:03:22.698402',
+ 'floor_num': 15,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612574'],
+ 'reply_time': '发表于 2024-6-25 10:10:09'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_17
+{'author': '点来点去',
+ 'content': '膜拜大佬。',
+ 'crawl_time': '2025-07-24T20:03:22.698551',
+ 'floor_num': 17,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612584'],
+ 'reply_time': '发表于 2024-6-25 10:20:13'}
+2025-07-24 20:03:22 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:22 [scrapy.core.scraper] WARNING: Dropped: Duplicate reply found: 25894_19
+{'author': 'mykc',
+ 'content': '感谢分享，抄个作业',
+ 'crawl_time': '2025-07-24T20:03:22.698699',
+ 'floor_num': 19,
+ 'post_id': ['25894'],
+ 'reply_id': ['post_612635'],
+ 'reply_time': '发表于 2024-6-25 13:53:10'}
+2025-07-24 20:03:24 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  326 ms | size: 11925 bytes
+2025-07-24 20:03:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29901-1-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:03:24 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29901-1-1.html
+2025-07-24 20:03:24 [forum_spider.spiders.hassbian_spider] INFO: Extracted 1 replies for post 29901
+2025-07-24 20:03:24 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:03:24 [forum_spider.pipelines] INFO: Post saved: output/HomeAssistant综合讨论区/29901_设定晚上自动调空调但有时触发有时又不触发/帖子内容.txt
+2025-07-24 20:03:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29901-1-1.html>
+{'author': 'aiqinxuancai',
+ 'crawl_time': '2025-07-24T20:03:24.767392',
+ 'page_num': 1,
+ 'post_id': ['29901'],
+ 'post_time': '发表于',
+ 'post_url': 'https://bbs.hassbian.com/thread-29901-1-1.html',
+ 'title': '设定晚上自动调空调但有时触发有时又不触发'}
+2025-07-24 20:03:24 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:03:24 [forum_spider.pipelines] INFO: Reply saved to: output/HomeAssistant综合讨论区/29901_设定晚上自动调空调但有时触发有时又不触发/回复内容.txt
+2025-07-24 20:03:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29901-1-1.html>
+{'author': 'george65',
+ 'content': '你那個持續了22:00是要持續22小時才會觸發嗎??',
+ 'crawl_time': '2025-07-24T20:03:24.768587',
+ 'floor_num': 3,
+ 'post_id': ['29901'],
+ 'reply_id': ['post_687244'],
+ 'reply_time': '发表于'}
+2025-07-24 20:03:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-07-24 20:03:24 [forum_spider.pipelines] INFO: Saved 3 posts and 19 replies to JSON files
+2025-07-24 20:03:24 [forum_spider.pipelines] INFO: TXT files saved in forum structure under: output/HomeAssistant综合讨论区
+2025-07-24 20:03:24 [scrapy.extensions.feedexport] INFO: Stored json feed (3 items) in: output/posts.json
+2025-07-24 20:03:24 [scrapy.extensions.feedexport] INFO: Stored json feed (19 items) in: output/replies.json
+2025-07-24 20:03:24 [scrapy.extensions.feedexport] INFO: Stored csv feed (22 items) in: output/forum_data.csv
+2025-07-24 20:03:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5435,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 158221,
+ 'downloader/response_count': 11,
+ 'downloader/response_status_count/200': 11,
+ 'elapsed_time_seconds': 18.688494,
+ 'feedexport/success_count/FileFeedStorage': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 24, 12, 3, 24, 770314, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 743358,
+ 'httpcompression/response_count': 11,
+ 'item_dropped_count': 54,
+ 'item_dropped_reasons_count/DropItem': 54,
+ 'item_scraped_count': 22,
+ 'items_per_minute': None,
+ 'log_count/DEBUG': 36,
+ 'log_count/INFO': 157,
+ 'log_count/WARNING': 57,
+ 'memusage/max': 74924032,
+ 'memusage/startup': 74924032,
+ 'request_depth_max': 1,
+ 'response_received_count': 11,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'start_time': datetime.datetime(2025, 7, 24, 12, 3, 6, 81820, tzinfo=datetime.timezone.utc)}
+2025-07-24 20:03:24 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -5193,3 +5193,213 @@ AttributeError: 'HassbianSpider' object has no attribute 'settings'
  'post_id': ['19349'],
  'reply_id': ['post_507533'],
  'reply_time': '发表于 2023-1-29 08:51:38'}
+2025-07-24 20:18:26 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:  119 ms | size: 13961 bytes
+2025-07-24 20:18:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29897-1-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:18:26 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29897-1-1.html
+2025-07-24 20:18:26 [forum_spider.spiders.hassbian_spider] INFO: Extracted 0 replies for post 29897
+2025-07-24 20:18:26 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:18:26 [forum_spider.pipelines] INFO: New post accepted: 29897
+2025-07-24 20:18:26 [forum_spider.pipelines] INFO: Post initialized: output/HomeAssistant综合讨论区/29897_分享自设计同时喂食笼中三只兔子喂食机，接入ha同时兼顾定时、离线喂食，ha挂了也不影/完整内容.txt
+2025-07-24 20:18:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29897-1-1.html>
+{'author': 'wangmucha',
+ 'content': 'ＰＳ：玩智能家居终极理想是啥？哈哈～自己设计自己想要的设备！ '
+            '我家三只兔子是笼养的２只、散养的1只，我老婆大人要求兔子不让随便吃的，所以那种无限自动续粮的便宜的没电力结构的喂食器就不考虑了。 '
+            '某宝上看了下大部分的喂食机都是其他种类的圆的颗粒的狗粮猫粮喂食机，而兔粮的机构上长条形的，那种为圆形设计的自动喂食机感觉容易卡粮，所以看了半天也看不下来，再加上我兔子有2只是笼养。 '
+            '网上的多是散养的不适合笼养，找了半天找到一款一个兔子笼子的自动喂食机要快300了吧，三只要900，且得独立安装占地方。于是脑洞了下，能不能自己设计一款同时兼容三只兔子的喂食机呢？接入ha后就无敌了，然后我家5月底刚买了拓竹P1s带AMS的续料系统的活动价才3200多，还送小礼品+700元材料套件礼盒，以前都是4000-5000，果断买了，加上现学的fasion360，于是半个月后就诞生了一台支持同时喂食三只笼养兔子的自动喂食机，刷了tasmota接入ha，兼容定时、离线自动喂食，ha崩溃了不不怕，有ha功能更多，可以设置微信提现喂食以及喂食会tts音箱提醒兔子吃饭（TTS录制的是我儿子的声音 '
+            '哈哈哈），也可以用esphome，不过我这环境编译esphome麻烦点，且我对esphome不熟悉就用了tasmota '
+            '登录/注册后可看大图 192817c1e93f0fb118fd577a319123a.png (315.36 KB, 下载次数: '
+            '0) 下载附件 半小时前 上传 登录/注册后可看大图 047988545eb074e00280227725ac41d.png '
+            '(299.64 KB, 下载次数: 0) 下载附件 半小时前 上传 登录/注册后可看大图 '
+            '747fa769fccbd82d906836faf1cf063.png (451.88 KB, 下载次数: 0) 下载附件 '
+            '半小时前 上传 登录/注册后可看大图 c245c9ff6b08db53a937956ff7f3256.png (171.5 KB, '
+            '下载次数: 0) 下载附件 半小时前 上传 登录/注册后可看大图 '
+            'cf594aa63e945e9010975c62689b465.png (207.16 KB, 下载次数: 0) 下载附件 '
+            '半小时前 上传 登录/注册后可看大图 776d587de609f6f8461a004c8807a57.png (387 KB, '
+            '下载次数: 0) 下载附件 半小时前 上传 登录/注册后可看大图 '
+            'da4e69f325c63b1c673b7cf31d77a95.png (880.48 KB, 下载次数: 0) 下载附件 '
+            '半小时前 上传 登录/注册后可看大图 89d2d8c48565db4785f757c481c8cdf.png (880.88 '
+            'KB, 下载次数: 0) 下载附件 半小时前 上传 登录/注册后可看大图 '
+            'e465ee32b0c242a9b96649a87f1c639.png (374.51 KB, 下载次数: 0) 下载附件 '
+            '半小时前 上传 .guestviewthumb {margin:10px auto; '
+            'text-align:center;}.guestviewthumb a '
+            '{font-size:12px;}.guestviewthumb_cur '
+            '{cursor:url("https://www.hasstatic.com/image/common/scf.gif"), '
+            'default; max-width:100px;}.ie6 .guestviewthumb_cur { width:100px '
+            '!important;} 登录/注册后可看大图 1f8efc7c6daf84f3a2bacba63568e61.png '
+            '(376.65 KB, 下载次数: 0) 下载附件 半小时前 上传 登录/注册后可看大图 '
+            'dbbb18418f16251333b3570c8487071.png (90.99 KB, 下载次数: 0) 下载附件 半小时前 '
+            '上传 登录/注册后可看大图 a6fccc32ed618867ff75da3233d9e35.png (78.06 KB, '
+            '下载次数: 0) 下载附件 半小时前 上传 登录/注册后可看大图 '
+            '870c24aabadcc2350ab7b8b2d176ffa.png (62.74 KB, 下载次数: 0) 下载附件 半小时前 '
+            '上传',
+ 'crawl_time': '2025-07-24T20:18:26.574727',
+ 'page_num': 1,
+ 'post_id': ['29897'],
+ 'post_time': '发表于',
+ 'post_url': 'https://bbs.hassbian.com/thread-29897-1-1.html',
+ 'title': '分享自设计同时喂食笼中三只兔子喂食机，接入ha同时兼顾定时、离线喂食，ha挂了也不影'}
+2025-07-24 20:18:28 [scrapy.extensions.throttle] INFO: slot: 198.18.1.174 | conc: 1 | delay: 2000 ms (+0) | latency:   31 ms | size: 16212 bytes
+2025-07-24 20:18:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hassbian.com/thread-29877-1-1.html> (referer: https://bbs.hassbian.com/forum-38-1.html)
+2025-07-24 20:18:28 [forum_spider.spiders.hassbian_spider] INFO: Parsing post detail: https://bbs.hassbian.com/thread-29877-1-1.html
+2025-07-24 20:18:28 [forum_spider.spiders.hassbian_spider] INFO: Extracted 9 replies for post 29877
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: PostItem
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: New post accepted: 29877
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Post initialized: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': 'frx',
+ 'content': '如题 '
+            'https://github.com/wessamlauf/homeassistant-frosted-glass-themes '
+            '登录/注册后可看大图 468727332-98492b6c-8244-4bfc-ac47-f6ebaf089244.gif '
+            '(4.85 MB, 下载次数: 1) 下载附件 前天 13:38 上传',
+ 'crawl_time': '2025-07-24T20:18:28.489558',
+ 'page_num': 1,
+ 'post_id': ['29877'],
+ 'post_time': '发表于',
+ 'post_url': 'https://bbs.hassbian.com/thread-29877-1-1.html',
+ 'title': '发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_3
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 3)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': '573176128',
+ 'content': '装了可以设置背景图的透明度，底部dock栏也不知道怎么实现',
+ 'crawl_time': '2025-07-24T20:18:28.491248',
+ 'floor_num': 3,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686793'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_5
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 5)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': 'XQapp',
+ 'content': '用的是navbar card⬇️ '
+            'https://github.com/joseluis9595/lovelace-navbar-card 主题大概是Frosted '
+            'Glass https://github.com/wessamlauf/ho ... ?tab=readme-ov-file '
+            '.guestviewthumb {margin:10px auto; '
+            'text-align:center;}.guestviewthumb a '
+            '{font-size:12px;}.guestviewthumb_cur '
+            '{cursor:url("https://www.hasstatic.com/image/common/scf.gif"), '
+            'default; max-width:100px;}.ie6 .guestviewthumb_cur { width:100px '
+            '!important;} 登录/注册后可看大图',
+ 'crawl_time': '2025-07-24T20:18:28.491829',
+ 'floor_num': 5,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686795'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_7
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 7)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': 'hassmingovo',
+ 'content': 'bubble card Horizontal buttons stack + 样式应该可以实现',
+ 'crawl_time': '2025-07-24T20:18:28.492178',
+ 'floor_num': 7,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686801'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_9
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 9)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': 'xiaomi2024',
+ 'content': '这个要用魔法才能访问吧?',
+ 'crawl_time': '2025-07-24T20:18:28.492470',
+ 'floor_num': 9,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686806'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_11
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 11)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': 'frx',
+ 'content': 'xiaomi2024 发表于 2025-7-22 14:50 这个要用魔法才能访问吧? 嗯，可以试试 '
+            'https://gitee.com/klmahuaw/GitHub520',
+ 'crawl_time': '2025-07-24T20:18:28.492858',
+ 'floor_num': 11,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686818'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_13
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 13)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': '573176128',
+ 'content': 'Navbar Card，这个你看看是不是',
+ 'crawl_time': '2025-07-24T20:18:28.493142',
+ 'floor_num': 13,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686826'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_15
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 15)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': 'frx',
+ 'content': '573176128 发表于 2025-7-22 15:44 Navbar Card，这个你看看是不是 装上了，就是他，谢谢啦',
+ 'crawl_time': '2025-07-24T20:18:28.493412',
+ 'floor_num': 15,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686828'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_17
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 17)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': '冬暖夏凉',
+ 'content': 'xiaomi2024 发表于 2025-7-22 14:50 这个要用魔法才能访问吧? 微软商店搜watt '
+            'toolkit，这个软件可以给github加速（免费）',
+ 'crawl_time': '2025-07-24T20:18:28.493678',
+ 'floor_num': 17,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_686837'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Item validated: ReplyItem
+2025-07-24 20:18:28 [forum_spider.pipelines] DEBUG: New reply accepted: 29877_19
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Reply appended to: output/HomeAssistant综合讨论区/29877_发现个主题很漂亮，想问问有没有谁知道他下方的导航栏是怎么实现的/完整内容.txt (Floor: 19)
+2025-07-24 20:18:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hassbian.com/thread-29877-1-1.html>
+{'author': 'xiaomi2024',
+ 'content': '冬暖夏凉 发表于 2025-7-22 16:35 微软商店搜watt toolkit，这个软件可以给github加速（免费） '
+            '这个太麻烦了. 还是gitee好用',
+ 'crawl_time': '2025-07-24T20:18:28.493947',
+ 'floor_num': 19,
+ 'post_id': ['29877'],
+ 'reply_id': ['post_687108'],
+ 'reply_time': '发表于'}
+2025-07-24 20:18:28 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Saved 10 posts and 82 replies to JSON files
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: TXT files saved in forum structure under: output/HomeAssistant综合讨论区
+2025-07-24 20:18:28 [forum_spider.pipelines] INFO: Total posts processed in this session: 10
+2025-07-24 20:18:28 [scrapy.extensions.feedexport] INFO: Stored json feed (10 items) in: output/posts.json
+2025-07-24 20:18:28 [scrapy.extensions.feedexport] INFO: Stored json feed (82 items) in: output/replies.json
+2025-07-24 20:18:28 [scrapy.extensions.feedexport] INFO: Stored csv feed (92 items) in: output/forum_data.csv
+2025-07-24 20:18:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4843,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 226451,
+ 'downloader/response_count': 11,
+ 'downloader/response_status_count/200': 11,
+ 'elapsed_time_seconds': 18.439192,
+ 'feedexport/success_count/FileFeedStorage': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 24, 12, 18, 28, 495612, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1161135,
+ 'httpcompression/response_count': 11,
+ 'item_scraped_count': 92,
+ 'items_per_minute': None,
+ 'log_count/DEBUG': 188,
+ 'log_count/INFO': 274,
+ 'log_count/WARNING': 2,
+ 'memusage/max': 74219520,
+ 'memusage/startup': 74219520,
+ 'request_depth_max': 1,
+ 'response_received_count': 11,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'start_time': datetime.datetime(2025, 7, 24, 12, 18, 10, 56420, tzinfo=datetime.timezone.utc)}
+2025-07-24 20:18:28 [scrapy.core.engine] INFO: Spider closed (finished)

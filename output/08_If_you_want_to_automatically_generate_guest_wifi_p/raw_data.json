@@ -1,0 +1,46 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130559670548705/",
+  "time": "2025-07-24T09:02:38.000Z",
+  "user": {
+    "id": "100000830768966",
+    "name": "Attila Rózsa"
+  },
+  "text": "If you want to automatically generate guest wifi password, but your router doesn't support this via API calls:\n\n",
+  "link": "https://community.home-assistant.io/t/automatically-generate-guest-wifi-password-for-routers-not-supporting-this-via-api/913761",
+  "previewTitle": "Automatically generate guest wifi password for routers not supporting this via API",
+  "previewDescription": "This project might help others with similar router to work this around. General use case: generate guest wifi password on a daily basis or when the guest wifi is restarted and have a QR-code displayed on the dashboard. environment: this was tested on a Raspberry Pi 4 making use of its onboard wifi a...",
+  "previewSource": "community.home-assistant.io",
+  "previewTarget": {
+    "__typename": "ExternalUrl",
+    "article_author": null,
+    "external_url": "https://community.home-assistant.io/t/automatically-generate-guest-wifi-password-for-routers-not-supporting-this-via-api/913761",
+    "id": "226547524203272:24035857876025236"
+  },
+  "topReactionsCount": 0,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDU1OTY3MDU0ODcwNQ==",
+  "id": "UzpfSTEwMDAwMDgzMDc2ODk2NjpWSzo0MTMwNTU5NjcwNTQ4NzA1",
+  "legacyId": "4130559670548705",
+  "title": "Automatically generate guest wifi password for routers not supporting this via API",
+  "attachments": [
+    {
+      "thumbnail": "https://external.fkhi11-2.fna.fbcdn.net/emg1/v/t13/10022625585238972757?url=https%3A%2F%2Fcommunity-assets.home-assistant.io%2Foriginal%2F4X%2F5%2F9%2Fb%2F59b1a89929f38ad50e6c65c79150e41b12cee63d.jpeg&fb_obo=1&utld=home-assistant.io&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=pnCeJCZ_5DtJ_C_GzUerMg&_nc_oc=AdnaTPBkp_c-7qR-Sk2e1tSbSxcbI8K35BvvEYj9W6ojtZx476ksbDFLWKXg-dXKaVE&ccb=13-1&oh=06_Q3-1AZmt3Uk5J-3OnEk1TcbtKIdEFMKKptj7ytL6AHstltXS&oe=6884018A&_nc_sid=085657",
+      "__typename": "GenericAttachmentMedia",
+      "__isMedia": "GenericAttachmentMedia",
+      "flexible_height_share_image": null,
+      "large_share_image": {
+        "height": 261,
+        "uri": "https://external.fkhi11-2.fna.fbcdn.net/emg1/v/t13/10022625585238972757?url=https%3A%2F%2Fcommunity-assets.home-assistant.io%2Foriginal%2F4X%2F5%2F9%2Fb%2F59b1a89929f38ad50e6c65c79150e41b12cee63d.jpeg&fb_obo=1&utld=home-assistant.io&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=pnCeJCZ_5DtJ_C_GzUerMg&_nc_oc=AdnaTPBkp_c-7qR-Sk2e1tSbSxcbI8K35BvvEYj9W6ojtZx476ksbDFLWKXg-dXKaVE&ccb=13-1&oh=06_Q3-1AZmt3Uk5J-3OnEk1TcbtKIdEFMKKptj7ytL6AHstltXS&oe=6884018A&_nc_sid=085657",
+        "width": 500
+      },
+      "id": "24035857876025236"
+    }
+  ],
+  "likesCount": 0,
+  "sharesCount": 0,
+  "commentsCount": 0,
+  "topComments": [],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

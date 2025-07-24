@@ -1,0 +1,78 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130152290589443/",
+  "time": "2025-07-23T23:28:44.000Z",
+  "user": {
+    "id": "pfbid0pEvGWgcPG1QTryyPFHPrzB2iJ6DBQVsaPKPZE9f8joU9hsavKYcRkfmUaRZgLWwTl",
+    "name": "Zachary Gibson"
+  },
+  "text": "I have it up running three switchbot blind tilts, a few govee items (I think) I went step by step on this guide on youtube. Now the thing is, I have removed the switchbot hub, and the blinds still work. So I know the BT proxy is working. I just don’t know why it’s not passive scanning for NEW or “available” BT devices.  I have numerous devices that it should be detecting. \n\nIn fact I have a TTlock integration that runs BT on the “cloud” through a gateway.  I would love to connect those locks directly to the BT proxy I set up. \n\nI’ve spent HOURS on YouTube, forums, here, and with a few people. I’m not understanding.   \n\nThanks if you read that far. I do know HA, I have zwave, zigbee, WiFi, hundreds of devices and automations. This BT stuff is confusing me…any one willing to help me out???",
+  "link": "https://esphome.io/projects/index.html",
+  "topReactionsCount": 1,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDE1MjI5MDU4OTQ0Mw==",
+  "reactionLikeCount": 4,
+  "id": "UzpfSTEwMDA1MTU4OTU0MjIxNzpWSzo0MTMwMTUyMjkwNTg5NDQz",
+  "legacyId": "4130152290589443",
+  "title": "Ready-Made Projects",
+  "attachments": [
+    {
+      "thumbnail": "https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-6/520220138_1286721529724153_835205465326000456_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wM0h969M4iIQ7kNvwFv1M1l&_nc_oc=Adl5BOPlCKYTeImOtFmM_8ZybDKtjZMovg0AenCvj7tTInHPyN0adxyWjWghbxhfiYk&_nc_zt=23&_nc_ht=scontent-bom2-3.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfSk3UYlWJJkZhwX_nG58Icua4cgwm4oWf2j-VEhqJZdSg&oe=6887EC37",
+      "__typename": "Photo",
+      "photo_image": {
+        "uri": "https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-6/520220138_1286721529724153_835205465326000456_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wM0h969M4iIQ7kNvwFv1M1l&_nc_oc=Adl5BOPlCKYTeImOtFmM_8ZybDKtjZMovg0AenCvj7tTInHPyN0adxyWjWghbxhfiYk&_nc_zt=23&_nc_ht=scontent-bom2-3.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfSk3UYlWJJkZhwX_nG58Icua4cgwm4oWf2j-VEhqJZdSg&oe=6887EC37",
+        "height": 935,
+        "width": 526
+      },
+      "__isMedia": "Photo",
+      "accent_color": "FF3D4045",
+      "photo_product_tags": [],
+      "url": "https://www.facebook.com/photo.php?fbid=1286721526390820&set=gm.4130152290589443&type=3",
+      "id": "1286721526390820",
+      "ocrText": "May be an image of text"
+    }
+  ],
+  "likesCount": 4,
+  "sharesCount": 0,
+  "commentsCount": 16,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130152290589443/?comment_id=4130167510587921",
+      "id": "Y29tbWVudDo0MTMwMTUyMjkwNTg5NDQzXzQxMzAxNjc1MTA1ODc5MjE=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDE1MjI5MDU4OTQ0M180MTMwMTY3NTEwNTg3OTIx",
+      "date": "2025-07-23T23:59:22.000Z",
+      "text": "You still need integrations for the BT devices.",
+      "profilePicture": "https://scontent-bom2-1.xx.fbcdn.net/v/t39.30808-1/330398897_674794737980420_1199427900731440790_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=DB2c0iRYCKwQ7kNvwFIQmIT&_nc_oc=AdnY1Qc8Pcts4LFpEsgYLuE1grcK0Rpaph-U_cnaTeRxqV-a9fvQbG5znDc6W02q084&_nc_zt=24&_nc_ht=scontent-bom2-1.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfTylj9hhM6uNKCbtpUdy2E1oGNX7z4QFCnuxetNg2OXGg&oe=6887D9F5",
+      "profileId": "pfbid0sLF15TtKeFFBvBSz2fPZfjicMQ27bDAC1R9LVfnksQzWW8YiyysD9LxRwgwWL1rtl",
+      "profileName": "David Bailey",
+      "likesCount": "2",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130152290589443/?comment_id=4130154720589200",
+      "id": "Y29tbWVudDo0MTMwMTUyMjkwNTg5NDQzXzQxMzAxNTQ3MjA1ODkyMDA=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDE1MjI5MDU4OTQ0M180MTMwMTU0NzIwNTg5MjAw",
+      "date": "2025-07-23T23:33:50.000Z",
+      "text": "I did this and it was discovered by HA and then my Bluetooth devices did too\n\nhttps://esphome.io/projects/index.html",
+      "attachments": [
+        {
+          "__typename": "GenericAttachmentMedia",
+          "fallback_image": {
+            "height": 98,
+            "uri": "https://external-bom2-2.xx.fbcdn.net/emg1/v/t13/16471924396277916672?url=https%3A%2F%2Fesphome.io%2F_images%2Fauto-fix.png&fb_obo=1&utld=esphome.io&stp=c0.5000x0.5000f_dst-emg0_p98x98_q75_tt6&_nc_gid=xqJlWxEUcpYklEOMukDtqA&_nc_oc=AdkpICUAwI0CmSuY-8iaSQjnzDxF8Lf0Qdf5HAqTqXJ1CZRbud3A-JshgqNYy1MDNRA&ccb=13-1&oh=06_Q3-1AYTmhI-wyz232kRkr9sHpsvD4rh5ZtzTHwOWGxZc06gH&oe=6883F188&_nc_sid=085657",
+            "width": 98
+          },
+          "is_playable": false,
+          "id": "10162896966386638"
+        }
+      ],
+      "profilePicture": "https://scontent-bom2-1.xx.fbcdn.net/v/t39.30808-1/468144068_10161898856866638_5135644434875913069_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Uw7pGnU6ytAQ7kNvwHlHvJX&_nc_oc=AdnBe0TGxribbof3z-mTunObsQDbVuyzOaViF8SBD5z9BRSYDl4Z-7ZRbYMO8lQdo18&_nc_zt=24&_nc_ht=scontent-bom2-1.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfQsRQHEEIrK4X5EbO6RczHTD_E9b1mMlnRhPg-nJqef4g&oe=6887E3CC",
+      "profileId": "pfbid02fsv4aBJ16qXjjozoTcdmzjQw2vVxyVDQ6GR16UV31YxUjzCyZK2sNG4uJBxVqdvWl",
+      "profileName": "Jerry Gapinski",
+      "likesCount": "2",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

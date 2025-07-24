@@ -1,0 +1,64 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130263360578336/",
+  "time": "2025-07-24T02:35:21.000Z",
+  "user": {
+    "id": "1001826682",
+    "name": "Brandon Hill"
+  },
+  "text": "Anyway to fix this with ring cameras?",
+  "topReactionsCount": 1,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDI2MzM2MDU3ODMzNg==",
+  "reactionLikeCount": 1,
+  "id": "UzpfSTEwMDE4MjY2ODI6Vks6NDEzMDI2MzM2MDU3ODMzNg==",
+  "legacyId": "4130263360578336",
+  "attachments": [
+    {
+      "thumbnail": "https://scontent-bom2-4.xx.fbcdn.net/v/t39.30808-6/515439541_10234208196758660_251987266987219696_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dhxS4puCURYQ7kNvwEeV_JN&_nc_oc=AdkvJkjLddbnAamhaYTZaTEP7C3d3cP1rWspuNefsLGKxLXTE43DRuk-bK3JR32q9TA&_nc_zt=23&_nc_ht=scontent-bom2-4.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfSNsMlCiaxvk9OLWyD-oKLj2UfUr9nG_ge8H4cPpoXnDA&oe=6887DBA4",
+      "__typename": "Photo",
+      "photo_image": {
+        "uri": "https://scontent-bom2-4.xx.fbcdn.net/v/t39.30808-6/515439541_10234208196758660_251987266987219696_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dhxS4puCURYQ7kNvwEeV_JN&_nc_oc=AdkvJkjLddbnAamhaYTZaTEP7C3d3cP1rWspuNefsLGKxLXTE43DRuk-bK3JR32q9TA&_nc_zt=23&_nc_ht=scontent-bom2-4.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfSNsMlCiaxvk9OLWyD-oKLj2UfUr9nG_ge8H4cPpoXnDA&oe=6887DBA4",
+        "height": 1140,
+        "width": 526
+      },
+      "__isMedia": "Photo",
+      "accent_color": "FF1C1C1C",
+      "photo_product_tags": [],
+      "url": "https://www.facebook.com/photo.php?fbid=10234208196678658&set=gm.4130263360578336&type=3",
+      "id": "10234208196678658",
+      "ocrText": "May be an image of text that says \"8:34 έιν Overview Accent Lights Downstairs Motion detection Downstairs Siren Downstairs DownstairsVolume Volume 11 Downstairs Last DownstairsLastactivity activity 5hoursago 5 hours ago Downstairs Live view Idle Master Bedroom Master MasterCans Cans Master MasterChandelier Chandelier Mudroom Mudroom\""
+    }
+  ],
+  "likesCount": 1,
+  "sharesCount": 0,
+  "commentsCount": 14,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130263360578336/?comment_id=4130635513874454",
+      "id": "Y29tbWVudDo0MTMwMjYzMzYwNTc4MzM2XzQxMzA2MzU1MTM4NzQ0NTQ=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDI2MzM2MDU3ODMzNl80MTMwNjM1NTEzODc0NDU0",
+      "date": "2025-07-24T10:48:31.000Z",
+      "text": "Replace Ring with Reolink. lol",
+      "profilePicture": "https://scontent-bom2-4.xx.fbcdn.net/v/t39.30808-1/453091070_8398417403502264_4321286351869529856_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=3rZh-HVzd40Q7kNvwFb_MzB&_nc_oc=AdkrGMvkmbg8sQMbMAO8OMntdGMVl_Q-N5DO6R5uFH0E_AScy7tM7gkQZH4lxdBuhm4&_nc_zt=24&_nc_ht=scontent-bom2-4.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfQ37JjacWCxYNTnm-ux3NHmYHwxPI4WLSedaVwhO7yCCw&oe=6887F1C7",
+      "profileId": "pfbid0ueMPALhZgVWp74SVqHPLo3f1xGdv4d32FoNo5TeiFBRYMHEZSox5kaQNBKHq3t1vl",
+      "profileName": "Tobey Rector",
+      "likesCount": "0",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130263360578336/?comment_id=4130273207244018",
+      "id": "Y29tbWVudDo0MTMwMjYzMzYwNTc4MzM2XzQxMzAyNzMyMDcyNDQwMTg=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDI2MzM2MDU3ODMzNl80MTMwMjczMjA3MjQ0MDE4",
+      "date": "2025-07-24T02:49:53.000Z",
+      "text": "Mine are working fine .. have you tried reloading the ring integration? Restart HA? Which cam are you using???",
+      "profilePicture": "https://scontent-bom1-2.xx.fbcdn.net/v/t1.6435-1/61598446_10157621195851416_3971944068388225024_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=46RMf60piyAQ7kNvwEUn86a&_nc_oc=AdnVUyoaMtMIseN4UN32H7ePkgbQ4QSO9E42S5K9BjP8uD8ALKOvE2R2KPh_BzoYY-0&_nc_zt=24&_nc_ht=scontent-bom1-2.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfRvm-kDj74nvCVeGJCp9ivm-XoroqNy_XCskWkptKtwug&oe=68A99AE0",
+      "profileId": "pfbid0kJzoAUqduvMuRC7iMZJQ5yM3Hg5C8MCN2F2u1DpVDwPWZZurUe9axfzBKS9jJPiml",
+      "profileName": "Minou Ben",
+      "likesCount": "0",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

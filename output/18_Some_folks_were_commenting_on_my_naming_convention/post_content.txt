@@ -1,0 +1,25 @@
+💬 帖子内容
+==================================================
+
+作者: Anchal Nigam
+时间: 2025-07-23T22:26:07.000Z
+
+==================================================
+
+Some folks were commenting on my naming convention but I don't understand. I'm still learning HA so I'm hoping for some advise.
+
+I have two open/close sensors on my fridge. One for the left door, and one for the right door. I've named the devices like so:
+
+* sensor open fridge left door
+* sensor open fridge right door
+
+The naming convention that makes sense to me is `[type of device] [where it is]`.
+
+Is there a problem with this? 
+
+And then what do I do about the entities? Should I rename them? What should I rename them to? Like the binary sensor for open/close, should I name it `binary_sensor.open_fridge_door` or something like that? Shouldn't the entity name have the device name in it so we know what entity the device is for?
+
+I don't understand the implications of these names and where/how/why they matter. Hoping for any perspective/advise.
+
+==================================================
+📊 1 个赞 · 29 条评论 · 0 次分享

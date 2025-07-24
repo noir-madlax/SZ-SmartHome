@@ -1,0 +1,49 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130305623907443/",
+  "time": "2025-07-24T03:30:50.000Z",
+  "user": {
+    "id": "pfbid037fL6kYX576c7zVLdACU1Y4fcnhANEjsmfhLyZjQHS1Cr81V4Y9kfo4ZJ4Vsbo3FBl",
+    "name": "Steve Hextall"
+  },
+  "text": "Hi I have smart switch, smart bulb and motion sensor in our ensuite bathroom. I want the lamp to switch on red colour between 12am and 6am so I don't wake my wife. Motion sensor works fine but lamp is white. Seems to need a second movement to change colour to red. I have tried scene setting with red lamp setting to activate but lamp is still white when it comes on via smart switch.Any ideas / templates....?Thanks.",
+  "topReactionsCount": 1,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDMwNTYyMzkwNzQ0Mw==",
+  "reactionLikeCount": 1,
+  "id": "UzpfSTExMzc2NzQzOTY6Vks6NDEzMDMwNTYyMzkwNzQ0Mw==",
+  "legacyId": "4130305623907443",
+  "likesCount": 1,
+  "sharesCount": 0,
+  "commentsCount": 5,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130305623907443/?comment_id=4130486393889366",
+      "id": "Y29tbWVudDo0MTMwMzA1NjIzOTA3NDQzXzQxMzA0ODYzOTM4ODkzNjY=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDMwNTYyMzkwNzQ0M180MTMwNDg2MzkzODg5MzY2",
+      "date": "2025-07-24T07:20:25.000Z",
+      "text": "Sounds like you need an automation with time of day conditions. The bulb needs to be one that changes colours. Then in the ausomation for the actions you would use the \"choose\" options. Option 1 would be from 6am to 11pm and would set the bulb colour to white. Option 2 would be fro. 11:01pm to 5:59am and would set the bulb to red colour.",
+      "profileUrl": "https://www.facebook.com/chris.angus.148",
+      "profilePicture": "https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-1/457689225_1989123944850071_3731335552679645939_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Emr74WsTWmcQ7kNvwHB0LLa&_nc_oc=AdlIVGinRyGoYB_2Y3gJFoJykMle-1B5mSOk7934bblEQZiZiEYIXeWFHaT4WjH2S7SoAAPyDbgpsjL6o8e3hSDB&_nc_zt=24&_nc_ht=scontent.fnag6-3.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfSC60WAnun1O0Edz3rdPD92q1eeRMnAR3Qaf0PRMparDQ&oe=688801AD",
+      "profileId": "pfbid0BuGomPyrf54QFESJhRkN6CGR89xoMr6qa7n9hCN7MTG8y6HcBrKwJu7rqU2PPoJ6l",
+      "profileName": "Chris Angus",
+      "likesCount": "2",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130305623907443/?comment_id=4130504697220869",
+      "id": "Y29tbWVudDo0MTMwMzA1NjIzOTA3NDQzXzQxMzA1MDQ2OTcyMjA4Njk=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDMwNTYyMzkwNzQ0M180MTMwNTA0Njk3MjIwODY5",
+      "date": "2025-07-24T07:48:30.000Z",
+      "text": "Some bulbs can't change colour whilst \"off\", others can. Why don't you make an automation that at x time (or when you go to bed) it turns on, goes to red, the turns off.\nThen in morning when you turn it on it goes back to white, better than the white flash at night.",
+      "profileUrl": "https://www.facebook.com/mccabe.sean",
+      "profilePicture": "https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-1/481763807_10171138114265615_6617566214880620989_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=2i2irY8zr-UQ7kNvwFOc14B&_nc_oc=AdmM0GLXZR5unbSyrNr-xOAUlLpsni5pMWH9JMMF7qbSKvi2bIhzVF93cU0utgMzjtaecmtibjTKc9i6owVnPqkH&_nc_zt=24&_nc_ht=scontent.fnag6-2.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfS6V0fh2SWZP7fpgz9AkE_hWBNFW64p9qEw6r9t96Vbyw&oe=688808D6",
+      "profileId": "pfbid02pej4VeF6DTgoJnPgqH75ovoxSx1dQReQXERZ2bRTHNC5XUdMKN8S5jpLAVw4sqwql",
+      "profileName": "Seán McCabe",
+      "likesCount": "1",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

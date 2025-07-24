@@ -1,0 +1,48 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130503323887673/",
+  "time": "2025-07-24T07:46:03.000Z",
+  "user": {
+    "id": "pfbid0yMc3EZeFf6FAtxVfJgcUyokSny9jaym9z8ZmRt49qeWdKhf6j1xFDYLGoe4QbAfwl",
+    "name": "Philippe Delbove"
+  },
+  "text": "Hello everyone, little by little I am starting to learn how to use Home Assistant under VMware, and I found out that to be able to try Zigbee plugs, I need a Zigbee dongle !! How do I setup the VMware machine to access the dongle? Thank you for your help",
+  "topReactionsCount": 1,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDUwMzMyMzg4NzY3Mw==",
+  "reactionLikeCount": 1,
+  "id": "UzpfSTYxNTcyODg5MDQ1NzA3OlZLOjQxMzA1MDMzMjM4ODc2NzM=",
+  "legacyId": "4130503323887673",
+  "likesCount": 1,
+  "sharesCount": 0,
+  "commentsCount": 11,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130503323887673/?comment_id=4130518023886203",
+      "id": "Y29tbWVudDo0MTMwNTAzMzIzODg3NjczXzQxMzA1MTgwMjM4ODYyMDM=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDUwMzMyMzg4NzY3M180MTMwNTE4MDIzODg2MjAz",
+      "date": "2025-07-24T08:07:42.000Z",
+      "text": "Don't. USB support in hypervisors is finicky at best, nonexistent usually. Get something like a slzb-06 and have a much better time.",
+      "profilePicture": "https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-1/450386598_10161953474717244_8285429806313855416_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=VDPFXN6XPm8Q7kNvwHycK87&_nc_oc=AdlUu0DF3LoPI8jYJ2qbD14Qv_acf25fk1hul72cW6wEh8buXdGqUOqSGklI4JIbYcEdV-LeshKYXZ_KVYMugTvT&_nc_zt=24&_nc_ht=scontent.fnag6-3.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfSusGIxEh-vb30BPg4ZFv0Xneu5RzoxGt7fXEdCHUUBnQ&oe=6887F27D",
+      "profileId": "pfbid02KYfYV1JgQMMN7VPzL955Qp4u6waTJarHGSsHiJS6tZ9S3ojr63zEMpHERSNX1gsRl",
+      "profileName": "Lars Reinhardt Søgnen-Snekkerhaugen",
+      "likesCount": "0",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130503323887673/?comment_id=4130526463885359",
+      "id": "Y29tbWVudDo0MTMwNTAzMzIzODg3NjczXzQxMzA1MjY0NjM4ODUzNTk=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDUwMzMyMzg4NzY3M180MTMwNTI2NDYzODg1MzU5",
+      "date": "2025-07-24T08:19:39.000Z",
+      "text": "Instead of zigbee dongle get zigbee Poe coordinator",
+      "profileUrl": "https://www.facebook.com/people/Stefan-Morgulsky/pfbid0NtjTCNNMYoJLaTPq8zFxLk2FAARMjfwmjnagGMJn4C1ZRhQtAgxDW15Pzz9tSC8Al/",
+      "profilePicture": "https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-1/288848338_372274511662480_462854393942781211_n.jpg?stp=c0.160.768.768a_cp0_dst-jpg_s32x32_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=V286VBvrEyAQ7kNvwHbPTwh&_nc_oc=AdlAcrMBz0r04mOLRBhxpJ_AGcFU92HkVE5wUl4-BOcreuOrVdhq9lqz9z8CqoOuMwidwkYMDEPE6HMULtp_hDRu&_nc_zt=24&_nc_ht=scontent.fnag6-3.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfSzbXyOIrd3InwFdqW7QaHGjWb_wFeZqX1U6A4saFY3zA&oe=688803BB",
+      "profileId": "pfbid0NtjTCNNMYoJLaTPq8zFxLk2FAARMjfwmjnagGMJn4C1ZRhQtAgxDW15Pzz9tSC8Al",
+      "profileName": "Stefan Morgulsky",
+      "likesCount": "0",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

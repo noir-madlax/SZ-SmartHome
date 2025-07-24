@@ -174,7 +174,7 @@ class ValidationPipeline:
 
 
 class DuplicatesPipeline:
-    """去重Pipeline"""
+    """智能去重Pipeline"""
     
     def __init__(self):
         self.seen_posts = set()
@@ -185,20 +185,35 @@ class DuplicatesPipeline:
         
         if item.__class__.__name__ == 'PostItem':
             post_id = adapter.get('post_id')
-            post_id_str = post_id[0] if isinstance(post_id, list) else post_id
+            post_id_str = post_id[0] if isinstance(post_id, list) else str(post_id) if post_id else None
+            
+            if not post_id_str:
+                logger.warning("PostItem without post_id, dropping")
+                raise DropItem("Missing post_id")
+                
             if post_id_str in self.seen_posts:
+                logger.info(f"Duplicate post found: {post_id_str}")
                 raise DropItem(f"Duplicate post found: {post_id_str}")
             else:
                 self.seen_posts.add(post_id_str)
+                logger.info(f"New post accepted: {post_id_str}")
                 
         elif item.__class__.__name__ == 'ReplyItem':
             post_id = adapter.get('post_id')
-            post_id_str = post_id[0] if isinstance(post_id, list) else post_id
-            reply_key = f"{post_id_str}_{adapter.get('floor_num')}"
+            post_id_str = post_id[0] if isinstance(post_id, list) else str(post_id) if post_id else None
+            floor_num = adapter.get('floor_num', 0)
+            
+            if not post_id_str:
+                logger.warning("ReplyItem without post_id, dropping")
+                raise DropItem("Missing post_id in reply")
+                
+            reply_key = f"{post_id_str}_{floor_num}"
             if reply_key in self.seen_replies:
+                logger.debug(f"Duplicate reply found: {reply_key}")
                 raise DropItem(f"Duplicate reply found: {reply_key}")
             else:
                 self.seen_replies.add(reply_key)
+                logger.debug(f"New reply accepted: {reply_key}")
         
         return item
 

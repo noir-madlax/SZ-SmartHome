@@ -1,0 +1,21 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130655033872502/",
+  "time": "2025-07-24T11:05:49.000Z",
+  "user": {
+    "id": "pfbid02t3jw5FnWzTGjT2FQbs58ZzsVkm6ME8z6a7YBpPe3vA1NRPYm3dYqkEM71UTtEJDgl",
+    "name": "Manuel Ortiz"
+  },
+  "text": "Hi all!\nI have several shelly window blu sensors installed in my home and configured also in home assistant. One of them shows a peculiar behaviour:\nIn the shelly app, the sensor status updates correctly when door is open/closed, but in home assistant it stays open all the time.\nIf I reboot device, remove and readd in home assistant, it will work fine once, will detect open close, but then when it's opened again, for some reason will stay open and not refresh even if in the shelly app it does so properly. None of the other sensors are showing this behaviour.\n\nAny clues why this might be happening and how to fix it?",
+  "topReactionsCount": 0,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDY1NTAzMzg3MjUwMg==",
+  "id": "UzpfSTU4NzA5Njc1NDpWSzo0MTMwNjU1MDMzODcyNTAy",
+  "legacyId": "4130655033872502",
+  "likesCount": 0,
+  "sharesCount": 0,
+  "commentsCount": 0,
+  "topComments": [],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

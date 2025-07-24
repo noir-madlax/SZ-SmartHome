@@ -1,0 +1,20 @@
+💬 帖子内容
+==================================================
+
+作者: Anonymous participant
+时间: 2025-07-24T11:13:22.000Z
+
+==================================================
+
+Aqara U200 - Get Lock Status via Bluetooth Only (No Matter/Thread)?
+
+Hi everyone,
+I have an Aqara U200 smart lock and I'm trying to integrate it with my Home Assistant setup.
+My HA machine has a standard built-in Bluetooth adapter, but I do not have a Matter-over-Thread dongle (like a SkyConnect or other Thread border router).
+I know the U200 can communicate directly with a phone via Bluetooth for initial setup and local control. My question is: can I leverage my HA's existing Bluetooth capabilities to get the lock's status?
+My only goal is to have a sensor entity in Home Assistant that shows whether the lock is locked or unlocked. I do not need the ability to lock or unlock it remotely from HA. Getting the battery status as well would be a fantastic bonus.
+Has anyone had success with a similar setup, using just Bluetooth for read-only status from the U200?
+Thanks for your help!
+
+==================================================
+📊 0 个赞 · 0 条评论 · 0 次分享

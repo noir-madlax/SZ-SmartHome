@@ -1,392 +1,911 @@
 [
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 3,
-    "author": "kmart",
-    "reply_time": "发表于 2025-6-23 09:26:59",
-    "content": "lhdbx 发表于 2025-6-23 08:57 我看你的图 还行确实都是绿米，不过我感觉绿米是不是传感器中继有问题 不太好， 你多少方？几个zigbee ... 玩了几年的zigbee经验，要稳定而且信号好，全部都使用aqara的产品，网关也使用aqara的网关！ 再回答一下中继的问题，只有接入了零火线的设备才能中继，单火以及电池的设备没有中继功能！",
-    "reply_id": [
-      "post_681615"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.761513"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 5,
-    "author": "lhdbx",
-    "reply_time": "发表于 2025-6-23 09:36:23",
-    "content": "kmart 发表于 2025-6-23 09:26 玩了几年的zigbee经验，要稳定而且信号好，全部都使用aqara的产品，网关也使用aqara的网关！ 再回答一下 ... 绿米零活D1 你看我拓扑图 用aqara网关了，那我心心念念的Z2M就没用了 那不是直接绿米了 都没其他了",
-    "reply_id": [
-      "post_681616"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.762452"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 7,
-    "author": "gx19970920",
-    "reply_time": "发表于 2025-6-23 10:10:21",
-    "content": "lhdbx 发表于 2025-6-23 09:36 绿米零活D1 你看我拓扑图 用aqara网关了，那我心心念念的Z2M就没用了 网关你可以买冬瓜的z2m网关，比较好",
-    "reply_id": [
-      "post_681623"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.763067"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 9,
-    "author": "lhdbx",
-    "reply_time": "发表于 2025-6-23 10:21:18",
-    "content": "gx19970920 发表于 2025-6-23 10:10 网关你可以买冬瓜的z2m网关，比较好 已经搭建好啦 就差比较性价比 非常兼容z2M的传感器了",
-    "reply_id": [
-      "post_681627"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.763430"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 11,
-    "author": "lichao622",
-    "reply_time": "发表于 2025-6-23 10:50:07",
-    "content": "lhdbx 发表于 2025-6-23 08:50 是的 我之前看欧瑞博质感好，也买来Z2M接入 发现第一个没问题 好像是HA1.2协议 然后后面买的都不好用 ... 我的意思是只能是用绿米的，涂鸦的别用。真的，我就踩坑了涂鸦的。。。。哈哈",
-    "reply_id": [
-      "post_681638"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.763804"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 13,
-    "author": "lichao622",
-    "reply_time": "发表于 2025-6-23 10:51:16",
-    "content": "lichao622 发表于 2025-6-23 10:50 我的意思是只能是用绿米的，涂鸦的别用。真的，我就踩坑了涂鸦的。。。。哈哈 ... 我是逐步把所有zigbee设备换成绿米的后就稳定了",
-    "reply_id": [
-      "post_681639"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.764179"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 15,
-    "author": "gasment",
-    "reply_time": "发表于 2025-6-23 11:03:17",
-    "content": "是不是有点过于执着信号覆盖了。。。",
-    "reply_id": [
-      "post_681643"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.764472"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 17,
-    "author": "lhdbx",
-    "reply_time": "发表于 2025-6-23 11:26:24",
-    "content": "lichao622 发表于 2025-6-23 10:50 我的意思是只能是用绿米的，涂鸦的别用。真的，我就踩坑了涂鸦的。。。。哈哈 ... 你这意思 就是不要Z2M了，都全是绿米了 还不知直接aqara",
-    "reply_id": [
-      "post_681653"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.764738"
-  },
-  {
-    "post_id": [
-      "29624"
-    ],
-    "floor_num": 19,
-    "author": "lhdbx",
-    "reply_time": "发表于 2025-6-23 11:27:38",
-    "content": "gasment 发表于 2025-6-23 11:03 是不是有点过于执着信号覆盖了。。。 那也是论坛忽悠的 说什么信号稳定 什么本地直连 什么耗电少 一套一套的 吹Z2M 真坑 都没有一套完整的方案",
-    "reply_id": [
-      "post_681654"
-    ],
-    "crawl_time": "2025-07-24T20:03:06.765000"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 3,
-    "author": "peng_jia",
-    "reply_time": "发表于",
-    "content": "谢谢分享，正在学习",
-    "reply_id": [
-      "post_687215"
-    ],
-    "crawl_time": "2025-07-24T20:03:10.795315"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 5,
-    "author": "a5824420",
-    "reply_time": "发表于",
-    "content": "收藏一下，正好需要",
-    "reply_id": [
-      "post_687243"
-    ],
-    "crawl_time": "2025-07-24T20:03:10.796703"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 7,
-    "author": "zjksjf",
-    "reply_time": "发表于 2024-6-28 09:33:31",
-    "content": "感觉是个大工程",
-    "reply_id": [
-      "post_613214"
-    ],
-    "crawl_time": "2025-07-24T20:03:12.523117"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 9,
-    "author": "明明洋洋",
-    "reply_time": "发表于 2024-6-28 09:45:58",
-    "content": "大佬牛逼",
-    "reply_id": [
-      "post_613220"
-    ],
-    "crawl_time": "2025-07-24T20:03:12.523639"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 11,
-    "author": "w954095886",
-    "reply_time": "发表于 2024-6-28 09:53:06",
-    "content": "谢谢分享参考下",
-    "reply_id": [
-      "post_613222"
-    ],
-    "crawl_time": "2025-07-24T20:03:12.524011"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 13,
-    "author": "xiangboshi",
-    "reply_time": "发表于 2024-6-28 15:27:36",
-    "content": "完成度这么高，真大佬了",
-    "reply_id": [
-      "post_613306"
-    ],
-    "crawl_time": "2025-07-24T20:03:12.524369"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 15,
-    "author": "liyw168",
-    "reply_time": "发表于 2024-6-28 16:20:20",
-    "content": "谢谢分享",
-    "reply_id": [
-      "post_613317"
-    ],
-    "crawl_time": "2025-07-24T20:03:12.524719"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 17,
-    "author": "LinkStart_Pai",
-    "reply_time": "发表于 2024-6-28 16:44:03",
-    "content": "太好了，学习一下",
-    "reply_id": [
-      "post_613323"
-    ],
-    "crawl_time": "2025-07-24T20:03:12.525063"
-  },
-  {
-    "post_id": [
-      "25894"
-    ],
-    "floor_num": 19,
-    "author": "wlhl1001",
-    "reply_time": "发表于 2024-6-28 17:15:10",
-    "content": "大神求教，這個怎麽設置，怎麽弄",
-    "reply_id": [
-      "post_613329"
-    ],
-    "crawl_time": "2025-07-24T20:03:12.525426"
-  },
-  {
-    "post_id": [
-      "29901"
-    ],
-    "floor_num": 3,
-    "author": "george65",
-    "reply_time": "发表于",
-    "content": "你那個持續了22:00是要持續22小時才會觸發嗎??",
-    "reply_id": [
-      "post_687244"
-    ],
-    "crawl_time": "2025-07-24T20:03:24.768587"
-  }
-]{
-  "post_id": [
-    "29624"
-  ],
-  "floor_num": 19,
-  "author": "lhdbx",
-  "reply_time": "发表于 2025-6-23 11:27:38",
-  "content": "gasment 发表于 2025-6-23 11:03 是不是有点过于执着信号覆盖了。。。 那也是论坛忽悠的 说什么信号稳定 什么本地直连 什么耗电少 一套一套的 吹Z2M 真坑 都没有一套完整的方案",
-  "reply_id": [
-    "post_681654"
-  ],
-  "crawl_time": "2025-07-24T20:03:06.765000"
-},
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 3,
-  "author": "peng_jia",
+  "author": "wubit",
   "reply_time": "发表于",
-  "content": "谢谢分享，正在学习",
+  "content": "HA专属装备 - - - - WS2812可寻址多彩LED灯控制器 [修改]",
   "reply_id": [
-    "post_687215"
+    "post_686617"
   ],
-  "crawl_time": "2025-07-24T20:03:10.795315"
+  "crawl_time": "2025-07-24T20:18:10.531053"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 5,
-  "author": "a5824420",
+  "author": "wubit",
   "reply_time": "发表于",
-  "content": "收藏一下，正好需要",
+  "content": "怎么才能让ws2812灯带显示时钟呢",
   "reply_id": [
-    "post_687243"
+    "post_686618"
   ],
-  "crawl_time": "2025-07-24T20:03:10.796703"
+  "crawl_time": "2025-07-24T20:18:10.532183"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 7,
-  "author": "zjksjf",
-  "reply_time": "发表于 2024-6-28 09:33:31",
-  "content": "感觉是个大工程",
+  "author": "sorrypqa",
+  "reply_time": "发表于",
+  "content": "本帖最后由 sorrypqa 于 2025-7-21 18:08 编辑 wubit 发表于 2025-7-21 18:02 怎么才能让ws2812灯带显示时钟呢 LED要按数字笔段排列才行！",
   "reply_id": [
-    "post_613214"
+    "post_686621"
   ],
-  "crawl_time": "2025-07-24T20:03:12.523117"
+  "crawl_time": "2025-07-24T20:18:10.532592"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 9,
-  "author": "明明洋洋",
-  "reply_time": "发表于 2024-6-28 09:45:58",
-  "content": "大佬牛逼",
+  "author": "a_dongde",
+  "reply_time": "发表于",
+  "content": "这么强悍？",
   "reply_id": [
-    "post_613220"
+    "post_686623"
   ],
-  "crawl_time": "2025-07-24T20:03:12.523639"
+  "crawl_time": "2025-07-24T20:18:10.532905"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 11,
-  "author": "w954095886",
-  "reply_time": "发表于 2024-6-28 09:53:06",
-  "content": "谢谢分享参考下",
+  "author": "sorrypqa",
+  "reply_time": "发表于",
+  "content": "a_dongde 发表于 2025-7-21 18:23 这么强悍？ 是的，这固件的功能非常强大！",
   "reply_id": [
-    "post_613222"
+    "post_686625"
   ],
-  "crawl_time": "2025-07-24T20:03:12.524011"
+  "crawl_time": "2025-07-24T20:18:10.533178"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 13,
-  "author": "xiangboshi",
-  "reply_time": "发表于 2024-6-28 15:27:36",
-  "content": "完成度这么高，真大佬了",
+  "author": "daifhfh",
+  "reply_time": "发表于",
+  "content": "LED要按数字笔段排列才行！",
   "reply_id": [
-    "post_613306"
+    "post_686639"
   ],
-  "crawl_time": "2025-07-24T20:03:12.524369"
+  "crawl_time": "2025-07-24T20:18:10.533545"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 15,
-  "author": "liyw168",
-  "reply_time": "发表于 2024-6-28 16:20:20",
-  "content": "谢谢分享",
+  "author": "qiyong0401",
+  "reply_time": "发表于",
+  "content": "谢楼主分享",
   "reply_id": [
-    "post_613317"
+    "post_686643"
   ],
-  "crawl_time": "2025-07-24T20:03:12.524719"
+  "crawl_time": "2025-07-24T20:18:10.533852"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 17,
-  "author": "LinkStart_Pai",
-  "reply_time": "发表于 2024-6-28 16:44:03",
-  "content": "太好了，学习一下",
+  "author": "guxiaoqi2007",
+  "reply_time": "发表于",
+  "content": "WS2812可寻址多彩LED灯控制器 [",
   "reply_id": [
-    "post_613323"
+    "post_686667"
   ],
-  "crawl_time": "2025-07-24T20:03:12.525063"
+  "crawl_time": "2025-07-24T20:18:10.534471"
 },
 {
   "post_id": [
-    "25894"
+    "29853"
   ],
   "floor_num": 19,
-  "author": "wlhl1001",
-  "reply_time": "发表于 2024-6-28 17:15:10",
-  "content": "大神求教，這個怎麽設置，怎麽弄",
+  "author": "TianYa",
+  "reply_time": "发表于",
+  "content": "谢楼主分享",
   "reply_id": [
-    "post_613329"
+    "post_686712"
   ],
-  "crawl_time": "2025-07-24T20:03:12.525426"
+  "crawl_time": "2025-07-24T20:18:10.534775"
 },
 {
   "post_id": [
-    "29901"
+    "29346"
   ],
   "floor_num": 3,
-  "author": "george65",
-  "reply_time": "发表于",
-  "content": "你那個持續了22:00是要持續22小時才會觸發嗎??",
+  "author": "tianzhuang55",
+  "reply_time": "发表于 2025-5-23 10:09:47",
+  "content": "厉害厉害，马上试试",
   "reply_id": [
-    "post_687244"
+    "post_676299"
   ],
-  "crawl_time": "2025-07-24T20:03:24.768587"
-}
-]
+  "crawl_time": "2025-07-24T20:18:12.440321"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 5,
+  "author": "taida",
+  "reply_time": "发表于 2025-5-23 10:14:15",
+  "content": "谢谢，我看看呢",
+  "reply_id": [
+    "post_676302"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.440932"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 7,
+  "author": "miniknife",
+  "reply_time": "发表于 2025-5-23 10:38:57",
+  "content": "感谢楼主提供",
+  "reply_id": [
+    "post_676308"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.441316"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 9,
+  "author": "nichen24",
+  "reply_time": "发表于 2025-5-23 10:47:12",
+  "content": "厉害厉害，马上试试",
+  "reply_id": [
+    "post_676314"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.441614"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 11,
+  "author": "silas3082",
+  "reply_time": "发表于 2025-5-23 10:52:37",
+  "content": "厉害了大佬",
+  "reply_id": [
+    "post_676316"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.441881"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 13,
+  "author": "2511418386",
+  "reply_time": "发表于 2025-5-23 10:55:47",
+  "content": "13213213123213123213",
+  "reply_id": [
+    "post_676318"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.442132"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 15,
+  "author": "LJCAD",
+  "reply_time": "发表于 2025-5-23 11:15:38",
+  "content": "厉害了大佬",
+  "reply_id": [
+    "post_676322"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.442389"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 17,
+  "author": "coolguy",
+  "reply_time": "发表于 2025-5-23 11:41:55",
+  "content": "厉害厉害，马上试试",
+  "reply_id": [
+    "post_676329"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.442714"
+},
+{
+  "post_id": [
+    "29346"
+  ],
+  "floor_num": 19,
+  "author": "shay",
+  "reply_time": "发表于 2025-5-23 12:35:58",
+  "content": "这应该是终极形态了，我那帖子得改改标题了",
+  "reply_id": [
+    "post_676337"
+  ],
+  "crawl_time": "2025-07-24T20:18:12.442968"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 3,
+  "author": "zonglong",
+  "reply_time": "发表于 2024-8-6 10:31:11",
+  "content": "本帖最后由 zonglong 于 2024-9-11 13:30 编辑 不需要编程器固件去烧写到 flash, 在 uboot 烧回写 rootfs 就可, 不用全烧写 fatload mmc 0:1 0x21000000 rootfs_new.bin sf probe sf erase 0x250000 0x69E000 sf write 0x21000000 0x250000 0x69E000 复制代码",
+  "reply_id": [
+    "post_621564"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.470805"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 5,
+  "author": "tianzhuang55",
+  "reply_time": "发表于 2024-8-3 16:42:07",
+  "content": "这个高端啊",
+  "reply_id": [
+    "post_621035"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.471299"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 7,
+  "author": "Dyop",
+  "reply_time": "发表于 2024-8-3 17:58:50",
+  "content": "1561561561456dfvs s",
+  "reply_id": [
+    "post_621051"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.471584"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 9,
+  "author": "yly",
+  "reply_time": "发表于 2024-8-3 22:14:21",
+  "content": "感谢分享，，，，",
+  "reply_id": [
+    "post_621079"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.471848"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 11,
+  "author": "mengwenqiang520",
+  "reply_time": "发表于 2024-8-4 00:20:37",
+  "content": "围观一下",
+  "reply_id": [
+    "post_621094"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.472097"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 13,
+  "author": "xiaomi2024",
+  "reply_time": "发表于 2024-8-4 01:01:16",
+  "content": "感谢分享",
+  "reply_id": [
+    "post_621100"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.472343"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 15,
+  "author": "silas3082",
+  "reply_time": "发表于 2024-8-4 01:03:05",
+  "content": "up能否来个更具体一点的教程，没看明白具体怎么操作",
+  "reply_id": [
+    "post_621102"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.472590"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 17,
+  "author": "yxl150985",
+  "reply_time": "发表于 2024-8-4 08:41:04",
+  "content": "silas3082 发表于 2024-8-4 01:03 up能否来个更具体一点的教程，没看明白具体怎么操作 稍微写了一下",
+  "reply_id": [
+    "post_621129"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.472834"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 19,
+  "author": "suixin45",
+  "reply_time": "发表于 2024-8-4 09:01:00",
+  "content": "感谢分享",
+  "reply_id": [
+    "post_621130"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.473078"
+},
+{
+  "post_id": [
+    "26386"
+  ],
+  "floor_num": 21,
+  "author": "silas3082",
+  "reply_time": "发表于 2024-8-4 10:38:19",
+  "content": "yxl150985 发表于 2024-8-4 08:41 稍微写了一下 感谢大佬",
+  "reply_id": [
+    "post_621146"
+  ],
+  "crawl_time": "2025-07-24T20:18:14.473479"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 3,
+  "author": "Ari",
+  "reply_time": "发表于 2024-7-30 13:39:15",
+  "content": "本帖最后由 Ari 于 2024-7-30 13:44 编辑 好看，正在抄作业，ButtonCardJSTemplateError: TypeError: Cannot read properties of undefined (reading 'state') in 'var state = entity.state; var temp = entity.attributes.current_temperature; if(state == \"heat\"...' 啥意思啊。复制到原始配置编辑器最上面了",
+  "reply_id": [
+    "post_619937"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.447454"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 5,
+  "author": "suixin45",
+  "reply_time": "发表于 2024-7-30 13:43:08",
+  "content": "感谢分享",
+  "reply_id": [
+    "post_619938"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.448048"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 7,
+  "author": "yclin20",
+  "reply_time": "发表于 2024-7-30 13:45:02",
+  "content": "感谢分享，抄作业抄作业",
+  "reply_id": [
+    "post_619940"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.448345"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 9,
+  "author": "xuyunjun",
+  "reply_time": "发表于 2024-7-30 13:47:03",
+  "content": "666很不错",
+  "reply_id": [
+    "post_619941"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.448600"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 11,
+  "author": "落楓",
+  "reply_time": "发表于 2024-7-30 13:49:01",
+  "content": "感谢大佬分享~我来看看帖子里有什么 0.0",
+  "reply_id": [
+    "post_619942"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.448897"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 13,
+  "author": "wfy459924951",
+  "reply_time": "发表于 2024-7-30 13:49:27",
+  "content": "Ari 发表于 2024-7-30 13:39 好看，正在抄作业，ButtonCardJSTemplateError: TypeError: Cannot read properties of undefined (reading ... 所需卡片都下载了吗？ 下载后刷新下浏览器",
+  "reply_id": [
+    "post_619943"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.449285"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 15,
+  "author": "Mqiang115",
+  "reply_time": "发表于 2024-7-30 13:50:49",
+  "content": "感谢分享，抄作业抄作业",
+  "reply_id": [
+    "post_619945"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.449583"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 17,
+  "author": "Ari",
+  "reply_time": "发表于 2024-7-30 13:52:40",
+  "content": "本帖最后由 Ari 于 2024-7-30 13:57 编辑 wfy459924951 发表于 2024-7-30 13:49 所需卡片都下载了吗？ 下载后刷新下浏览器 都下载了，代码1也放在这上面了，可能缓存没缓过来，现在可以用了，能增加调节风速还有什么防直吹的按钮吗",
+  "reply_id": [
+    "post_619947"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.449852"
+},
+{
+  "post_id": [
+    "26328"
+  ],
+  "floor_num": 19,
+  "author": "lsqzxz",
+  "reply_time": "发表于 2024-7-30 13:56:03",
+  "content": "谢谢分享",
+  "reply_id": [
+    "post_619949"
+  ],
+  "crawl_time": "2025-07-24T20:18:16.450125"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 3,
+  "author": "hungheo",
+  "reply_time": "发表于 2024-7-27 12:36:11",
+  "content": "本帖最后由 hungheo 于 2024-7-27 15:32 编辑 一、布局： 1、button card的默认布局，如下图： 登录/注册后可看大图 屏幕截图 2024-07-27 110105.png (78.25 KB, 下载次数: 0) 下载附件 2024-7-27 12:53 上传 card：最外层卡片 container：grid布局 img_cell：图标或图片，里面还有icon标签 name：名称 state：状态 label：标签 设置显示与不显示，对应的true或者false就行 2、styles设置 2.1、grid设置 在grid里面，“i”对应img_cell，“n”对应name，“s”对应state，“l”对应label 调整grid-template-area的值就能对各个div进行调整，代码： type: custom:button-card entity: sensor.a4c138d5271a_temperature show_name: true show_icon: true show_state: true show_label: true label: 这是lebel styles: grid: - grid-template-areas: | \"i n\" \"i s\" \"i l\" - grid-template-rows: 1fr min-content min-content - grid-template-columns: min-content 1fr; img_cell: - width: 40px - height: 40px 复制代码 grid-template-rows：调整行距离 grid-template-columns：调整列距离 常用的是：min-content（最小的合适空间），1fr（1倍剩余空间，也可以是0.5fr），或者固定大小（50px）,或者百分比（20%）grid里面还有其他的属性可以设置，比如居中、对齐、线间距等等，具体可以AI工具搜：CSS grid属性 个人习惯： 宽度一般不用px设置，这样在不同的手机屏幕就可以自动适应宽度 调整后效果： 登录/注册后可看大图 屏幕截图 2024-07-27 111820.png (36.81 KB, 下载次数: 0) 下载附件 2024-7-27 12:25 上传 2.2、其他标签设置 card、name、state、img_cell、icon、label、custom_fields 都可以设置对应的css样式 具体有哪些，可以浏览器F12，选中标签，然后计算样式里面都有 登录/注册后可看大图 屏幕截图 2024-07-27 123141.png (37.1 KB, 下载次数: 0) 下载附件 2024-7-27 12:32 上传 修改下之前的代码： type: custom:button-card entity: sensor.a4c138d5271a_temperature show_name: true show_icon: true show_state: true show_label: true label: ，这个温度太热啦 styles: grid: - grid-template-areas: | \"i n n\" \"i s l\" - grid-template-rows: 1fr min-content - grid-template-columns: min-content min-content 1fr; card: - padding: 8px img_cell: - width: 40px - height: 40px - background: rgba(139,195,74,0.2) - border-radius: 50% - margin-right: 8px icon: - width: 24px - height: 24px - color: var(--green-color) name: - justify-self: flex-start - font-size: 14px - font-weight: 600 state: - justify-self: flex-start - font-size: 12px label: - justify-self: flex-start - font-size: 12px 复制代码 类似mushroom card的template card的样式卡片效果就出来了 登录/注册后可看大图 屏幕截图 2024-07-27 123538.png (7.12 KB, 下载次数: 0) 下载附件 2024-7-27 12:36 上传 2.3、自定义布局 主要参考这位UI大神的技巧分享： https://bbs.hassbian.com/thread-25964-1-1.html 设置布局时， grid-template-areas里面的相同区域必须是矩形 ，其他的根据个人需求 比如，模仿户型图： type: custom:button-card styles: grid: - grid-template-areas: | \"a1 z1 z1 a2 a3 d1 d1 a4 a5 k k k\" \"z2 z2 z2 z2 a3 d d d a5 k k k\" \"a7 a7 a7 z3 a3 a6 a6 a6 a5 k k k\" \"p p a8 z3 a3 k1 k1 k1 k1 k k k\" \"p p a9 a9 a9 a9 a9 a9 a9 k k k\" \"b1 b1 b1 x x x b4 c b5 k k k\" \"b1 b1 b1 x x x b4 b6 b5 b7 b8 k2\" \"b1 b1 b1 c1 c1 c1 c1 f f f b8 k2\" \"b1 b1 b1 b2 f1 f1 f1 f f f b8 b9\" - grid-template-columns: 5px 20px 5px 15px 5px 20px 5px 20px 5px 25px 5px 20px - grid-template-rows: 10px 55px 5px 15px 5px 35px 5px 5px 25px card: - width: 150px - height: 160px - background-color: rgba(0,0,0,0) custom_fields: k: #区域代号 card: # ......这个区域的卡片 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 130825.png (75.97 KB, 下载次数: 0) 下载附件 2024-7-27 13:09 上传 2.4、custom_fields自定义区域 在styles下的时候，可以自定义某个区域的css属性 和styles同级的时候，可以自定义某个区域的内容，可以是html标签、可以是card等等 代码： type: custom:button-card show_icon: false show_state: false show_name: false styles: grid: - grid-template-areas: | \"weather sun person1 person2\" \"info info info info\" \"card1 card1 card1 card1\" \"card2 card2 card2 card2\" \"card3 card3 card3 card3\" \"card4 card4 card4 card4\" - grid-template-columns: min-content 1fr 38px 38px - grid-template-rows: 55px min-content 1fr card: - padding: 8px custom_fields: #自定义区域的属性 sun: #sun区域的属性 - justify-self: center #让sun这个区域的内容，水平居中 - align-self: flex-start #让sun这个区域的内容，垂直方向，在最顶上 card1: #card1区域属性 - display: \"[[[ return states['input_boolean.xinxi_xiangqing'].state == 'on' ? 'block' : 'none' ]]]\" #如果是开则显示card1、是关不显示card1 custom_fields: #自定义区域的内容 sun: #自定义区域名称 card: #区域的类型 type: custom:button-card entity: sun.sun show_icon: true show_name: false show_state: true # .....该卡片其他属性 card1: card: type: custom:button-card entity: sensor.youjia template: entity_card icon: mdi:gas-station name: 92#油价 label: | [[[ return `${states['sensor.youjia'].attributes[92]}元/L`]]] variables: icon_color: var(--green-color) # .......区域内容 复制代码 PS：display这个属性很好玩，可以实现收起、展开效果 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 134955.png (40.92 KB, 下载次数: 0) 下载附件 2024-7-27 13:51 上传 登录/注册后可看大图 屏幕截图 2024-07-27 134925.png (13.24 KB, 下载次数: 0) 下载附件 2024-7-27 14:00 上传",
+  "reply_id": [
+    "post_619303"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.471431"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 5,
+  "author": "hungheo",
+  "reply_time": "发表于 2024-7-27 14:22:51",
+  "content": "replyreload += ',' + 619322; 本帖最后由 hungheo 于 2025-3-2 12:51 编辑 2、template模板 这个功能很强大！！ 可以追加、覆盖、套嵌等等 如果用到变量处理，不支持jinja2模板，只支持JavaScript！ 2.1、 基本结构 #template结构 button_card_templates: #顶格 some_template: #模板名称 show_name: true name: 这是模板里面的名称 styles: icon: - color: '[[[return variables.icon_color]]]' #这里的variables.icon_color是模板内的变量， #......其他内容 #template使用 type: custom:button-card entity: sensor.a4c13801e940_temperature show_label: true name: 这是card的名称 #相同的name，template里面的name的内容，在这里被替换掉 label: > #entity.state，因为之前定义了entity: sensor.a4c13801e940_temperature，所以这里等效于states.['sensor.a4c13801e940_temperature'].state ]]] if(entity.state > 30) return \"好热啊\" [[[ template: some_template #引用模板 variables: icon_color: red #设定变量值 复制代码 2.2、 template追加、覆盖、多级引用 可以创建多个template模板，然后一起引用，template的内容追加上去，重复定义的根据顺序也会覆盖掉 比如：. 游客，如果您要查看本帖隐藏内容请 回复 上面定义了3个template title是最基础的 title_popup引用了title模板，并且追加了文字是带阴影 title_button是custom_fields的内容 应用起来就是： 1、引用最基础的title： type: custom:button-card name: 餐厅 label: 子擎存在传感器 template: title 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 143746.png (12.01 KB, 下载次数: 0) 下载附件 2024-7-27 14:38 上传 2、追加一个title_button template引用分先后的，这里要先引用title，再是title_button，因为title是card主体，title_button是追加部分 type: custom:button-card name: 主卧 template: - title #它先 - title_button #这个是追加上去的 variables: turn_on: script.turn_on_auto_light_zhuwo turn_off: script.turn_off_auto_light_zhuwo 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 144258.png (23.96 KB, 下载次数: 0) 下载附件 2024-7-27 14:44 上传 3、多级引用 type: custom:button-card template: - title_popup #这个模板引用了title模板 - title_button #这个是追加上去的 name: 客厅 label: > [[[return Number(states['sensor.ke_ting_kai_deng_shu_liang'].state) + \"个灯开着\";]]] variables: turn_on: script.turn_on_light_keting turn_off: script.turn_off_light_keting 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 144821.png (29.76 KB, 下载次数: 0) 下载附件 2024-7-27 14:49 上传",
+  "reply_id": [
+    "post_619322"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.472637"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 7,
+  "author": "hungheo",
+  "reply_time": "发表于 2024-7-27 15:35:08",
+  "content": "本帖最后由 hungheo 于 2024-7-27 21:09 编辑 3、template使用中的几个小注意 3.1、状态的表达方式 return states['switch.myswitch'].state // 这样写能正确显示 // 下面这样写会报错 const test = switch.myswitch return states[test].state 复制代码 3.2、variables：以字母顺序来确定是否可以引用 ### 这个是能引用的 variables: index: 2 value: '[[[ return variables.index + 2; ]]]' name: '[[[ return variable.value; ]]]' # 输出 4 因为i在v前，所以value能继承index的值 ### 这个是不能引用的 variables: z_index: 2 value: '[[[ return variables.z_index + 2; ]]]' # 错误 因为v在z前，所以value不能继承z-index的值 name: '[[[ return variable.value; ]]]' 复制代码 3.3、entity的使用位置 button card中如果定义了entity，在JavaScript模板中是可以直接用entity接属性直接用的，但是要注意一下 多级button card情况下 type: custom:button-card entity: light.649e3186d9cd_light show_state: true show_label: true label: '[[[ return entity.entity_id ]]]' styles: grid: - grid-template-areas: | \"i n a\" \"i s a\" \"i l a\" - grid-template-columns: min-content 0.5fr 0.5fr - grid-template-rows: 1fr custom_fields: a: card: type: custom:button-card entity: sensor.a4c138d5271a_temperature show_state: true show_label: true label: '[[[ return entity.entity_id ]]]' 复制代码 一级、二级的label都会显示一级的entity_id 如图： 登录/注册后可看大图 屏幕截图 2024-07-27 205515.png (38.58 KB, 下载次数: 0) 下载附件 2024-7-27 20:55 上传 如果想要用本级card的entity_id。要么在card前面加上 do_not_eval:true ，要么用 template模板 ...... custom_fields: a: do_not_eval: true card: type: custom:button-card entity: sensor.a4c138d5271a_temperature ....... 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 210026.png (38.61 KB, 下载次数: 0) 下载附件 2024-7-27 21:01 上传",
+  "reply_id": [
+    "post_619335"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.473383"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 9,
+  "author": "hungheo",
+  "reply_time": "发表于 2024-7-27 15:36:23",
+  "content": "本帖最后由 hungheo 于 2024-7-27 22:44 编辑 4、一些有意思的模板卡片 4.1、自动生成看板小图标 这个是照搬UI-Lovelace-Minimalist，精简了一些内容。 button_card_templates: row_pill: show_icon: false show_name: true show_label: false variables: #想要更多这里再加entity_? entity_1: entity_id: \"\" name: \"\" icon: \"\" color: \"\" entity_2: entity_id: \"\" name: \"\" icon: \"\" color: \"\" entity_3: entity_id: \"\" name: \"\" icon: \"\" color: \"\" entity_4: entity_id: \"\" name: \"\" icon: \"\" color: \"\" entity_5: entity_id: \"\" name: \"\" icon: \"\" color: \"\" styles: grid: - grid-template-areas: > [[[ var pills = [] const entities = [variables.entity_1?.entity_id, variables.entity_2?.entity_id, variables.entity_3?.entity_id, variables.entity_4?.entity_id, variables.entity_5?.entity_id] //想要更多这里再加variables function entity_check(item) { if (item != \"\") { pills.push(\"item\" + (pills.length+1)) } } entities.forEach(entity_check) return pills.join(\" \") ]]] - display: flex - grid-template-rows: min-content - justify-content: space-evenly card: - background: none - box-shadow: none - broder: 0px - border-radius: none - padding: 12px - overflow: visible custom_fields: item1: - display: \"[[[ return (variables.entity_1.entity_id != '') ? 'block' : 'none' ]]]\" item2: - display: \"[[[ return (variables.entity_2.entity_id != '') ? 'block' : 'none' ]]]\" item3: - display: \"[[[ return (variables.entity_3.entity_id != '') ? 'block' : 'none' ]]]\" item4: - display: \"[[[ return (variables.entity_4.entity_id != '') ? 'block' : 'none' ]]]\" item5: - display: \"[[[ return (variables.entity_5.entity_id != '') ? 'block' : 'none' ]]]\" item6: - display: \"[[[ return (variables.entity_6.entity_id != '') ? 'block' : 'none' ]]]\" item7: - display: \"[[[ return (variables.entity_7.entity_id != '') ? 'block' : 'none' ]]]\" custom_fields: item1: card: type: \"custom:button-card\" template: \"pill\" variables: \"[[[ return variables.entity_1; ]]]\" entity: \"[[[ return variables.entity_1.entity_id ]]]\" name: \"[[[ return variables.entity_1.name ]]]\" icon: \"[[[ return variables.entity_1.icon ]]]\" color: \"[[[ return variables.entity_1.color ]]]\" item2: card: type: \"custom:button-card\" template: \"pill\" variables: \"[[[ return variables.entity_2; ]]]\" entity: \"[[[ return variables.entity_2.entity_id ]]]\" name: \"[[[ return variables.entity_2.name ]]]\" icon: \"[[[ return variables.entity_2.icon ]]]\" color: \"[[[ return variables.entity_2.color ]]]\" item3: card: type: \"custom:button-card\" template: \"pill\" variables: \"[[[ return variables.entity_3; ]]]\" entity: \"[[[ return variables.entity_3.entity_id ]]]\" name: \"[[[ return variables.entity_3.name ]]]\" icon: \"[[[ return variables.entity_3.icon ]]]\" color: \"[[[ return variables.entity_3.color ]]]\" item4: card: type: \"custom:button-card\" template: \"pill\" variables: \"[[[ return variables.entity_4; ]]]\" entity: \"[[[ return variables.entity_4.entity_id ]]]\" name: \"[[[ return variables.entity_4.name ]]]\" icon: \"[[[ return variables.entity_4.icon ]]]\" color: \"[[[ return variables.entity_4.color ]]]\" item5: card: type: \"custom:button-card\" template: \"pill\" variables: \"[[[ return variables.entity_5; ]]]\" entity: \"[[[ return variables.entity_5.entity_id ]]]\" name: \"[[[ return variables.entity_5.name ]]]\" icon: \"[[[ return variables.entity_5.icon ]]]\" color: \"[[[ return variables.entity_5.color ]]]\" #椭圆形图标 pill: styles: grid: - grid-template-areas: '\"i\" \"n\"' - grid-template-columns: 54px - grid-template-rows: 54px min-content card: - border-radius: 50px - place-self: center - width: 54px - height: 84px - padding: 0px icon: - color: '[[[ return variables?.color ]]]' - width: 24px img_cell: - background-color: '[[[return \"color-mix(in srgb, \"+ variables?.color +\" 20%, transparent)\" ]]]' - border-radius: 50% - width: 42px - height: 42px name: - justify-self: center - font-weight: bold - font-size: 12px state: - value: 'off' styles: card: - height: 54px name: - display: none tap_action: action: more-info 复制代码 模板只编辑5个小图标，想要多少照着格式改下就行。 引用代码： type: custom:button-card template: row_pill #template名称 variables: entity_1: entity_id: sensor.0x00158d000444b5af_humidity name: 湿度 icon: mdi:water color: var(--light-green-color) #这里涉及到计算透明背景，只能用var(--颜色名称-color)，等效于light-green entity_2: entity_id: sensor.0x00158d000444b5af_humidity name: 湿度 icon: mdi:bed color: var(--light-blue-color) entity_3: entity_id: sensor.0x00158d000444b5af_humidity name: 湿度 icon: mdi:lightbulb color: var(--red-color) entity_4: entity_id: sensor.0x00158d000444b5af_humidity name: 湿度 icon: '' color: var(--orange-color) #......,总共有5个，如果只想要4个，最后一个不定义就可以 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 221450.png (25.23 KB, 下载次数: 0) 下载附件 2024-7-27 22:15 上传 4.2、仿homekit灯卡片 跟button card作者的GitHub上的示例一样的，多了根据灯的样式，自动选择图标和显示不同类型的灯的详情 代码： button_card_templates: light_card: #仿HomeKit卡模板 show_state: false show_icon: true show_name: true icon: > #根据不同的名称，返回不同的图标 [[[ var friendlyName = entity.attributes.friendly_name; if (friendlyName.includes('灯带')) return 'mdi:led-strip-variant'; //检测包含文字 else if (entity.entity_id.includes('auto_light')) return 'mdi:lightbulb-auto'; //检测包含文字 else if (friendlyName.includes('吸顶灯')) return 'mdi:wall-sconce-flat'; //检测包含文字 else if (friendlyName.includes('射灯')) return 'mdi:track-light'; //检测包含文字 else if (friendlyName.includes('床头灯')) return 'mdi:lamp'; //检测包含文字 else if (friendlyName.includes('浴霸')) return 'mdi:light-recessed'; //检测包含文字 else if (friendlyName.includes('插座')) return 'mdi:power-socket-us'; //检测包含文字 else return 'mdi:lightbulb'; ]]] label: > #根据不同的类型，返回不同的详情状态 [[[ if (entity.entity_id.startsWith('light.')) { if (entity.state === \"on\") { if (entity.attributes.color_temp_kelvin) return `开 ${entity.attributes.color_temp_kelvin}k ${Math.floor(entity.attributes.brightness * 100 / 255)}%`; else return '开启'; } if (entity.state === \"off\") return '关闭'; } else if (entity.entity_id.startsWith('switch.')) { if (entity.state === \"on\") return '开启'; if (entity.state === \"off\") return '关闭'; } else if (entity.entity_id.includes('auto_light')) { if (entity.state === \"on\") return '开启'; if (entity.state === \"off\") return '关闭'; } return '错误'; ]]] show_label: true grid: - grid-template-areas: '\"i\" \"n\" \"s\"' - grid-template-columns: 1fr - grid-template-rows: 1fr min-content min-content styles: label: - font-size: 12px - justify-self: start - padding-left: 10px card: - width: 90px - height: 90px img_cell: - justify-content: flex-start icon: - padding-left: 5px name: - justify-self: start - padding-left: 10px - font-weight: bold - font-size: 14px state: - value: 'off' styles: icon: - color: var(--light-grey-color) name: - color: var(--light-grey-color) label: - color: var(--light-grey-color) #使用： type: custom:button-card entity: switch.6cd3eec81262_channel_1 name: 客厅射灯 template: light_card 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 222440.png (52.78 KB, 下载次数: 0) 下载附件 2024-7-27 22:25 上传 4.3、light卡片模板 我用的是乐式的驱动，比米家的多了一个灯光模式选择，自己加了自动调光的开关按钮 代码： button_card_templates: light_ls_card: #乐式灯卡片模板 show_icon: false show_name: false show_state: false styles: grid: - grid-template-areas: | \"x a c z d y\" \"x w w w w y\" \"x b b b b y\" - grid-template-columns: 4% 1fr 120px 15px 40px 4% - grid-template-rows: 40px 5px 50px custom_fields: a: #灯光图标、详情 card: type: custom:button-card entity: '[[[ return entity.entity_id ]]]' #这里的entity是为了点击图标开关灯 show_icon: true show_state: false show_name: true show_label: true icon: mdi:lightbulb name: '[[[ return variables.light_name ]]]' #这里的name因为这里是二级card label: > [[[ if (entity.state == \"on\") return '开启 ' + entity.attributes.color_temp_kelvin + 'k ' + Math.floor(entity.attributes.brightness *100 / 255) + '%'; //计算取整 else if (entity.state == \"off\") return '关闭'; else return '错误' ]]] styles: grid: - grid-template-areas: | \"i a n\" \"i a s\" \"i a l\" - grid-template-rows: 1fr min-content 1fr; - grid-template-columns: 40px 5px 1fr; card: - height: 40px - padding: 0px - box-shadow: none - border-radius: 0px - border: 0px - background: none icon: - width: 24px - height: 24px - padding: 8px - border-radius: 50% - color: orange - background: rgb(255, 152, 0, 0.2) name: - font-size: 14px - justify-self: flex-start label: - font-size: 12px - justify-self: flex-start state: - value: 'on' styles: icon: - background: rgba(255, 152, 0, 0.2) - color: orange - value: 'off' styles: icon: - background: rgb(158, 158, 158,0.2) - color: rgb(158, 158, 158) b: #亮度色温控制 card: type: custom:mushroom-light-card primary_info: none secondary_info: none icon_type: none show_brightness_control: true show_color_temp_control: true entity: '[[[ return entity.entity_id ]]]' card_mod: style: | ha-card { padding: 0px !important; border-radius: 0px !important; border: 0px !important; margin: 0px !important; box-shadow: none !important; } c: #模式选择 card: type: custom:mushroom-select-card entity: '[[[ return variables.light_select ]]]' primary_info: none secondary_info: none icon_type: none card_mod: style: | ha-card { padding: 0px !important; border-radius: 0px !important; border: 0px !important; margin: 0px !important; --mdc-theme-surface: white !important; background: white !important; box-shadow: none !important; overflow: visible !important; } d: #自动调光开关 card: type: custom:button-card entity: '[[[ return variables.light_auto ]]]' tap_action: action: toggle show_icon: true show_name: false show_state: false icon: mdi:lightbulb-auto styles: grid: - grid-template-areas: '\"i\"' - grid-template-columns: 40px - grid-template-rows: 40px card: - padding: 0px - background: none - border-radius: 12px - box-shadow: none - background: none img_cell: - border-radius: 12px icon: - width: 24px state: - value: 'on' styles: img_cell: - background: rgb(255, 152, 0, 0.2) icon: - color: rgb(255, 152, 0) - value: 'off' styles: img_cell: - background: rgb(158, 158, 158, 0.1) icon: - color: rgb(158, 158, 158) #使用 type: custom:button-card entity: light.b850d8174501_light template: light_ls_card variables: light_name: 吸顶灯 light_select: select.b850d8174501_mode light_auto: input_boolean.auto_light_zhuwo_xidingdeng 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 223148.png (25.11 KB, 下载次数: 0) 下载附件 2024-7-27 22:32 上传 4.3、两种样式卡片互相切换 这个用到之前提到的display属性，关灯的时候一种卡片样式，开灯的时候一种卡片样式 结合之前的仿HomeKit卡片和light卡片的模板 代码： button_card_templates: light_card_exchange: show_icon: false show_state: false show_name: false styles: grid: - grid-template-areas: '\"b\" \"d\"' - grid-template-columns: 1fr - grid-template-rows: 1fr card: - padding: 0px - broder: 0px - margin: 0px - background: none - border-radius: 0px - box-shadow: none - overflow: visible custom_fields: b: - display: > #block显示，none不显示 [[[ return entity.state == \"on\" ? \"block\" : \"none\" ]]] d: - padding-top: 10px - display: > [[[ return entity.state == \"off\" ? \"block\" : \"none\" ]]] custom_fields: b: card: type: custom:button-card entity: '[[[return entity.entity_id]]]' template: light_ls_card #引用模板 variables: light_name: '[[[return variables.light_name]]]' light_select: '[[[return variables.light_select]]]' light_auto: '[[[return variables.light_auto]]]' d: card: type: custom:button-card name: '[[[return variables.light_name]]]' entity: '[[[return entity.entity_id]]]' template: light_card #引用模板 #使用 type: custom:button-card entity: light.dced830254b8_light template: light_card_exchange variables: light_name: 吸顶灯 light_select: select.dced830254b8_mode light_auto: input_boolean.auto_light_keting_xidingdeng 复制代码 效果： 登录/注册后可看大图 屏幕截图 2024-07-27 224332.png (172.45 KB, 下载次数: 0) 下载附件 2024-7-27 22:44 上传 未完待续。。。。",
+  "reply_id": [
+    "post_619336"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.473917"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 11,
+  "author": "ck3",
+  "reply_time": "发表于 2024-7-27 17:24:21",
+  "content": "大佬，pad ui教程能分享吗",
+  "reply_id": [
+    "post_619359"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.475349"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 13,
+  "author": "hungheo",
+  "reply_time": "发表于 2024-7-27 19:41:10",
+  "content": "ck3 发表于 2024-7-27 17:24 大佬，pad ui教程能分享吗 我也是参考别人的，原贴链接在这里： https://bbs.hassbian.com/thread-25894-1-1.html 难点不是代码，是彩平图，图标等等，CAD图纸是自己画的，彩平图是淘宝10块别人帮忙弄的，图标搞了好几天，找个图标制作网站，自己慢慢拼出来的",
+  "reply_id": [
+    "post_619381"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.475652"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 15,
+  "author": "hhh.",
+  "reply_time": "发表于 2024-7-27 20:15:50",
+  "content": "大量使用button-card，配合mushroom-card，刷新界面，会出现不显示icon，楼主有遇到过吗？",
+  "reply_id": [
+    "post_619384"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.475953"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 17,
+  "author": "hungheo",
+  "reply_time": "发表于 2024-7-27 21:18:53",
+  "content": "hhh. 发表于 2024-7-27 20:15 大量使用button-card，配合mushroom-card，刷新界面，会出现不显示icon，楼主有遇到过吗？ 我用了几种mushroom卡片：entity， climate，light，chips这些，也用card-mod。 其他的全是button card，最多套到了5层。 也遇到过加载不出来，要刷新很多次才显示，或者偶尔能加载出来。 好像是button card的问题，也有说用了card-mod或者browser-mod才出现。 F12看控制台，一般就是： TypeError: Cannot read properties of undefined (reading 'style') Uncaught (in promise) TypeError: e.setConfig is not a function 这个得慢慢找，清空缓存，或者隐身模式，找到了把他们放在template模板里面大多都能能解决",
+  "reply_id": [
+    "post_619391"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.476222"
+},
+{
+  "post_id": [
+    "26299"
+  ],
+  "floor_num": 19,
+  "author": "hhh.",
+  "reply_time": "发表于 2024-7-27 21:29:31",
+  "content": "hungheo 发表于 2024-7-27 21:18 我用了几种mushroom卡片：entity， climate，light，chips这些，也用card-mod。 其他的全是button card， ... 单独使用没有任何问题，只要在button-card中使用mushroom的卡片，就会出现这种问题，应该与其他卡片无关，就是按钮卡片和蘑菇卡片相互不兼容。 我现在想的就是尽量少用第三方卡片，多用原生卡片，按钮卡片，卡片模组辅助。 确实，这个问题的慢慢找，而且错误较多，得一一排查。",
+  "reply_id": [
+    "post_619392"
+  ],
+  "crawl_time": "2025-07-24T20:18:18.476510"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 3,
+  "author": "launze",
+  "reply_time": "发表于 2024-3-21 12:28:34",
+  "content": "感谢！一直用的这个插件",
+  "reply_id": [
+    "post_590276"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.441930"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 5,
+  "author": "zxyny1989",
+  "reply_time": "发表于 2024-3-21 12:34:45",
+  "content": "谢谢大佬分享，可惜我用的高恪",
+  "reply_id": [
+    "post_590280"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.442448"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 7,
+  "author": "adxr",
+  "reply_time": "发表于 2024-3-21 12:41:14",
+  "content": "zxyny1989 发表于 2024-3-21 12:34 谢谢大佬分享，可惜我用的高恪 高格也差不多的，抓一下包改一下",
+  "reply_id": [
+    "post_590282"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.442750"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 9,
+  "author": "QQ617250210",
+  "reply_time": "发表于 2024-3-21 13:34:28",
+  "content": "感谢分项，我用的是爱快的集成，也挺好用的",
+  "reply_id": [
+    "post_590285"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.443215"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 11,
+  "author": "隔壁的王叔叔",
+  "reply_time": "发表于 2024-3-21 14:24:24",
+  "content": "直接用ha就行了呗，为嘛还通过mqtt中转一下呢？",
+  "reply_id": [
+    "post_590296"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.443536"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 13,
+  "author": "4303279",
+  "reply_time": "发表于 2024-3-21 14:45:37",
+  "content": "不知道用个能不能进入TP-LINK",
+  "reply_id": [
+    "post_590305"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.443858"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 15,
+  "author": "SuperGabriel",
+  "reply_time": "发表于 2024-3-21 16:41:50",
+  "content": "感谢分享，学习一下，正好看看能不能使用",
+  "reply_id": [
+    "post_590355"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.444129"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 17,
+  "author": "ldj",
+  "reply_time": "发表于 2024-3-22 03:08:13",
+  "content": "来研究一下",
+  "reply_id": [
+    "post_590539"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.444390"
+},
+{
+  "post_id": [
+    "24610"
+  ],
+  "floor_num": 19,
+  "author": "silang521",
+  "reply_time": "发表于 2024-3-22 20:56:49",
+  "content": "我的不能直接导入",
+  "reply_id": [
+    "post_590776"
+  ],
+  "crawl_time": "2025-07-24T20:18:20.444644"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 3,
+  "author": "wdmywm3",
+  "reply_time": "发表于 2023-10-6 00:50:30",
+  "content": "我的平板中控放在门口当了几个月的摆设了，先学习一个",
+  "reply_id": [
+    "post_558412"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.458882"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 5,
+  "author": "dachandler7",
+  "reply_time": "发表于 2023-10-6 01:36:57",
+  "content": "wdmywm3 发表于 2023-10-6 00:50 我的平板中控放在门口当了几个月的摆设了，先学习一个 我在实际使用时，用的最多的其实是小爱音箱，非米家设备通过巴法云可以让小爱音箱来进行控制。平板中控除了装13好看以外，只有在客厅区域内的情况下才会少量使用。",
+  "reply_id": [
+    "post_558413"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.459402"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 7,
+  "author": "wdmywm3",
+  "reply_time": "发表于 2023-10-6 01:56:32",
+  "content": "dachandler7 发表于 2023-10-6 01:36 我在实际使用时，用的最多的其实是小爱音箱，非米家设备通过巴法云可以让小爱音箱来进行控制。平板中控除 ... 是这样，所以我现在回头琢磨，感觉搞个小米智慧屏6或者8，又或者红米音箱pro8改，有钱的搞个智慧屏10，上墙的效果可能比一个平板更好。 一个是自带miui，比自己diy的终究好看。 另一个是自带小爱音箱，节省一个小爱的空间。",
+  "reply_id": [
+    "post_558414"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.459758"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 9,
+  "author": "bugensui",
+  "reply_time": "发表于 2023-10-6 23:26:28",
+  "content": "为什么不用官方的app，功能体验不是更好，另外请教下220V转5V的变压器放进86盒，长期通电的情况下，有没有安全隐患",
+  "reply_id": [
+    "post_558562"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.460073"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 11,
+  "author": "a_dongde",
+  "reply_time": "发表于 2023-10-7 08:40:27",
+  "content": "bugensui 发表于 2023-10-6 23:26 为什么不用官方的app，功能体验不是更好，另外请教下220V转5V的变压器放进86盒，长期通电的情况下，有没有 ... fully kiosk browser 功能里可以调用摄像头，可以实现人来自动亮屏（本人买了个联想小新PAD 2020自带了，使用的免费功能即可）。 220V转5V的变压器放入底盒正常运行一年了，没什么问题，本来现在的带USB口的插座都是一直通电在线的。",
+  "reply_id": [
+    "post_558583"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.460360"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 13,
+  "author": "13860605362",
+  "reply_time": "发表于 2023-10-7 09:51:50",
+  "content": "我中控直接常亮，控制设备次要的，绝大部分自动化，小部分语音控制。我更多的是用来消息提醒，晒衣服耗材之类的。",
+  "reply_id": [
+    "post_558591"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.460691"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 15,
+  "author": "bugensui",
+  "reply_time": "发表于 2023-10-7 10:23:38",
+  "content": "a_dongde 发表于 2023-10-7 08:40 fully kiosk browser 功能里可以调用摄像头，可以实现人来自动亮屏（本人买了个联想小新PAD 2020自带了， ... 谢谢大佬，你买的是哪款，能不能分享下，你在用在底盒里接什么传感器用？",
+  "reply_id": [
+    "post_558596"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.460983"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 17,
+  "author": "a_dongde",
+  "reply_time": "发表于 2023-10-13 09:06:19",
+  "content": "空白处开关时连接220~5V电源，塞到了底盒里，在HA中写了自动化通断充电。3D打印了一个支架，把原来的开关垫高了，线走支架下穿出来。 登录/注册后可看大图 1697159031653.png (252.16 KB, 下载次数: 0) 下载附件 2023-10-13 09:04 上传",
+  "reply_id": [
+    "post_559976"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.461270"
+},
+{
+  "post_id": [
+    "22924"
+  ],
+  "floor_num": 19,
+  "author": "a_dongde",
+  "reply_time": "发表于 2023-10-13 09:07:31",
+  "content": "bugensui 发表于 2023-10-7 10:23 谢谢大佬，你买的是哪款，能不能分享下，你在用在底盒里接什么传感器用？ ... 空白处开关时连接220~5V电源，塞到了底盒里，在HA中写了自动化通断充电。3D打印了一个支架，把原来的开关垫高了，线走支架下穿出来。 登录/注册后可看大图 1697159031653.png (252.16 KB, 下载次数: 0) 下载附件 2023-10-13 09:07 上传",
+  "reply_id": [
+    "post_559977"
+  ],
+  "crawl_time": "2025-07-24T20:18:22.461556"
+},
+{
+  "post_id": [
+    "19349"
+  ],
+  "floor_num": 3,
+  "author": "ekingfan",
+  "reply_time": "发表于 2023-1-27 21:50:50",
+  "content": "本帖最后由 ekingfan 于 2023-1-27 22:12 编辑 谢谢先。type: custom:digital-clock 但时间日期怎么转成中文？要加代码？删除这个代码就是中文的， locale: cn 但怎么怎么设置12小时？",
+  "reply_id": [
+    "post_507343"
+  ],
+  "crawl_time": "2025-07-24T20:18:24.557664"
+},
+{
+  "post_id": [
+    "19349"
+  ],
+  "floor_num": 5,
+  "author": "sorrypqa",
+  "reply_time": "发表于 2023-1-27 22:00:13",
+  "content": "我的天呀，天书般的配置，没有注释，完全看不懂。",
+  "reply_id": [
+    "post_507344"
+  ],
+  "crawl_time": "2025-07-24T20:18:24.558325"
+},
+{
+  "post_id": [
+    "19349"
+  ],
+  "floor_num": 7,
+  "author": "zhouxj",
+  "reply_time": "发表于 2023-1-27 23:11:20",
+  "content": "学习了，先收藏了，以后有空了再看",
+  "reply_id": [
+    "post_507351"
+  ],
+  "crawl_time": "2025-07-24T20:18:24.558661"
+},
+{
+  "post_id": [
+    "19349"
+  ],
+  "floor_num": 9,
+  "author": "powertnt",
+  "reply_time": "发表于 2023-1-28 11:02:19",
+  "content": "学习了，先收藏了",
+  "reply_id": [
+    "post_507389"
+  ],
+  "crawl_time": "2025-07-24T20:18:24.558964"
+},
+{
+  "post_id": [
+    "19349"
+  ],
+  "floor_num": 11,
+  "author": "MX10085",
+  "reply_time": "发表于 2023-1-28 14:13:51",
+  "content": "学习了，先收藏了",
+  "reply_id": [
+    "post_507435"
+  ],
+  "crawl_time": "2025-07-24T20:18:24.559248"
+},
+{
+  "post_id": [
+    "19349"
+  ],
+  "floor_num": 13,
+  "author": "angelyangw",
+  "reply_time": "发表于 2023-1-28 20:24:10",
+  "content": "sorrypqa 发表于 2023-1-27 22:00 我的天呀，天书般的配置，没有注释，完全看不懂。 看着很复杂，其实所有内容都是图形化的 。。。我是从图形化那里直接copy出来的",
+  "reply_id": [
+    "post_507493"
+  ],
+  "crawl_time": "2025-07-24T20:18:24.559527"
+},

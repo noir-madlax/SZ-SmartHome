@@ -1,0 +1,111 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130509703887035/",
+  "time": "2025-07-24T07:55:30.000Z",
+  "user": {
+    "id": "pfbid02g6FrGKDdr6ZbksT33deB3prQwUcSGDG438bCqQsN63duiKtdL1CpEv4vfK3EqrUTl",
+    "name": "Jarkko Seppelin"
+  },
+  "text": "Anyone else ran into this issue that the middle sections background is always dark?\nI've got two different HA systems and both has the same issue.\nThis one has a Apexchart graph but the other one has only normal entities and with default HA theme but in both the middle one is different",
+  "topReactionsCount": 0,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDUwOTcwMzg4NzAzNQ==",
+  "id": "UzpfSTEwODU5NjE5OTE6Vks6NDEzMDUwOTcwMzg4NzAzNQ==",
+  "legacyId": "4130509703887035",
+  "attachments": [
+    {
+      "mediaset_token": "pcb.4130509703887035",
+      "url": "https://www.facebook.com/media/set/?set=pcb.4130509703887035&type=1",
+      "comet_product_tag_feed_overlay_renderer": null
+    },
+    {
+      "thumbnail": "https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-6/523852849_10237182891366970_6462684649723120841_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=uTQpV4pOvM0Q7kNvwG623YU&_nc_oc=Adkp5TIUSDzmQYTHL507hiC-jr_YVKitp-3XNozE8kRpOsMtZuejsp51FZXVYV2Tf0R7g-0Rgwt4CWu8LqBaY4MK&_nc_zt=23&_nc_ht=scontent.fnag6-3.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfQ-WTUzRAIxhvimfQ77LCh0B6u9_KmrJE5JzD8H_CgEGA&oe=6887E01F",
+      "__typename": "Photo",
+      "is_playable": false,
+      "image": {
+        "uri": "https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-6/523852849_10237182891366970_6462684649723120841_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=uTQpV4pOvM0Q7kNvwG623YU&_nc_oc=Adkp5TIUSDzmQYTHL507hiC-jr_YVKitp-3XNozE8kRpOsMtZuejsp51FZXVYV2Tf0R7g-0Rgwt4CWu8LqBaY4MK&_nc_zt=23&_nc_ht=scontent.fnag6-3.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfQ-WTUzRAIxhvimfQ77LCh0B6u9_KmrJE5JzD8H_CgEGA&oe=6887E01F",
+        "height": 143,
+        "width": 600
+      },
+      "id": "10237182891246967",
+      "__isMedia": "Photo",
+      "photo_cix_screen": null,
+      "copyright_banner_info": null,
+      "owner": {
+        "__typename": "User",
+        "id": "pfbid02g6FrGKDdr6ZbksT33deB3prQwUcSGDG438bCqQsN63duiKtdL1CpEv4vfK3EqrUTl"
+      },
+      "ocrText": "May be an image of text that says \"Todays price c/kWh Current cWh Aueroge 10.0 Tomorro OWS price c/kWh MAX ....... 20 Sunny 0.0 010150180205 0:00 03:00 06:00 09:00 12:00 15:00 18:00 21:00 Jul Loadれg 25,3°C 29,5c/22,5*C 2420050力 Sun Man 0曲2001501002 00:00 03:00 06:00 09:00 12:00 15:00 18:00 21:00 28,5° 22,6 27,4 18,2 26,4° 18,5° 24,1° 185° 2005150 22,8\" 18,4\""
+    },
+    {
+      "thumbnail": "https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/523955902_10237182902367245_7855014005836217857_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kobN-ad8BW8Q7kNvwHZmnQD&_nc_oc=AdlorZAx9WJ-Iv9p3ohmSzKoNr6lfGfHqSZuySSQTdOG2OIJ3epOkNi-MfPwgFEd7bUS8MjsmiO7WvOvzLBurHrw&_nc_zt=23&_nc_ht=scontent.fnag6-2.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfTSakk7fMNTA6JaYgzY9bPJATWX3wQ14_NfZxXfSwLStA&oe=68880129",
+      "__typename": "Photo",
+      "is_playable": false,
+      "image": {
+        "uri": "https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/523955902_10237182902367245_7855014005836217857_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kobN-ad8BW8Q7kNvwHZmnQD&_nc_oc=AdlorZAx9WJ-Iv9p3ohmSzKoNr6lfGfHqSZuySSQTdOG2OIJ3epOkNi-MfPwgFEd7bUS8MjsmiO7WvOvzLBurHrw&_nc_zt=23&_nc_ht=scontent.fnag6-2.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfTSakk7fMNTA6JaYgzY9bPJATWX3wQ14_NfZxXfSwLStA&oe=68880129",
+        "height": 191,
+        "width": 600
+      },
+      "id": "10237182902327244",
+      "__isMedia": "Photo",
+      "photo_cix_screen": null,
+      "copyright_banner_info": null,
+      "owner": {
+        "__typename": "User",
+        "id": "pfbid02g6FrGKDdr6ZbksT33deB3prQwUcSGDG438bCqQsN63duiKtdL1CpEv4vfK3EqrUTl"
+      },
+      "ocrText": "May be a graphic of text"
+    }
+  ],
+  "likesCount": 0,
+  "sharesCount": 0,
+  "commentsCount": 4,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130509703887035/?comment_id=4130555223882483",
+      "id": "Y29tbWVudDo0MTMwNTA5NzAzODg3MDM1XzQxMzA1NTUyMjM4ODI0ODM=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDUwOTcwMzg4NzAzNV80MTMwNTU1MjIzODgyNDgz",
+      "date": "2025-07-24T08:56:28.000Z",
+      "text": "What theme are you using? Add theme: xxxx to the yaml of your cards. See if that makes a difference.  \n\nIf you swap cards your weather and your apex will it still be messed up?",
+      "profilePicture": "https://scontent.fnag6-1.fna.fbcdn.net/v/t39.30808-1/364038073_10160635392668771_691554325535046289_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_ohc=iP_Gs7HtdpoQ7kNvwEz-83E&_nc_oc=Adm70trMxg3QLZVIv5yCw_HgSV57MlAd7NXmzXlftOAWCYuAx6EfLp1P2N6A9rjRj0zqENgNUJhQ9eGBs1XrdW4u&_nc_zt=24&_nc_ht=scontent.fnag6-1.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfS7z6uNAhIHvWHZ7x26FcRo18wSR5WAIVPgiRMOGN7acg&oe=6887E354",
+      "profileId": "pfbid0256FyFtZmUKqERSFtyteNcD4KpDEEoexRABc9QAbBKR76SDPseWqtoxxDFaCmjQZjl",
+      "profileName": "Phil Arbit",
+      "likesCount": "0",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130509703887035/?comment_id=4130512743886731",
+      "id": "Y29tbWVudDo0MTMwNTA5NzAzODg3MDM1XzQxMzA1MTI3NDM4ODY3MzE=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDUwOTcwMzg4NzAzNV80MTMwNTEyNzQzODg2NzMx",
+      "date": "2025-07-24T07:59:55.000Z",
+      "text": "In the above pictures the layout is Sections but I noticed that I also had one with masonry layout which is behaving the same way that the second one is dark",
+      "attachments": [
+        {
+          "__typename": "Photo",
+          "blurred_image": {
+            "uri": "https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/523854021_10237182927727879_7440688297514171289_n.jpg?stp=dst-jpg_fb30_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=bd9a62&_nc_ohc=b3LheYiH7yIQ7kNvwFh0OMX&_nc_oc=AdmAReT6mo4BWYpToLuG_3uvYli0SSVPRLNs8UNrRTOWXul9NcGrBr_O8X9cz-e8-Jhp2n8S5wTMHnlNStfmbLXk&_nc_zt=23&_nc_ht=scontent.fnag6-2.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfSHCi8mqNZCT6rol0-mymS43PQMsTV3eVgt_2tMfc-acg&oe=6887F098"
+          },
+          "id": "10237182927687878",
+          "cix_screen": null,
+          "massive_image": {
+            "width": 960,
+            "height": 32
+          },
+          "image": {
+            "uri": "https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/523854021_10237182927727879_7440688297514171289_n.jpg?stp=dst-jpg_s261x260_tt6&_nc_cat=106&ccb=1-7&_nc_sid=bd9a62&_nc_ohc=b3LheYiH7yIQ7kNvwFh0OMX&_nc_oc=AdmAReT6mo4BWYpToLuG_3uvYli0SSVPRLNs8UNrRTOWXul9NcGrBr_O8X9cz-e8-Jhp2n8S5wTMHnlNStfmbLXk&_nc_zt=23&_nc_ht=scontent.fnag6-2.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfTg0DAjKe0QfWCFl0Q2ACUsEFC3rBVbSia3WCWDwZHywg&oe=6887F098",
+            "width": 261,
+            "height": 9
+          },
+          "ocrText": "May be an image of text"
+        }
+      ],
+      "profilePicture": "https://scontent.fnag6-3.fna.fbcdn.net/v/t39.30808-1/295707963_10227635351404438_8659289111037661912_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_ohc=OJMsK-uEGbIQ7kNvwER8Q6R&_nc_oc=AdncA1w7II-OIJPy5OGbxQT682q09DU91V0Gzem-brWUvGyQgEYqEzcjV4rOjVeo6f2kyPAU6GM2f_PLU71i2wFo&_nc_zt=24&_nc_ht=scontent.fnag6-3.fna&_nc_gid=C4QVvyJMIing3zxOiUZHEQ&oh=00_AfSGwqgiybR2MeNaWs2ZCN_ZWjxRCcaYzfQjWnZvdB6NXA&oe=6887E93B",
+      "profileId": "pfbid02g6FrGKDdr6ZbksT33deB3prQwUcSGDG438bCqQsN63duiKtdL1CpEv4vfK3EqrUTl",
+      "profileName": "Jarkko Seppelin",
+      "likesCount": "0",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

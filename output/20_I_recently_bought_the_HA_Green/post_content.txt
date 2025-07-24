@@ -1,0 +1,16 @@
+💬 帖子内容
+==================================================
+
+作者: Jason Farrish
+时间: 2025-07-23T21:23:39.000Z
+
+==================================================
+
+I recently bought the HA Green. One of the reasons I wanted it was to try to integrate it with MyQ so I could set it up to open/close the garage door when I arrive/leave the house, without having to push a button. It's kind of annoying to know that my car will do it (it has the MyQ app installed), but the MyQ app on my phone won't do it. So here I am trying to figure out how to do it. 
+
+I've just recently realized that Chamberlain has put up a pay-wall which is effectively blocking HA. Is there any other way this could be achieved without buying a different brand of garage door? I've seen some posts mention RATGDO, but not too sure if that would do what I am wanting. 
+
+Any suggestions? Walkthroughs?
+
+==================================================
+📊 1 个赞 · 22 条评论 · 0 次分享

@@ -17,9 +17,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Output directories
-*/output/
-output/
 
 # Logs
 *.log

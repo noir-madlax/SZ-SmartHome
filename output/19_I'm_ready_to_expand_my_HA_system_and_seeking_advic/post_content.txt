@@ -1,0 +1,13 @@
+💬 帖子内容
+==================================================
+
+作者: Glen Johnson
+时间: 2025-07-23T22:05:30.000Z
+
+==================================================
+
+I'm ready to expand my HA system and seeking advice for HA controllable plug in outlets for the US market.
+Energy monitoring would be nice to have, but last state recovery after a power outage is a must.  Either wifi or zigbee, although I don't yet have a zigbee connection to HA, so recommendations for a good zigbee interface.  Does the esp32-c6 qualify as good?  Don't want a USB one as my HA is virtualized on proxmox and the server is in the basement shop, so would prefer wifi or ethernet.  I checked the hadevices.com site but not enough info there, or is there a better site for HA compatible kit?
+
+==================================================
+📊 0 个赞 · 13 条评论 · 0 次分享

@@ -84,14 +84,14 @@ class HassbianSpider(scrapy.Spider):
         # 提取帖子链接，使用更精确的选择器
         post_links = []
         
-        # 尝试多种选择器来获取帖子链接，优先获取主题帖链接
+        # 尝试多种选择器来获取帖子链接，从严格到宽松
         selectors = [
-            'tbody[id^="normalthread_"] th.new a[href*="thread-"][href$="-1-1.html"]::attr(href)',
-            'tbody[id^="normalthread_"] th.common a[href*="thread-"][href$="-1-1.html"]::attr(href)',
-            'th.new a[href*="thread-"][href$="-1-1.html"]::attr(href)',
-            'th.common a[href*="thread-"][href$="-1-1.html"]::attr(href)',
-            'tbody[id^="normalthread_"] a[href*="thread-"][href$="-1-1.html"]::attr(href)',
-            'a[href*="thread-"][href$="-1-1.html"]::attr(href)'
+            'tbody[id^="normalthread_"] th.new a[href*="thread-"]::attr(href)',
+            'tbody[id^="normalthread_"] th.common a[href*="thread-"]::attr(href)',
+            'th.new a[href*="thread-"]::attr(href)',
+            'th.common a[href*="thread-"]::attr(href)',
+            'tbody[id^="normalthread_"] a[href*="thread-"]::attr(href)',
+            'a[href*="thread-"][href*=".html"]::attr(href)'
         ]
         
         for selector in selectors:
@@ -100,25 +100,34 @@ class HassbianSpider(scrapy.Spider):
                 logger.info(f"Using selector: {selector}")
                 break
         
-        # 提取帖子ID并过滤
+        # 提取帖子ID并过滤，优先选择第一页的帖子
         new_posts = []
         seen_posts = set()
         
         for link in post_links:
             if not link or 'thread-' not in link:
                 continue
-                
+            
+            # 优先选择主题帖（-1-1.html结尾）
+            is_main_thread = link.endswith('-1-1.html')
+            
             # 提取帖子ID
             post_id = self.extract_post_id(urljoin(self.base_url, link))
             if not post_id:
                 continue
                 
-            # 跳过已存在的帖子和重复的帖子
+            # 跳过已存在的帖子
             if post_id in self.existing_post_ids:
                 logger.info(f"Skipping existing post: {post_id}")
                 continue
                 
+            # 跳过重复的帖子（优先保留主题帖）
             if post_id in seen_posts:
+                # 如果当前是主题帖，替换之前的
+                if is_main_thread:
+                    # 移除之前的版本
+                    new_posts = [(pid, plink) for pid, plink in new_posts if pid != post_id]
+                    new_posts.append((post_id, link))
                 continue
                 
             seen_posts.add(post_id)
@@ -127,6 +136,9 @@ class HassbianSpider(scrapy.Spider):
             # 如果找到足够的新帖子，停止
             if len(new_posts) >= (self.max_posts_per_page - self.found_posts_count):
                 break
+        
+        # 按链接类型排序，主题帖优先
+        new_posts.sort(key=lambda x: (not x[1].endswith('-1-1.html'), x[0]))
         
         logger.info(f"Found {len(new_posts)} new posts on page {page_num} (skipped {len(self.existing_post_ids)} existing)")
         
@@ -232,57 +244,144 @@ class HassbianSpider(scrapy.Spider):
             loader.add_value('post_id', post_id)
             loader.add_value('post_url', response.url)
             
-            # 标题
-            title = response.css('#thread_subject::text').get() or \
-                   response.css('h1::text').get() or \
-                   response.css('.maintitle::text').get()
+            # 标题 - 尝试多种选择器
+            title_selectors = [
+                '#thread_subject::text',
+                'h1::text',
+                '.maintitle::text',
+                'span[id^="thread_subject"]::text',
+                '.threadtitle a::text'
+            ]
+            
+            title = None
+            for selector in title_selectors:
+                title = response.css(selector).get()
+                if title:
+                    break
+            
             if title:
                 loader.add_value('title', title.strip())
+            else:
+                # 从URL中提取标题作为后备
+                logger.warning(f"Could not extract title for post {post_id}")
+                loader.add_value('title', f'未知标题_{post_id}')
             
-            # 作者信息
-            author = response.css('.authi a::text').get() or \
-                    response.css('.postauthor a::text').get() or \
-                    response.css('[id^="postauthor"] a::text').get()
+            # 作者信息 - 尝试多种选择器
+            author_selectors = [
+                '.authi a::text',
+                '.postauthor a::text',
+                '[id^="postauthor"] a::text',
+                '.username a::text',
+                'td.postauthor .username::text'
+            ]
+            
+            author = None
+            for selector in author_selectors:
+                author = response.css(selector).get()
+                if author:
+                    break
+            
             if author:
                 loader.add_value('author', author.strip())
             
-            # 发帖时间
-            post_time = response.css('.authi em::text').get() or \
-                       response.css('.postinfo::text').re_first(r'(\d{4}-\d{1,2}-\d{1,2} \d{1,2}:\d{1,2})')
+            # 发帖时间 - 尝试多种选择器和格式
+            time_selectors = [
+                '.authi em::text',
+                '.postinfo em::text',
+                'em[id^="authorposton"]::text',
+                '.postdate::text'
+            ]
+            
+            post_time = None
+            for selector in time_selectors:
+                post_time = response.css(selector).get()
+                if post_time:
+                    break
+            
+            # 如果没找到，尝试从页面文本中提取
+            if not post_time:
+                post_time = response.css('.postinfo::text').re_first(r'发表于\s*([^|]+)')
+            
             if post_time:
                 loader.add_value('post_time', post_time.strip())
             
-            # 帖子内容
+            # 帖子内容 - 尝试多种选择器
             content_selectors = [
-                '.postcontent .postmessage',
-                '.t_msgfont',
-                '[id^="postmessage_"] .postmessage',
-                '.postbody .postmessage'
+                '[id^="postmessage_"]:first-child',  # 第一个帖子内容
+                '.postcontent .postmessage:first-child',
+                '.t_msgfont:first-child',
+                '.postbody .postmessage:first-child',
+                '[id^="post_"] .postmessage:first-child',
+                'td[id^="postmessage_"]:first-child'
             ]
             
             content = None
             for selector in content_selectors:
-                content_elem = response.css(selector)
-                if content_elem:
-                    content = ' '.join(content_elem.css('::text').getall())
+                content_elems = response.css(selector)
+                if content_elems:
+                    # 获取第一个元素的所有文本内容
+                    content_texts = content_elems[0].css('::text').getall()
+                    if content_texts:
+                        content = ' '.join([text.strip() for text in content_texts if text.strip()])
+                        break
+            
+            # 如果还是没有内容，尝试更宽泛的选择器
+            if not content or len(content.strip()) < 10:
+                broader_selectors = [
+                    '[id^="postmessage_"]',
+                    '.postmessage',
+                    '.t_msgfont'
+                ]
+                
+                for selector in broader_selectors:
+                    content_elems = response.css(selector)
+                    if content_elems:
+                        # 获取第一个有实际内容的元素
+                        for elem in content_elems:
+                            text_content = ' '.join(elem.css('::text').getall()).strip()
+                            if text_content and len(text_content) > 10:
+                                content = text_content
+                                break
+                        if content:
+                            break
+            
+            if content and content.strip():
+                loader.add_value('content', content.strip())
+            else:
+                loader.add_value('content', '暂无内容')
+                logger.warning(f"Could not extract content for post {post_id}")
+            
+            # 统计信息 - 尝试多种格式
+            stats_text = ' '.join(response.css('.postinfo::text').getall())
+            
+            # 查看数
+            view_patterns = [r'查看[：:]\s*(\d+)', r'浏览[：:]\s*(\d+)', r'(\d+)\s*次查看']
+            view_count = None
+            for pattern in view_patterns:
+                view_match = re.search(pattern, stats_text)
+                if view_match:
+                    view_count = view_match.group(1)
                     break
             
-            if content:
-                loader.add_value('content', content)
-            
-            # 统计信息
-            view_count = response.css('.postinfo::text').re_first(r'查看[：:]\s*(\d+)')
             if view_count:
-                loader.add_value('view_count', view_count)
-                
-            reply_count = response.css('.postinfo::text').re_first(r'回复[：:]\s*(\d+)')
+                loader.add_value('view_count', int(view_count))
+            
+            # 回复数
+            reply_patterns = [r'回复[：:]\s*(\d+)', r'(\d+)\s*个回复', r'回帖\s*(\d+)']
+            reply_count = None
+            for pattern in reply_patterns:
+                reply_match = re.search(pattern, stats_text)
+                if reply_match:
+                    reply_count = reply_match.group(1)
+                    break
+            
             if reply_count:
-                loader.add_value('reply_count', reply_count)
+                loader.add_value('reply_count', int(reply_count))
             
             return loader.load_item()
             
         except Exception as e:
-            logger.error(f"Error extracting post info: {e}")
+            logger.error(f"Error extracting post info for {post_id}: {e}")
             return None
 
     def extract_replies(self, response, post_id, start_floor=1):

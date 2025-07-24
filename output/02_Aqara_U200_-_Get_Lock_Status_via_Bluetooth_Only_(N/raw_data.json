@@ -1,0 +1,38 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130415883896417/",
+  "time": "2025-07-24T11:13:22.000Z",
+  "user": {
+    "id": "1270457661406440",
+    "name": "Anonymous participant"
+  },
+  "text": "Aqara U200 - Get Lock Status via Bluetooth Only (No Matter/Thread)?\n\nHi everyone,\nI have an Aqara U200 smart lock and I'm trying to integrate it with my Home Assistant setup.\nMy HA machine has a standard built-in Bluetooth adapter, but I do not have a Matter-over-Thread dongle (like a SkyConnect or other Thread border router).\nI know the U200 can communicate directly with a phone via Bluetooth for initial setup and local control. My question is: can I leverage my HA's existing Bluetooth capabilities to get the lock's status?\nMy only goal is to have a sensor entity in Home Assistant that shows whether the lock is locked or unlocked. I do not need the ability to lock or unlock it remotely from HA. Getting the battery status as well would be a fantastic bonus.\nHas anyone had success with a similar setup, using just Bluetooth for read-only status from the U200?\nThanks for your help!",
+  "topReactionsCount": 0,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDQxNTg4Mzg5NjQxNw==",
+  "id": "UzpfSTEyNzA0NTc2NjE0MDY0NDA6Vks6NDEzMDQxNTg4Mzg5NjQxNw==",
+  "legacyId": "4130415883896417",
+  "attachments": [
+    {
+      "thumbnail": "https://scontent.fbpm3-1.fna.fbcdn.net/v/t39.30808-6/514356248_1245348876826288_8492523448160033418_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=CyTU_nFW1xcQ7kNvwHDgfTs&_nc_oc=Adk0GJjzBeSTtNEbvZOKPqV-VgGdBoMhR0qUp6ovkm32nxzR1v0iBfDId22ACdJ-qLo&_nc_zt=23&_nc_ht=scontent.fbpm3-1.fna&_nc_gid=QuRMK005Qw7lJI8twItoXA&oh=00_AfQZGcK0bGrNHneQIKKpOtfVXGcOPfXk8pC_YHdHYj4-xw&oe=6887F472",
+      "__typename": "Photo",
+      "photo_image": {
+        "uri": "https://scontent.fbpm3-1.fna.fbcdn.net/v/t39.30808-6/514356248_1245348876826288_8492523448160033418_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=CyTU_nFW1xcQ7kNvwHDgfTs&_nc_oc=Adk0GJjzBeSTtNEbvZOKPqV-VgGdBoMhR0qUp6ovkm32nxzR1v0iBfDId22ACdJ-qLo&_nc_zt=23&_nc_ht=scontent.fbpm3-1.fna&_nc_gid=QuRMK005Qw7lJI8twItoXA&oh=00_AfQZGcK0bGrNHneQIKKpOtfVXGcOPfXk8pC_YHdHYj4-xw&oe=6887F472",
+        "height": 512,
+        "width": 512
+      },
+      "__isMedia": "Photo",
+      "accent_color": "FFFFFFFF",
+      "photo_product_tags": [],
+      "url": "https://www.facebook.com/1270457661406440/photos/gm.4130415883896417/1245348873492955/?type=3",
+      "id": "1245348873492955",
+      "ocrText": "May be an image of phone and text that says \"Thread Slurieoth ? SmartLock Smart Lock Home Assistant\""
+    }
+  ],
+  "likesCount": 0,
+  "sharesCount": 0,
+  "commentsCount": 0,
+  "topComments": [],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

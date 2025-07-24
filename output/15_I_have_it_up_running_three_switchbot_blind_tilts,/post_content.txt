@@ -1,0 +1,18 @@
+💬 帖子内容
+==================================================
+
+作者: Zachary Gibson
+时间: 2025-07-23T23:28:44.000Z
+
+==================================================
+
+I have it up running three switchbot blind tilts, a few govee items (I think) I went step by step on this guide on youtube. Now the thing is, I have removed the switchbot hub, and the blinds still work. So I know the BT proxy is working. I just don’t know why it’s not passive scanning for NEW or “available” BT devices.  I have numerous devices that it should be detecting. 
+
+In fact I have a TTlock integration that runs BT on the “cloud” through a gateway.  I would love to connect those locks directly to the BT proxy I set up. 
+
+I’ve spent HOURS on YouTube, forums, here, and with a few people. I’m not understanding.   
+
+Thanks if you read that far. I do know HA, I have zwave, zigbee, WiFi, hundreds of devices and automations. This BT stuff is confusing me…any one willing to help me out???
+
+==================================================
+📊 1 个赞 · 16 条评论 · 0 次分享

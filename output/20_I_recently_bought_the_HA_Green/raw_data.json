@@ -1,0 +1,47 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130085243929481/",
+  "time": "2025-07-23T21:23:39.000Z",
+  "user": {
+    "id": "pfbid0Vas9gehNyZxjLZ2g8Yy58GnZZUuuEtu489ctwozfhCPSRpPcCaA5obL6vergFUfyl",
+    "name": "Jason Farrish"
+  },
+  "text": "I recently bought the HA Green. One of the reasons I wanted it was to try to integrate it with MyQ so I could set it up to open/close the garage door when I arrive/leave the house, without having to push a button. It's kind of annoying to know that my car will do it (it has the MyQ app installed), but the MyQ app on my phone won't do it. So here I am trying to figure out how to do it. \n\nI've just recently realized that Chamberlain has put up a pay-wall which is effectively blocking HA. Is there any other way this could be achieved without buying a different brand of garage door? I've seen some posts mention RATGDO, but not too sure if that would do what I am wanting. \n\nAny suggestions? Walkthroughs?",
+  "topReactionsCount": 1,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDA4NTI0MzkyOTQ4MQ==",
+  "reactionLikeCount": 2,
+  "id": "UzpfSTEwMDAwMDA4NjU1ODI0MzpWSzo0MTMwMDg1MjQzOTI5NDgx",
+  "legacyId": "4130085243929481",
+  "likesCount": 2,
+  "sharesCount": 0,
+  "commentsCount": 22,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130085243929481/?comment_id=4130087020595970",
+      "id": "Y29tbWVudDo0MTMwMDg1MjQzOTI5NDgxXzQxMzAwODcwMjA1OTU5NzA=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDA4NTI0MzkyOTQ4MV80MTMwMDg3MDIwNTk1OTcw",
+      "date": "2025-07-23T21:26:33.000Z",
+      "text": "MyQ is already a long time not supported in HA due to Chamberlain. Look for RATGDO",
+      "profilePicture": "https://scontent.fmji4-1.fna.fbcdn.net/v/t1.6435-1/69836284_10220101128822139_1499446028758155264_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HKy6s__7v1UQ7kNvwFnU5WL&_nc_oc=AdnDlgBcqLMUKkBloNr0JdpGAumB-EJRcOrPgIr3lXIFmDwynZsAQBYlIAVB18kOtk0&_nc_zt=24&_nc_ht=scontent.fmji4-1.fna&_nc_gid=bCq0DmaMY8iFA0oYjV7KoQ&oh=00_AfSppmVfw7EC2bx-IWi4_Xo4A9z4NFhm5ORBX-N7gVHz8g&oe=68A97FC0",
+      "profileId": "pfbid0hgydjbtTTvcEdh9achdCFMkvx7NwBzvwLA5oRa5QXuPSEazcDcBKwLTSLGHEH3vUl",
+      "profileName": "Robin De Becker",
+      "likesCount": "2",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130085243929481/?comment_id=4130120090592663",
+      "id": "Y29tbWVudDo0MTMwMDg1MjQzOTI5NDgxXzQxMzAxMjAwOTA1OTI2NjM=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDA4NTI0MzkyOTQ4MV80MTMwMTIwMDkwNTkyNjYz",
+      "date": "2025-07-23T22:27:00.000Z",
+      "text": "Dump the MyQ and get ratgdo.",
+      "profilePicture": "https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-1/452287469_10107873128259838_8108832835797209637_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=107&ccb=1-7&_nc_sid=e99d92&_nc_ohc=tZK599cs4o0Q7kNvwHWxSVl&_nc_oc=AdmNV90vUzukqtmDDh7uKUJ3xBT_OE9OaN63Z0Haojt3B4rDKDYqBaB8QFAQF7_GlTY&_nc_zt=24&_nc_ht=scontent.fmji4-1.fna&_nc_gid=bCq0DmaMY8iFA0oYjV7KoQ&oh=00_AfTyojjAJ_E8nl7GNGbz7-lEoVuP5p64fycr_ttwiv8iig&oe=6888042C",
+      "profileId": "pfbid0kQgDwVN7sJi4wKbGebMCdhDYfCK4LinRfQLzwbgwQx957HsEdeL14AXEZKnAtS7Ll",
+      "profileName": "Anthony Pego",
+      "likesCount": "2",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

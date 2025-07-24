@@ -1,0 +1,74 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130108673927138/",
+  "time": "2025-07-23T22:05:30.000Z",
+  "user": {
+    "id": "pfbid02HFDC8afBmyDUMCNbkVEYsodMTsgktK91Dr1LuhY82uKoGydnZVMupjKfJSbVhM83l",
+    "name": "Glen Johnson"
+  },
+  "text": "I'm ready to expand my HA system and seeking advice for HA controllable plug in outlets for the US market.\nEnergy monitoring would be nice to have, but last state recovery after a power outage is a must.  Either wifi or zigbee, although I don't yet have a zigbee connection to HA, so recommendations for a good zigbee interface.  Does the esp32-c6 qualify as good?  Don't want a USB one as my HA is virtualized on proxmox and the server is in the basement shop, so would prefer wifi or ethernet.  I checked the hadevices.com site but not enough info there, or is there a better site for HA compatible kit?",
+  "textReferences": [
+    {
+      "url": "https://l.facebook.com/l.php?u=http%3A%2F%2Fhadevices.com%2F&h=AT0GZLM7Dazh9eTXw_3_ZntRLl0xWLtWBhln8dT2qpsgKJaoM5MiOyk2GlHCi2EQIILVfBTFHXvHVoUh4P7CPEvfDsjWFqIcKyGTTCJmAq3o02sIG9wKxseOSOZ88ubLjquAWjI7aWVz3WNDZK3taGqBR5d6Z77g&s=1",
+      "external_url": "http://hadevices.com/",
+      "web_link": {
+        "__typename": "ExternalWebLink",
+        "url": "http://hadevices.com/",
+        "fbclid": null,
+        "lynx_mode": "ASYNCLAZY"
+      },
+      "mobileUrl": "https://lm.facebook.com/l.php?u=http%3A%2F%2Fhadevices.com%2F&h=AT3xO2fwSC2vOAlwZLAZRzjxGknhK-LP_4l69H-g0AZRCiqEJVjdQlRcqJ3bF_llWjkQ5zn0wlJOtw0LWfkOcIrLC9gSU0QmqhvmlXUslZf2KIbUWCp7cVqeKZn2bDL_71cYzgiKQKziPo0-x6wHMw2BZtS77251&s=1",
+      "id": "NjQyMTgzOTU5MjA4MTA3Omh0dHBcYS8vaGFkZXZpY2VzLmNvbS86Ojo6OjQxMzAxMDg2NzM5MjcxMzg="
+    }
+  ],
+  "link": "http://hadevices.com/",
+  "topReactionsCount": 0,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDEwODY3MzkyNzEzOA==",
+  "id": "UzpfSTEyMjMxNjkxODQ6Vks6NDEzMDEwODY3MzkyNzEzOA==",
+  "legacyId": "4130108673927138",
+  "title": "US V2 Plug for ESPHome | AthomTech",
+  "likesCount": 0,
+  "sharesCount": 0,
+  "commentsCount": 13,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130108673927138/?comment_id=4130116670593005",
+      "id": "Y29tbWVudDo0MTMwMTA4NjczOTI3MTM4XzQxMzAxMTY2NzA1OTMwMDU=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDEwODY3MzkyNzEzOF80MTMwMTE2NjcwNTkzMDA1",
+      "date": "2025-07-23T22:20:33.000Z",
+      "text": "Look at the Athom plugs\nhttps://www.athom.tech/blank-1/us-v2-plug-for-esphome\nnote: v3 is ESP32-C3, which is a bit more customizable but has an annoying issue: firmware updates will cycle the relay.\nThe v2 is ESP8285, and you can tweak the firmware to not cycle the relay.\nThere is also a no-relay version for just monitoring",
+      "attachments": [
+        {
+          "__typename": "GenericAttachmentMedia",
+          "fallback_image": {
+            "height": 98,
+            "uri": "https://external.fmji4-1.fna.fbcdn.net/emg1/v/t13/12739789608292489928?url=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ff83f1a_5d75c0cf82bb482799a28e2db9930ee9%7Emv2.png%2Fv1%2Ffit%2Fw_500%2Ch_500%2Cq_90%2Ffile.png&fb_obo=1&utld=wixstatic.com&stp=c0.5000x0.5000f_dst-emg0_p98x98_q75_tt6&_nc_gid=bCq0DmaMY8iFA0oYjV7KoQ&_nc_oc=AdnOVURMf4M-D9OrHh0sOaFgC9lC536xyMNKiXvjLITKItUvgAkSU0I_QUjZrHb62IA&ccb=13-1&oh=06_Q3-1AQ38uVCFJCPQH0b3377UEUQBcNFOGC__VGyQNSIaT5Wl&oe=6883EBFC&_nc_sid=085657",
+            "width": 98
+          },
+          "is_playable": false,
+          "id": "24277413818518646"
+        }
+      ],
+      "profilePicture": "https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-1/462694871_8640513072635306_6975262848707166148_n.jpg?stp=c101.33.411.410a_cp0_dst-jpg_s32x32_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=ibNVZUoAWeYQ7kNvwFb2gPn&_nc_oc=AdlCFleOSY6zZ1xbqNPsmMQJRIe6OXsip9ftGm6e2F8k4ILnnN8OnRuY8AAMlezsRX0&_nc_zt=24&_nc_ht=scontent.fmji4-1.fna&_nc_gid=bCq0DmaMY8iFA0oYjV7KoQ&oh=00_AfTDkmegRCVNmE1hoHiDQANivQL3sC_MQqApH_K9cliOXA&oe=6887E9BD",
+      "profileId": "pfbid0mLqxNn5EW27Y6kK4CroHnACy8BpuVPaHudhUwG8HNsXAv6QgAxc2cXZH5zzC2jNXl",
+      "profileName": "Adam Schrotenboer",
+      "likesCount": "0",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130108673927138/?comment_id=4130156757255663",
+      "id": "Y29tbWVudDo0MTMwMTA4NjczOTI3MTM4XzQxMzAxNTY3NTcyNTU2NjM=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDEwODY3MzkyNzEzOF80MTMwMTU2NzU3MjU1NjYz",
+      "date": "2025-07-23T23:38:08.000Z",
+      "text": "Goes without saying don’t buy WeMo 😝",
+      "profilePicture": "https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-1/470650157_10170140111640463_9070801942124336154_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=104&ccb=1-7&_nc_sid=1d2534&_nc_ohc=iPV2UC0F3E0Q7kNvwHHgJpW&_nc_oc=AdnkLKurzy0LELbDnwr-Pxb5PHdRrd2UmNpUiBP-xDj-yI4AGIQAv4luVEcJ7Mhqd7E&_nc_zt=24&_nc_ht=scontent.fmji4-1.fna&_nc_gid=bCq0DmaMY8iFA0oYjV7KoQ&oh=00_AfR2m2mbACx8DDmnDAY7h0I9r46piO-kLVlCfUVZi0t7cQ&oe=6887FEA8",
+      "profileId": "582320462",
+      "profileName": "Bernard Fok",
+      "likesCount": "0",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

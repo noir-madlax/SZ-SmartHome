@@ -1,0 +1,65 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130119580592714/",
+  "time": "2025-07-23T22:26:07.000Z",
+  "user": {
+    "id": "pfbid02vnCqXKuW4EooHmokW8bopFz2rkwXQVsquNFH3D6cNn6mxaeqxU8t89zdXdD1SD5gl",
+    "name": "Anchal Nigam"
+  },
+  "text": "Some folks were commenting on my naming convention but I don't understand. I'm still learning HA so I'm hoping for some advise.\n\nI have two open/close sensors on my fridge. One for the left door, and one for the right door. I've named the devices like so:\n\n* sensor open fridge left door\n* sensor open fridge right door\n\nThe naming convention that makes sense to me is `[type of device] [where it is]`.\n\nIs there a problem with this? \n\nAnd then what do I do about the entities? Should I rename them? What should I rename them to? Like the binary sensor for open/close, should I name it `binary_sensor.open_fridge_door` or something like that? Shouldn't the entity name have the device name in it so we know what entity the device is for?\n\nI don't understand the implications of these names and where/how/why they matter. Hoping for any perspective/advise.",
+  "topReactionsCount": 1,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDExOTU4MDU5MjcxNA==",
+  "reactionLikeCount": 4,
+  "id": "UzpfSTMxODAxMzgyOlZLOjQxMzAxMTk1ODA1OTI3MTQ=",
+  "legacyId": "4130119580592714",
+  "attachments": [
+    {
+      "thumbnail": "https://scontent.fsjp7-1.fna.fbcdn.net/v/t39.30808-6/520252362_10103211698747079_1983436169300406494_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=gRngsn7M8HEQ7kNvwE8lFIn&_nc_oc=Adm4dxycvnR8uZh5sWScK8hsu-4PSnHKq6st-FvSIwxl0kkUoAQHd4voNdWegFPLPdQ&_nc_zt=23&_nc_ht=scontent.fsjp7-1.fna&_nc_gid=VHubGAz24KG5ucVDVffdgA&oh=00_AfSitU0TV5q0IVsFb9RMvB6Lavt4TWMc1uxq9dG0NEibnA&oe=6887E822",
+      "__typename": "Photo",
+      "photo_image": {
+        "uri": "https://scontent.fsjp7-1.fna.fbcdn.net/v/t39.30808-6/520252362_10103211698747079_1983436169300406494_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=gRngsn7M8HEQ7kNvwE8lFIn&_nc_oc=Adm4dxycvnR8uZh5sWScK8hsu-4PSnHKq6st-FvSIwxl0kkUoAQHd4voNdWegFPLPdQ&_nc_zt=23&_nc_ht=scontent.fsjp7-1.fna&_nc_gid=VHubGAz24KG5ucVDVffdgA&oh=00_AfSitU0TV5q0IVsFb9RMvB6Lavt4TWMc1uxq9dG0NEibnA&oe=6887E822",
+        "height": 540,
+        "width": 1253
+      },
+      "__isMedia": "Photo",
+      "accent_color": "FFFFFFFF",
+      "photo_product_tags": [],
+      "url": "https://www.facebook.com/photo.php?fbid=10103211698742089&set=gm.4130119580592714&type=3",
+      "id": "10103211698742089",
+      "ocrText": "May be an image of text"
+    }
+  ],
+  "likesCount": 4,
+  "sharesCount": 0,
+  "commentsCount": 29,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130119580592714/?comment_id=4130138873924118",
+      "id": "Y29tbWVudDo0MTMwMTE5NTgwNTkyNzE0XzQxMzAxMzg4NzM5MjQxMTg=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDExOTU4MDU5MjcxNF80MTMwMTM4ODczOTI0MTE4",
+      "date": "2025-07-23T23:03:09.000Z",
+      "text": "Everyone is allowed to have their own naming convention. Use what suits you most, because you are the one maintaining it. 🙂",
+      "profilePicture": "https://scontent.fsjp7-1.fna.fbcdn.net/v/t1.6435-1/69836284_10220101128822139_1499446028758155264_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HKy6s__7v1UQ7kNvwGXslDy&_nc_oc=AdkrtJFEmfWoPQ2Q7pW6fjrdv4TSWd07Uh6Y93Ud8khFweI1JxYlFKaobxyjd9QGzio&_nc_zt=24&_nc_ht=scontent.fsjp7-1.fna&_nc_gid=VHubGAz24KG5ucVDVffdgA&oh=00_AfRqgraKX94IWxYYeutcIQFC_NP8fUavOjaOZSi0nKi2zg&oe=68A97FC0",
+      "profileId": "pfbid0hgydjbtTTvcEdh9achdCFMkvx7NwBzvwLA5oRa5QXuPSEazcDcBKwLTSLGHEH3vUl",
+      "profileName": "Robin De Becker",
+      "likesCount": "2",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130119580592714/?comment_id=4130207133917292",
+      "id": "Y29tbWVudDo0MTMwMTE5NTgwNTkyNzE0XzQxMzAyMDcxMzM5MTcyOTI=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDExOTU4MDU5MjcxNF80MTMwMjA3MTMzOTE3Mjky",
+      "date": "2025-07-24T01:12:07.000Z",
+      "text": "Well, I think your naming convention makes sense, I would just remove \"open\" from the sensor name, \"sensor fridge left door\" is a better bet, cause open and close are the states of the sensor 😉",
+      "profileUrl": "https://www.facebook.com/stephane.c.moitry",
+      "profilePicture": "https://scontent.fsjp7-1.fna.fbcdn.net/v/t39.30808-1/466602709_10235240301856757_481558234505577083_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wnvvs3JZkMIQ7kNvwGbSkad&_nc_oc=AdkhACMPCRgUK2VnImwIFn93HSArZokXIgzFFeyUDzPMjhjLr4R5hRoWtGnIpz6zcTA&_nc_zt=24&_nc_ht=scontent.fsjp7-1.fna&_nc_gid=VHubGAz24KG5ucVDVffdgA&oh=00_AfSfBqGVFtgHSnrSKiUVjz16jIAMW6dgXW-Xtn1W_9twmQ&oe=6887F9FD",
+      "profileId": "pfbid0rGyXKmUkq1Qu2zdbabwwxfqhQAKfkzBeX498E83FDh3tEvggp7adBPdHTSMNeRQMl",
+      "profileName": "Stéphane Moitry",
+      "likesCount": "1",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

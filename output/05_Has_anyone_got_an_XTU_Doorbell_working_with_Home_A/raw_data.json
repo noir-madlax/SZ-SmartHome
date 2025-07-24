@@ -1,0 +1,65 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130602067211132/",
+  "time": "2025-07-24T10:04:16.000Z",
+  "user": {
+    "id": "pfbid026AHqZUXxU3JKK82rHRN4vERRsP2zi69rr6YA5egBNbaTJKpWC3AWS9KUHKxtv11jl",
+    "name": "James Corbin"
+  },
+  "text": "Has anyone got an XTU Doorbell working with Home Assistant?\n\nI'm talking about this model: [https://www.amazon.co.uk/dp/B09B9PVF86?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1](https://www.amazon.co.uk/dp/B09B9PVF86?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)\n\nI'm struggling to integrate it into my Home Assistant setup. Here's what I've tried:\n* **Alexa Integration**: I linked the doorbell to Alexa and set up the Home Assistant Alexa integration. It only shows my Echo Dot, not the doorbell.\n* **GitHub Project**: I checked out [giuseppecastaldo/ha_cloudedge_pir](https://github.com/giuseppecastaldo/ha_cloudedge_pir), but it’s archived and doesn’t seem to work anymore.\n* **ONVIF/RTSP**: neither is supported by this model.\n\nI’d prefer not to crack open the doorbell for any hardware mods; I want to keep it stock.\n\nHas anyone managed to get this thing working with Home Assistant? Any tips or workarounds? Thanks in advance!\n\n*(Pic added for attention)*",
+  "link": "https://www.amazon.co.uk/dp/B09B9PVF86?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1",
+  "topReactionsCount": 0,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDYwMjA2NzIxMTEzMg==",
+  "id": "UzpfSTEwMDA1MTc2Mjc1ODQ5MDpWSzo0MTMwNjAyMDY3MjExMTMy",
+  "legacyId": "4130602067211132",
+  "attachments": [
+    {
+      "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/519501604_1313993430336070_7105888261877307987_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=gsdGhate6xEQ7kNvwFcTPzZ&_nc_oc=AdkNBc_Okh2poucfo7vPfIk62GnXygvMBqwdUJ6d-0tqhFuOOY1PFguHq1DFTalhxUNR7K46ZbGRCPnvXbkx08-1&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=9dyTAEMv6jepIQNIQWZkZg&oh=00_AfREXSGk2HKeGnY9zPmrkOLSo6OxaMpRypPwDIH6q8qLkg&oe=6887D7C3",
+      "__typename": "Photo",
+      "photo_image": {
+        "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/519501604_1313993430336070_7105888261877307987_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=gsdGhate6xEQ7kNvwFcTPzZ&_nc_oc=AdkNBc_Okh2poucfo7vPfIk62GnXygvMBqwdUJ6d-0tqhFuOOY1PFguHq1DFTalhxUNR7K46ZbGRCPnvXbkx08-1&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=9dyTAEMv6jepIQNIQWZkZg&oh=00_AfREXSGk2HKeGnY9zPmrkOLSo6OxaMpRypPwDIH6q8qLkg&oe=6887D7C3",
+        "height": 701,
+        "width": 526
+      },
+      "__isMedia": "Photo",
+      "accent_color": "FFCE7F54",
+      "photo_product_tags": [],
+      "url": "https://www.facebook.com/photo.php?fbid=1313993423669404&set=gm.4130602067211132&type=3",
+      "id": "1313993423669404",
+      "ocrText": "May be a doodle of phone, light switch and text"
+    }
+  ],
+  "likesCount": 0,
+  "sharesCount": 0,
+  "commentsCount": 3,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130602067211132/?comment_id=4130615590543113",
+      "id": "Y29tbWVudDo0MTMwNjAyMDY3MjExMTMyXzQxMzA2MTU1OTA1NDMxMTM=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDYwMjA2NzIxMTEzMl80MTMwNjE1NTkwNTQzMTEz",
+      "date": "2025-07-24T10:24:07.000Z",
+      "text": "If it doesn't support ONVIF or RTSP, doesn't have an integration, and can't be flashed, you're likely out of luck.",
+      "profilePicture": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/356641356_6758851414126353_2225691209514629302_n.jpg?stp=cp0_dst-jpg_s32x32_tt6&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_ohc=40adTF-Sd2YQ7kNvwHNEnV4&_nc_oc=AdkxVv4gqq_VqaDrx5zfzxaw5FM6zP7CMJvOiHIJVbtCzz1dWJLWu8_oGgfKxWKXTSkq-sKsH3HlhgC3iyigcC--&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=9dyTAEMv6jepIQNIQWZkZg&oh=00_AfS4eiLcaPIvTxMWqrOZ6cARBg6pUOFD89A3yUJ9nUDf_A&oe=68880602",
+      "profileId": "pfbid02QsBbUJnuD9qwkXDYXq8Rfqeg8kAzTKxDAousfVKJjRQGBpqsaGbqFjhBvabhgEwbl",
+      "profileName": "Aaron Williams",
+      "likesCount": "1",
+      "threadingDepth": 0
+    },
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130602067211132/?comment_id=4130672877204051",
+      "id": "Y29tbWVudDo0MTMwNjAyMDY3MjExMTMyXzQxMzA2NzI4NzcyMDQwNTE=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDYwMjA2NzIxMTEzMl80MTMwNjcyODc3MjA0MDUx",
+      "date": "2025-07-24T11:28:23.000Z",
+      "text": "Just go reolink. Cheap, great video, totally local integration don't even need to create a cloud account for setup. Great motion and object detection.",
+      "profileUrl": "https://www.facebook.com/brillat",
+      "profilePicture": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/432775124_10164298009774896_2060506531939106818_n.jpg?stp=c420.0.1536.1536a_cp0_dst-jpg_s32x32_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=MX-hCot16sUQ7kNvwHzzYqW&_nc_oc=AdnyDvth2eY2Cdjmg3xJOE01hcGXW4YMnWtsb924WKSg2FrKCFehweIgBY3N3_ATGu1q2nq3v0IBJMnhlox83Nws&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=9dyTAEMv6jepIQNIQWZkZg&oh=00_AfT8pYdK44WRt3OBBgo4mSqX7sHu-d9XdoWkzUtoDhaTSg&oe=6887EE5B",
+      "profileId": "pfbid0226WJegRSGxgN8nM1KxqsRMpEgMwvBNG63h8FePANREyKXUgBEmnREhFegM6WZtRol",
+      "profileName": "Benjamin Brillat",
+      "likesCount": "0",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

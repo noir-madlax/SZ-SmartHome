@@ -1,0 +1,34 @@
+{
+  "facebookUrl": "https://www.facebook.com/groups/2091834914421201/",
+  "url": "https://www.facebook.com/groups/HomeAssistant/permalink/4130251487246190/",
+  "time": "2025-07-24T02:19:42.000Z",
+  "user": {
+    "id": "pfbid02z5YLCQCeZTwxNN7AS3A2XuGdr6Wo6AZb9gTaTr4D26dsp31a2UKHzJG2Kkcc2Kf3l",
+    "name": "Traci S Aaron"
+  },
+  "text": "Which esp32 version allows full  processing with HA voice Assist and stereo media player with lights and buttons controls \nA bonus would be to add temp and humidity",
+  "topReactionsCount": 0,
+  "feedbackId": "ZmVlZGJhY2s6NDEzMDI1MTQ4NzI0NjE5MA==",
+  "id": "UzpfSTEwMDAxMzQ1NDk1MjE2OTpWSzo0MTMwMjUxNDg3MjQ2MTkw",
+  "legacyId": "4130251487246190",
+  "likesCount": 0,
+  "sharesCount": 0,
+  "commentsCount": 6,
+  "topComments": [
+    {
+      "commentUrl": "https://www.facebook.com/groups/HomeAssistant/permalink/4130251487246190/?comment_id=4130267883911217",
+      "id": "Y29tbWVudDo0MTMwMjUxNDg3MjQ2MTkwXzQxMzAyNjc4ODM5MTEyMTc=",
+      "feedbackId": "ZmVlZGJhY2s6NDEzMDI1MTQ4NzI0NjE5MF80MTMwMjY3ODgzOTExMjE3",
+      "date": "2025-07-24T02:41:52.000Z",
+      "text": "a) ESP32-S3 derivatives seem to be the basis of most of them...\nb) but there are reasons the HA VA and Satellite-1 add the XMOS chip for better audio processing.",
+      "profilePicture": "https://scontent-bom1-1.xx.fbcdn.net/v/t39.30808-1/462694871_8640513072635306_6975262848707166148_n.jpg?stp=c101.33.411.410a_cp0_dst-jpg_s32x32_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=ibNVZUoAWeYQ7kNvwHTgshC&_nc_oc=AdnQKwgx7FjDuxw_tHNMrXjeGbILauXLW3nvWMxrpEyUR1yfobwXwz-qvphHFzEn9ng&_nc_zt=24&_nc_ht=scontent-bom1-1.xx&_nc_gid=xqJlWxEUcpYklEOMukDtqA&oh=00_AfRKICYlRQ1WY-63gaIpdMjgGpJyTPJGeMCdtO7R5ok8wA&oe=6887E9BD",
+      "profileId": "pfbid0mLqxNn5EW27Y6kK4CroHnACy8BpuVPaHudhUwG8HNsXAv6QgAxc2cXZH5zzC2jNXl",
+      "profileName": "Adam Schrotenboer",
+      "likesCount": "2",
+      "threadingDepth": 0
+    }
+  ],
+  "facebookId": "2091834914421201",
+  "groupTitle": "Home Assistant",
+  "inputUrl": "https://www.facebook.com/groups/2091834914421201/"
+}

@@ -1,0 +1,14 @@
+💬 帖子内容
+==================================================
+
+作者: Jarkko Seppelin
+时间: 2025-07-24T07:55:30.000Z
+
+==================================================
+
+Anyone else ran into this issue that the middle sections background is always dark?
+I've got two different HA systems and both has the same issue.
+This one has a Apexchart graph but the other one has only normal entities and with default HA theme but in both the middle one is different
+
+==================================================
+📊 0 个赞 · 4 条评论 · 0 次分享
